@@ -1,4 +1,7 @@
 en:
   label: English
+  archive_permalink: /news/
 da: 
   label: Dansk
+  archive_permalink: /news/
+  widgetLocale: es
