@@ -9,6 +9,7 @@ relatedPosts:
   fr: "Articles connexes"
   zh: "相关帖子"
   ja: "関連記事"
+  da: "Relaterede indlæg"
 
 differentLanguage:
   en: "This page is available in following languages"
@@ -19,6 +20,7 @@ differentLanguage:
   fr: "Cette page est disponible dans plusieurs langues"
   zh: "本页面提供多种语言版本"
   ja: "このページは複数の言語で利用できます"
+  da: "Denne side er tilgængelig på følgende sprog"
 
 tocTitle:
   en: "On this page"
@@ -29,6 +31,7 @@ tocTitle:
   zh: "本页内容"
   ja: "このページについて"
   es: "En esta página"
+  da: "På denne side"
 
 terms:
   en: |
@@ -47,6 +50,8 @@ terms:
     我们在网站上使用Cookie。有些是技术上必需的，其他则帮助我们改善您的用户体验。您可以通过选择“拒绝”来拒绝非必要的Cookie。有关我们的隐私政策和Cookie使用的更多信息，请参阅我们的[隐私政策](/privacy)。
   ja: |
     当社のウェブサイトではクッキーを使用しています。一部は技術的に必要なもので、他のものはユーザーエクスペリエンスを向上させるのに役立ちます。不要なクッキーを「拒否」を選択することでお断りすることができます。詳細については、当社の[プライバシーポリシー](/privacy)をご覧いただき、プライバシーの実践とクッキーの使用に関する追加情報をご確認ください。
+  da: |
+    Vi bruger cookies på vores hjemmeside. Nogle er teknisk nødvendige, andre hjælper os med at forbedre din brugeroplevelse. Du kan afslå ikke-essentielle cookies ved at vælge "Afvis". Se venligst vores [Privatlivspolitik](/privacy) for yderligere oplysninger om vores privatlivspraksis og brug af cookies.
 
 acceptTerms:
   en: 'Accept'
@@ -57,6 +62,7 @@ acceptTerms:
   fr: 'Accepter'
   zh: '接受'
   ja: '承諾'
+  da: 'Accepter'
 
 rejectTerms:
   en: 'Reject'
@@ -67,6 +73,7 @@ rejectTerms:
   fr: 'Rejeter'
   zh: '拒绝'
   ja: '拒否'
+  da: 'Afvis'
 
 # Used by the stories block type
 contentTypes:
@@ -79,6 +86,7 @@ contentTypes:
     fr: 'Utilisation des données'
     zh: '数据使用'
     ja: 'データ利用'
+    da: 'Data brug'
   News:
     en: 'News'
     es: 'Noticias'
@@ -88,6 +96,7 @@ contentTypes:
     fr: 'Actualités'
     zh: '新闻'
     ja: 'ニュース'
+    da: 'Nyheder'
   Event:
     en: 'Event'
     es: 'Evento'
@@ -97,6 +106,7 @@ contentTypes:
     fr: 'Événement'
     zh: '事件'
     ja: 'イベント'
+    da: 'Begivenhed'
   Literature:
     en: 'Literature'
     es: 'Literatura'
@@ -106,3 +116,4 @@ contentTypes:
     fr: 'Littérature'
     zh: '文学'
     ja: '文学'
+    da: 'Litteratur'

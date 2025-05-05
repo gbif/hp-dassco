@@ -1,4 +1,5 @@
 ---
+permalink: about
 lang-ref: about
 title: About
 description: Lorem markdownum spatium limes indefessus neque at orat aestuat
