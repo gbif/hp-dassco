@@ -1,7 +1,7 @@
 ---
 lang-ref: home
 layout: home
-title: Danish System of Scientific Collections
+title: Danish System of Scientific Cows
 description: Part of the European Project DiSSCo
 background:  "{{ site.data.images.shells_with_barcode.src }}"
 imageLicense: "{{ site.data.images.shells_with_barcode.caption }}"
