@@ -5,10 +5,14 @@
 columns:
   - name: Partners
     links:
-    - text: Name of project partner 1
-      href: http://example.com
-    - text: Name of project partner 2
-      href: http://example.com
+    - text: Natural History Museum Denmark
+      href: https://snm.dk/en
+    - text: The Natural History Museum Aarhus
+      href: https://www.naturhistoriskmuseum.dk/?AreaID=4
+       - text: Science Museums Aarhus University
+      href: https://sciencemuseerne.dk/en/
+       - text: Technical University of Denmark 
+      href: https://www.dtu.dk/english/
 
   - name: Code
     description: | # Can be Markdown
@@ -16,10 +20,10 @@ columns:
   
   - name: Contact
     description: | # Can be Markdown
-      Social icons links defined in `_config.yml`
-      * Street name
-      * 1234 postal code
-      * Country
+      info@dassco.dk
+      * Universitetsparken 15
+      * 2100, Copenhagen
+      * Denmark
     connectIcons: true
 
   # EXAMPLE
