@@ -3,7 +3,7 @@
 
 # Columns (the more you add, the narrower they will be)
 columns:
-  - name: Partners
+  - name: Collaborators
     links:
     - text: Natural History Museum Denmark
       href: https://snm.dk/en
@@ -14,10 +14,17 @@ columns:
        - text: Technical University of Denmark 
       href: https://www.dtu.dk/english/
 
-  - name: Code
+  - name: Searching for?
     description: | # Can be Markdown
-      This project is open source. See `_data/footer.yml` to customize the footer.
-  
+ - text: About
+      href: link
+    - text: News and stories
+      href: link
+       - text: Access Data
+      href: link
+    - text: Digitisation
+      href: link
+      
   - name: Contact
     description: | # Can be Markdown
       info@dassco.dk
