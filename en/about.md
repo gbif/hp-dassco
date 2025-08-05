@@ -1,93 +1,35 @@
 ---
 permalink: about
-lang-ref: about
+lang-ref: about 
 title: About
-description: Lorem markdownum spatium limes indefessus neque at orat aestuat
+description: If you want more information about our process and progress, go to digitisation.
 background: /assets/images/placeholders/moss.jpg
 imageLicense: |
   None for this image, but it would normally go here. Markdown is allowed.
 height: 70vh
 ---
 
-## Procris quippe mentior urbes ubi
+## What is DaSSCo?
 
-Lorem markdownum spatium limes indefessus neque *at* orat aestuat, quicquam ne
-flavusque omnibus, virginis socerque sparsos vidimus eundem. Sustinet **ramo
-pontum ut** avus quamquam de trabes vestemque cruorem tremor.
+DaSSCo is a national program to digitise all of Denmark’s natural history specimens. DaSSCo, started in September 2021 as a result of a 50 million kroner grant from the Danish Ministry of Higher Education and Science. Our focus for the first 5 years is to build the infrastructure to support mass digitisation at a national scale. This includes building up our teams and expertise on a range of natural history objects. Although we won’t be fully operational until 2026, we have already started digitising as we test our developing workflows. DaSSCo is committed to the wider goals of open access and sharing our developing expertise, solutions and software.
 
-Viscera mercibus isdem hebetarat undas! Iubet ora ire unum telis adicit, si
-Telephus *valent*, instructo refers. Ille **est resque**, sic ruris erit ante
-profana detegeret. Et cogor tractus arboribus prensurum praesens memorantur
-neque inplet iussus temeraria merui **fas ecce** aethera dixit fieretque [plura
-tollebat altius](http://virgineusque.net/est.html).
+DaSSCo is part of Pan-European research infrastructure, DiSSCo. DiSSCo involves 120 institutions in 21 countries and will create a virtual, digital research infrastructure uniting European Science Collections – thereby making approximately 1.5 billion objects accessible for everyone.
 
-## Quam ex te videt
+## Why DaSSCo?
 
-Quam Erycina et celsoque trabes; torva, nec et alto egens. Vera ponentem
-cognitus clipeo cognovit *vellent Acoetes prorae* infamataeque priori, **sit
-ubi**.
+The unequal physical distribution of scientific collections worldwide limits access to valuable information. In this digital age DaSSCo will make digital versions of the specimens widely available for everyone, promoting a better understanding of Earth's ecosystems and addressing critical questions within global challenges such as climate change and pandemics.
 
-    var dock_horizontal_spyware = rfid_exabyte_dual * directx_wep;
-    if (basebandDdr < pda) {
-        password += copyrightAddressUdp(white);
-        cold_honeypot_quad(asp_video_whitelist(yobibyte_raid, runtime),
-                kibibyte_storage, file_udp / commandCpmAtm);
-    } else {
-        encoding.dragWhoisWww = lun_token * ram;
-        boxCpm(media_drag_southbridge);
-        url_key.gnutellaTrinitron += uddi_login_overwrite;
-    }
-    if (phreaking(digitalMulticasting, compression)) {
-        mashup -= serverWidgetTask(9) + mashupDirectory;
-        safeCifsIde = odbc_modem;
-    }
+In addition to their scientific value, natural history specimens are an important part of Danish national heritage. Digitisation creates archivable digital surrogates of the physical specimens. This helps reduce the need for physically handling the specimens, and the associated risk of damage. Digitisation thus helps protect this important resource for future generations.
 
-### Turbatque promittat memorque
+DaSSCo's mission aligns with global goals, EU policies, and the Danish Government's vision. The consortium's combined collections hold 19 million botanical, geological, zoological specimens and historical artifacts collected over 400 years. They showcase the Earth’s natural heritage and have global significance.
 
-Ne arvis relinquit ossibus deus. Superis et oppugnare suo armis? Adfata nec
-lavit sed disces cum surgimus peteret gladios; pabula. Quod vos fugit, manebat
-dum: fateor profugus renovatus exhalantem.
+### Who are we?
 
---------
+DaSSCo is a collaboration between multiple institutions in Denmark. DaSSCo is formed by a consortium of 4 institutions. The Natural History Museum of Denmark (The University of Copenhagen) is leading the project, in close collaboration with Science Museums Aarhus University, the Natural History Museum Aarhus and the Technical University of Denmark.
 
-### In frustra albus
+The Technical University of Denmark does not hold any collections but is a technical partner focussing on 3D imaging and processing. In addition to the consortium partners, there are 6 other natural history institutions in Denmark with which we collaborate.
 
-Levia in bella idque Dianam instabilis illo contentus Oriens auctor non litat
-genitas trementi hoc bina tulisti! Tuae at aequor!
 
-### Turbatque promittat memorque
-
-Ne arvis relinquit ossibus deus. Superis et oppugnare suo armis? Adfata nec
-lavit sed disces cum surgimus peteret gladios; pabula. Quod vos fugit, manebat
-dum: fateor profugus renovatus exhalantem.
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| tables        | are useful    |    $1 |
-
---------
-
-### In frustra albus
-
-Levia in bella idque Dianam instabilis illo contentus Oriens auctor non litat
-genitas trementi hoc bina tulisti! Tuae at aequor!
-
-* Level 1 a
-* Level 1 b
-  * Level 2 a
-  * Level 2 b
-
-## Est mea videndo
-
-Nec bene filia fraxineam flumina, praesens amici nitidaeque inguine infractaque!
-Non quae illuc! E alto cum quod: fessi fatum patulis ore actaque quaque, ore.
-Honor praemia veniunt violavit tu
-[aequore](http://pete-munere.com/caeneus-dare.php) dicta erat esse iram
-dependent artisque audacem habuissem, et est rebus, sed?
 
 [Call to action](/data){: .button .is-primary} [Other action](/data){: .button}
 
-Qua refert, orbataque a denique silentia. Quem salva terram aqua, urgeturque
-tradita eminus sola iubet veneris, illa adspiciam, sensit, fuit ducibus.
