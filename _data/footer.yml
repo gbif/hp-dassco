@@ -9,9 +9,9 @@ columns:
       href: https://snm.dk/en
     - text: The Natural History Museum Aarhus
       href: https://www.naturhistoriskmuseum.dk/?AreaID=4
-       - text: Science Museums Aarhus University
+    - text: Science Museums Aarhus University
       href: https://sciencemuseerne.dk/en/
-       - text: Technical University of Denmark 
+    - text: Technical University of Denmark 
       href: https://www.dtu.dk/english/
 
   - name: Searching for?
