@@ -15,8 +15,6 @@ columns:
       href: https://www.dtu.dk/english/
 
   - name: Searching for?
-    description: | # Can be Markdown
-    Links to different parts of the site:
     links:
  - text: About
       href: link
@@ -28,8 +26,6 @@ columns:
       href: link
       
   - name: Contact
-    description: | # Can be Markdown
-    Links to different parts of the site:
     links:
       info@dassco.dk
       * Universitetsparken 15
