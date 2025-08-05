@@ -16,6 +16,8 @@ columns:
 
   - name: Searching for?
     description: | # Can be Markdown
+    Links to different parts of the site:
+    links:
  - text: About
       href: link
     - text: News and stories
@@ -27,6 +29,8 @@ columns:
       
   - name: Contact
     description: | # Can be Markdown
+    Links to different parts of the site:
+    links:
       info@dassco.dk
       * Universitetsparken 15
       * 2100, Copenhagen
