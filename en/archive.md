@@ -1,10 +1,11 @@
+permalink: news and stories
+lang-ref: news and stories
+title: News and stories
+
+background: assets/images/placeholders/Biller banner (2).jpg
+imageLicense: |
+  None for this image, but it would normally go here. Markdown is allowed.
+height: 70vh
 ---
-lang-ref: archive
-layout: archive
-title: News
-description: News and events
-permalink: /news/
----
-{% comment %}
-  No content here. The layout will insert a card for each post in your _posts folder
-{% endcomment %}
+
+Add news thing
