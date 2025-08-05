@@ -16,13 +16,13 @@ columns:
 
   - name: Searching for?
     links:
- - text: About
+ - text: "About"
       href: 
-    - text: News and stories
+    - text: "News and stories"
       href: 
-       - text: Access Data
+       - text: "Access Data"
       href: 
-    - text: Digitisation
+    - text: "Digitisation"
       href: 
       
   - name: Contact
