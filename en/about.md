@@ -29,7 +29,7 @@ DaSSCo is a collaboration between multiple institutions in Denmark. DaSSCo is fo
 
 The Technical University of Denmark does not hold any collections but is a technical partner focussing on 3D imaging and processing. In addition to the consortium partners, there are 6 other natural history institutions in Denmark with which we collaborate.
 
-
+bla bla
 
 [Call to action](/data){: .button .is-primary} [Other action](/data){: .button}
 
