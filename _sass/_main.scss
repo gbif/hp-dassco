@@ -2,6 +2,15 @@
 
 // You can add additional styling here
 // @import "_example";
+@font-face {
+    font-family: "Open Sans";
+    src: url(./fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: url(./fonts/o-0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5a7du3mhPy0.woff2) format("woff2");
+}
 
 /* CSS Reset and Variables */
 :root {
@@ -23,20 +32,25 @@
   --neutral-700: #404040;
   --neutral-800: #262626;
   --neutral-900: #171717;
+
+  --color-blue: #081972;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-grey: #666;
+  --color-darkgrey: #333;
+
+  --color-background-blue: #001972;
+  --color-background-lightorange: #BF9F8924;
+  --color-background-lightblue: #8bc0f424;
   
-  --spacing-1: 0.25rem;
-  --spacing-2: 0.5rem;
-  --spacing-3: 0.75rem;
-  --spacing-4: 1rem;
-  --spacing-5: 1.25rem;
-  --spacing-6: 1.5rem;
-  --spacing-8: 2rem;
-  --spacing-10: 2.5rem;
-  --spacing-12: 3rem;
-  --spacing-16: 4rem;
-  --spacing-20: 5rem;
-  --spacing-24: 6rem;
-  
+  --spacing-small: clamp(0.5rem, 0.5rem + 0.5vw, 1rem);
+  --spacing-medium: clamp(1rem, 1rem +1vw, 2rem);
+  --spacing-large: clamp(2rem, 2rem +2vw, 4rem);
+
+  --max-width-mobile: 100%;
+  --max-width-tablet: 90%;
+  --max-width-desktop: 1200px;
+
   --border-radius: 8px;
   --border-radius-lg: 12px;
   --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
@@ -52,7 +66,8 @@
 }
 
 html {
-  scroll-behavior: smooth;
+    font-family: "Noto Sans", "Open Sans", Arial, sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
