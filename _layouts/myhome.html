@@ -1,7 +1,6 @@
 ---
 layout: base
 ---
-<p>{{ test }}</p>
 <!-- Hero image slideshow -->
 <div class="hero-slideshow">
     <div class="hero-title">
@@ -11,7 +10,7 @@ layout: base
 </div>
 <!-- Statistics -->
 <section id="statistics" class="statistics">
-    <div class="container stat">
+    <div class="container stat gap">
         <div class="information">
             <img src="../assets/images/specimens.webp" class="logo">
             <div class="feature-content">
@@ -39,7 +38,7 @@ layout: base
 <!-- Rubrik -->
 <section id="rubrik" class="rubrik">
     <div class="background-image-connector-bottom"></div>
-    <div class="container">
+    <div class="container gap">
         <h2>Digitising Natural History in Denmark</h2>
         <p>We are digitising Denmark&#8217;s estimated 19 million natural specimens. We are committed to sharing our data and knowledge globally so that everyone can benefit.</p>
     </div>
@@ -47,16 +46,16 @@ layout: base
 
   <!-- What is Dassco -->
 <section id="what-is-dassco" class="what-is-dassco">
-    <div class="container">
-        <div class="what-is-dassco-container">
+    <div class="what-is-dassco-main container gap">
+        <div class="what-is-dassco-container gap padding">
             <h3>What is DaSSCo?</h3>
             <p>DaSSCo is a national mass digitisation program and research infrastructure. We are experts in the digitisation of natural history.</p>
         </div>
-        <div class="what-is-dassco-container">
+        <div class="what-is-dassco-container gap padding">
             <h3>Why DaSSCo?</h3>
             <p>Denmark's rich natural history collections contain data that can help tackle urgent scientific and societal issues. Our mission is to make that data accessible.</p>
         </div>
-        <div class="what-is-dassco-container">
+        <div class="what-is-dassco-container gap padding">
             <h3>Who are we?</h3>
             <p>DaSSCo is a collaboration between Natural History Museum Denmark, Science Museums Aarhus University, the Natural History Museum Aarhus and the Technical University of Denmark.</p>
         </div>
@@ -70,15 +69,15 @@ layout: base
   <!-- News and Stories -->
 <section id="news-and-stories" class="news-and-stories">
     <div class="background-image-connector-top"></div>
-        <div class="container news-and-stories-content">
-            <div>
+        <div class="container news-and-stories-content gap">
+            <div class="news-and-stories-main gap">
                 <div class="news-and-stories-header">
                     <h2>News and Stories</h2>
                     <p>Stay updated! Read the latest DaSSCo news here</p>
                 </div>
                 <img src="../assets/images/R5__0086_WebSmall.jpg">
-                <div class="news-and-stories-information">
-                    <p>Find information on Social Media</p>
+                <div class="news-and-stories-information gap">
+                    <h3>Find information on Social Media</h3>
                     <p>Want to be updated on the latest news from DaSSCo institutions?</p>
                     <p>Check out our institution's Facebook and LinkedIn. They are updated regularly with the latest information.</p>
                     <p>Follow today!</p>
@@ -88,8 +87,8 @@ layout: base
                     </div>
                 </div>
             </div>
-            <div class="news-and-stories-news">
-                <article class="news-and-stories-news-block" style="padding: 1rem;">
+            <div class="news-and-stories-news gap">
+                <article class="news-and-stories-news-block padding">
                     <h3><a href="" target="_blank">
                         News from the DaSSCo mass digitisation programme &#x2013; April to June 2025
                         </a>
@@ -98,9 +97,9 @@ layout: base
                 </article>
                 <article class="news-and-stories-news-block">
                     <a href="" target="_blank">
-                        <img src="../assets/images/Roberta.jpg">
+                        <img class="news-and-stories-news-block-image" src="../assets/images/Roberta.jpg">
                     </a>
-                    <div style="padding: 1rem;">
+                    <div class="padding">
                         <h3><a href="" target="_blank">
                             Innovative project from UCPH researchers: Using deep learning to automatically generate phylogenetic trees from digitised specimens
                             </a>
@@ -108,9 +107,11 @@ layout: base
                         <a href="" target="_blank" class="category">News</a>
                     </div>  
                 </article>
+                <div class="button">
+                    <a>See all news</a>
+                </div>
             </div>
-        </div>
-        
+        </div>     
 </section>
 
   <!-- Partners Section -->
@@ -137,22 +138,25 @@ layout: base
   <!-- Footer -->
 <footer>
     <div class="container">  
-        <div class="footer-content">
+        <div class="footer-content gap">
             <div class="dassco-logo">
                 <img src="../assets/images/DasCCo-logo-web-farve-230-b-1.png" class="logo">
             </div>
-            <div class="dassco-links">
+            <div class="dassco-links gap">
                 <h4>Searching for?</h4>
                 <a href="" target="_blank">About</a>
                 <a href="" target="_blank">News and Stories</a>
                 <a href="" target="_blank">Access Data</a>
             </div>
-            <div class="dassco-contact">
+            <div class="dassco-contact gap">
                 <h4>Contact</h4>
                 <p>info@dassco.dk</p>
                 <p>Universitetsparken 15,</p>
                 <p>2100 Copenhagen, Denmark</p>
             </div>
         </div>
+    </div>
+    <div id="hosted-by">
+        <img src="../assets/images/hostedbygbif.svg">
     </div>
 </footer>
