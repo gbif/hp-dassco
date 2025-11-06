@@ -1,9 +1,7 @@
 ---
 lang-ref: home
-layout: myhome
+layout: en_myhome
 title: Danish System of Scientific Collections
-test: En lille tester
+description: Part of the European Project DiSSCo
 permalink: /
 ---
-Kæmpe reset, og så opsætter vi siden på ny 🙏
-Lad os håbe at det her også fungere
