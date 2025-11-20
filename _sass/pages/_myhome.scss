@@ -1,0 +1,220 @@
+/* Hero Image */
+.hero-slideshow {
+    position: relative;
+    background-image: url("/assets/images/R5__0113_WebLarge-scaled.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 73vh;
+}
+
+.hero-title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: var(--color-white);
+  font-variant-caps: small-caps;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.4);
+  }
+
+  p {
+    font-size: 2rem;
+    font-weight: 600;
+    text-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.4);
+  }
+}
+
+/* Statistics */
+.statistics {
+  background-color: var(--color-background-lightblue);
+  padding: 0;
+}
+
+.stat {
+    grid-template-columns: 1fr;
+}
+
+.information {
+  text-align: center;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-white);
+  box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3);
+}
+
+.feature-content {
+  p {
+    font-size: 1.25rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+}
+
+/* Rubrik */
+.rubrik {
+
+  .container {
+    h2 {
+      color: var(--color-blue);
+      font-size: 2rem;
+      font-weight: 600;
+    }
+
+    p {
+      color: var(--color-grey);
+      font-weight: 600;
+    }
+  }
+}
+/* What is Dassco */
+.what-is-dassco {
+
+}
+
+.what-is-dassco-main {
+
+}
+
+.what-is-dassco-container {
+  text-align: center;
+  background-color: var(--color-background-lightblue);
+  border-radius: 1rem;
+  box-shadow: 0px 10px 60px 0px rgba(1, 33, 92, 0.1);
+
+  h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  p {
+    color: var(--color-grey);
+  }
+}
+
+/* News and Stories */
+.news-and-stories {
+    background-color: var(--color-background-lightblue);
+}
+
+.news-and-stories-content {
+
+  .news-and-stories-logos {
+    display: inline-block;
+  }
+}
+
+.news-and-stories-main {
+
+}
+
+.news-and-stories-header {
+
+  h2 {
+    font-size: 2rem;
+    color: var(--color-blue);
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 1.25rem;
+    color: var(--color-grey);
+    font-weight: 600;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+}
+
+.news-and-stories-information {
+  text-align: center;
+
+  h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
+  p {
+    color: var(--color-grey);
+  }
+}
+
+.news-and-stories-news {
+
+}
+
+.news-and-stories-news-block {
+  background-color: var(--color-white);
+  border-radius: 1rem;
+  box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.3)
+}
+
+.news-and-stories-news-block-image {
+  border-radius: 1rem 1rem 0 0;
+}
+
+/* Partners Content */
+.partners {
+  
+}
+
+.partners-carousel {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:3rem;
+    padding:5rem 0;
+}
+
+/* Tablet */
+@media (min-width: 600px) {
+
+    /* Hero Image */
+  .hero-title {
+    h1 {
+        font-size: 4rem;
+    }
+  }
+  /* statistics */
+  .stat {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /* What is Dassco */
+
+  /* News and Stories */
+  .news-and-stories-news {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .news-and-stories-content {
+    gap: var(--gap-medium);
+  }
+
+  .news-and-stories-main {
+    gap: var(--gap-medium);
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+
+  /* What is Dassco */
+  .what-is-dassco-main {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /* News and Stories */
+  .news-and-stories-content {
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .news-and-stories-news {
+    grid-template-columns: 1fr;
+  }
+
+}

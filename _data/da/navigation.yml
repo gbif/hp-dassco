@@ -1,7 +1,15 @@
 # Links listed below will be included in your site's navbar (navigation at the top)
 
 - text: Om
-  href: /da/about
+  menu:
+  - text: Om DaSSCo
+    href: /da/about
+  - text: Institutioner
+    href: /da/institutions
+  - text: Holdet
+    href: /da/team
+- text: Nyheder og historier
+  href: /da/news
 - text: Data
   menu: 
   - text: Observationer
@@ -12,3 +20,5 @@
     href: /da/collection/search
   - text: Literatur
     href: /da/literature/search
+- text: Kontakt
+  href: /da/contakt
