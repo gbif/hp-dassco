@@ -7,11 +7,13 @@
 
     .team-main {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
         text-align: center;
     }
 
     .team-person {
+        padding-bottom: 2rem;
+
         h2 {
             font-size: 1.5rem;
             font-weight: 500;
@@ -32,4 +34,25 @@
             border-radius: 25px;
         }
     }
+
+    @media (min-width: 600px) {
+        .team-person {
+            padding-bottom: 4rem;
+        }
+
+        .team-main {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .team-person {
+            padding-bottom: 6rem;
+        }
+
+        .team-main {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
 }
+
