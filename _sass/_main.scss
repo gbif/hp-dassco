@@ -60,6 +60,10 @@ html {
     height: 100%;
 }
 
+main {
+  overflow: hidden;
+}
+
 body {
   font-family: "Noto Sans", "Open Sans", Arial, sans-serif;
   line-height: 1.7;
@@ -104,6 +108,11 @@ body {
   a {
     color: var(--color-white);
   }
+}
+
+.logo {
+  max-width: 44px;
+  max-height: 44px;
 }
 
 .category {

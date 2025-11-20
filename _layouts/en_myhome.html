@@ -12,24 +12,31 @@ layout: base
 <section id="statistics" class="statistics">
     <div class="container stat gap">
         <div class="information">
-            <img src="../assets/images/specimens.webp" class="logo">
+            <img src="../assets/images/specimens.webp" class="stat-logo">
             <div class="feature-content">
-                <p id="feature-occourence" class="testclass">Loading...</p>
+                <p id="feature-occourence">Loading...</p>
                 <a href=""><h3>Occourences</h3></a>                      
             </div>
         </div>
         <div class="information">
-            <img src="../assets/images/collections.webp" class="logo">
+            <img src="../assets/images/collections.webp" class="stat-logo">
             <div class="feature-content">
                 <p id="feature-datasets">Loading...</p>
                 <a href=""><h3>Datasets</h3></a>
             </div>
         </div>
         <div class="information">
-            <img src="../assets/images/collections.webp" class="logo">
+            <img src="../assets/images/collections.webp" class="stat-logo">
             <div class="feature-content">
                 <p id="feature-collections">Loading...</p>
                 <a href=""><h3>Collections</h3></a>
+            </div>
+        </div>
+        <div class="information">
+            <img src="../assets/images/collections.webp" class="stat-logo">
+            <div class="feature-content">
+                <p id="feature-tbd">Loading...</p>
+                <a href=""><h3>To be determined</h3></a>
             </div>
         </div>
     </div>
@@ -82,19 +89,25 @@ layout: base
                     <p>Check out our institution's Facebook and LinkedIn. They are updated regularly with the latest information.</p>
                     <p>Follow today!</p>
                     <div class="news-and-stories-logos">
-                        <a href="" target="_blank">Facebook</a>
-                        <a href="" target="_blank">LinkedIn</a>
+                        <a href="https://www.facebook.com/StatensNaturhistoriskeMuseum/" target="_blank"><img class="logo" src="../assets/images/Icons/facebook_blue.svg"></a>
+                        <a href="https://www.linkedin.com/company/statens-naturhistoriske-museum/posts/?feedView=all" target="_blank"><img class="logo" src="../assets/images/Icons/linkedin_blue.svg"></a>
                     </div>
                 </div>
             </div>
             <div class="news-and-stories-news gap">
-                <article class="news-and-stories-news-block padding">
-                    <h3><a href="" target="_blank">
-                        News from the DaSSCo mass digitisation programme &#x2013; April to June 2025
-                        </a>
-                    </h3>
-                <a href="" target="_blank" class="category">News</a>
+                <article class="news-and-stories-news-block">
+                    <a href="" target="_blank">
+                        <img class="news-and-stories-news-block-image" src="../assets/images/R5__0086_WebSmall.jpg">
+                    </a>
+                    <div class="padding">
+                        <h3><a href="" target="_blank">
+                            News from the DaSSCo mass digitisation programme &#x2013; April to June 2025
+                            </a>
+                        </h3> 
+                        <a href="" target="_blank" class="category">News</a>
+                    </div>  
                 </article>
+
                 <article class="news-and-stories-news-block">
                     <a href="" target="_blank">
                         <img class="news-and-stories-news-block-image" src="../assets/images/Roberta.jpg">
@@ -108,7 +121,7 @@ layout: base
                     </div>  
                 </article>
                 <div class="button">
-                    <a>See all news</a>
+                    <a href="en_about.html">See all news</a>
                 </div>
             </div>
         </div>     
@@ -117,22 +130,22 @@ layout: base
   <!-- Partners Section -->
 <section id="partners">
     <div class="background-image-connector-bottom"></div>
-    <div class="partners container">
-        <div class="partners-carousel">
-            <div>
-                <img src="../assets/images/partnerLogos/logo.svg" class="logo">
-            </div>
-            <div>
-                <img src="../assets/images/partnerLogos/logo1.svg" class="logo">
-            </div>
-            <div>
-                <img src="../assets/images/partnerLogos/logo2.svg" class="logo">
-            </div>
-            <div>
-                <img src="../assets/images/partnerLogos/logo.svg" class="logo">
-            </div>
+    <div class="partners-slider container">
+        <div class="partners-track">
+            <img src="../assets/images/partnerLogos/aarhus-university-logo-vector.png" alt="Aarhus University logo">
+            <img src="../assets/images/partnerLogos/DasCCo logo - web farve 470 x 110.png" alt="DaSSCo's logo">
+            <img src="../assets/images/partnerLogos/DTU Corp_Red_RGB.png" alt="Technical University of Denmark's logo">
+            <img src="../assets/images/partnerLogos/naturhis aarhus logo.png" alt="Aarhus Natural History museum logo">
+            <img src="../assets/images/partnerLogos/SNM_EN_logo_black_RGB.jpg" alt="Denmark Natural History museum logo">
+            
+            <!-- Duplicate for infinite scroll effect -->
+            <img src="../assets/images/partnerLogos/aarhus-university-logo-vector.png" alt="Aarhus University logo">
+            <img src="../assets/images/partnerLogos/DasCCo logo - web farve 470 x 110.png" alt="DaSSCo's logo">
+            <img src="../assets/images/partnerLogos/DTU Corp_Red_RGB.png" alt="Technical University of Denmark's logo">
+            <img src="../assets/images/partnerLogos/naturhis aarhus logo.png" alt="Aarhus Natural History museum logo">
+            <img src="../assets/images/partnerLogos/SNM_EN_logo_black_RGB.jpg" alt="Denmark Natural History museum logo">
         </div>
     </div>
 </section>
 
-<script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/fetchFrontpageStats.js' | relative_url }}"></script>
