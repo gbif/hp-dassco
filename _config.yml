@@ -27,8 +27,6 @@ description: >- # this means to ignore newlines (until baseurl:)
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dassco.hp.gbif.org/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: yourname # if you have an account you want to link to. Else comment this line out
-github_username:  yourname # if you have an account you want to link to. Else comment this line out
 
 # Build settings
 theme: minima
@@ -38,19 +36,25 @@ plugins:
 
 remote_theme: gbif/jekyll-hp-base-theme
 
+collections:
+  news:
+    output: true
+    permalink: /news/:title/
+
+
 algae:
-  rootLang: en
+  # rootLang: en
   # latestPostLimit: 2
   # logo: /assets/images/fungi.svg  # Logo in navbar, will be displayed with 28px height
   # logoAndTitle: false           # include the title next to the logo
-  archive_permalink: /news/       # Permalink of page using archive.html layout, required when using post categories
+  # archive_permalink: /news/       # Permalink of page using archive.html layout, required when using post categories
   style:
     # square: false               # Should corners be square or rounded
     colors:
       primary: "#001972"          # Primary color of your brand. Use HEX code. Used for buttons and links
       # links: "#fa5e97"          # What color should links have. Use a HEX code. DEfault is primary color. 
-    coloredHeadlineLinks: false   # If a headline is a link, then use the link color. Default is true. 
-  navbar:                         # RELATED TO NAVIGATION BAR
+    # coloredHeadlineLinks: false   # If a headline is a link, then use the link color. Default is true. 
+  # navbar:                         # RELATED TO NAVIGATION BAR
     # brandBackground: yellow     # Define a custom background for the logo/title in the top navigation bar
     # color: "tomato"             # What color should the navbar be?
     # hasWhiteText: true          # Should the text color be white?
