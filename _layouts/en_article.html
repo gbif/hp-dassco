@@ -4,6 +4,22 @@ layout: base
 <section id="article" class="article">
     <div class="container">
         <h1>{{ page.title }}</h1>
-        {{ content }}
+        <p class="teaser">{{ page.teaser }}</p>
+        <div class="article-top">
+            <div class="article-image">
+                <img src="{{ page.mainImage }}">
+            </div>
+            <div class="article-information">
+                <div>
+                    <img src="{{ '/assets/images/Icons/calender.svg' | relative_url }}" alt="Calender icon"><p>{{ page.date | date: "%B %-d %Y" }}</p>
+                </div>
+                <div>
+                   <img src="{{ '/assets/images/Icons/category.svg' | relative_url }}" alt="Category icon"><p>{{ page.type }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            {{ content }}
+        </div>
     </div>
 </section>

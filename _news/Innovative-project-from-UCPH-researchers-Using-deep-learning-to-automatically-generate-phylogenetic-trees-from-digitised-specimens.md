@@ -8,5 +8,9 @@ mainImage: "/assets/images/Roberta.jpg"
 type: News
 teaser: This interdisciplinary research is new in the science world and is already groundbreaking
 ---
-Anden artikel, ny dag
-![image]({{ page.mainImage }})
+## Image: Roberta Eleanor Hunt, Postdoc in Computer Science working on the project PHYLORAMA.
+14.000 beetles. 1 deep learning algorithm.
+
+Beetles, the largest group of organisms on Earth, are now front figure in a collections-based research at Natural History Museum of Denmark. Researchers behind the project are using digital images of specimens from the museum’s collection and a deep learning algorithm to generate phylogenetic trees.
+- test
+- test2

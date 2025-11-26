@@ -9,6 +9,7 @@
 @import "pages/contact";
 @import "pages/team";
 @import "pages/news";
+@import "pages/article";
 
 // You can add additional styling here
 // @import "_example";
@@ -53,6 +54,11 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 1rem;
+}
+
+/* Fixes for remote theme */
+.navbar-logo_text {
+  color: var(--color-blue);
 }
 
 /* Mobile */
