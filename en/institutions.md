@@ -1,5 +1,5 @@
 ---
-permalink: institutions
+permalink: Institutions
 lang-ref: institutions 
 title: Institutions
 layout: en_institutions
