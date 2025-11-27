@@ -10,6 +10,7 @@
 @import "pages/team";
 @import "pages/news";
 @import "pages/article";
+@import "pages/institutions";
 
 // You can add additional styling here
 // @import "_example";
@@ -32,7 +33,9 @@
   --color-darkgrey: #333;
 
   --color-background-blue: #001972;
+  /* The lightorange color is #f6f1ed without the alpha */
   --color-background-lightorange: #BF9F8924;
+  /* eff6fd */
   --color-background-lightblue: #8bc0f424;
   
   --gap-small: clamp(0.5rem, 0.5rem + 1vw, 1rem);
@@ -97,8 +100,14 @@ body {
     max-height: 100px;
 }
 
-.background-image-connector-bottom {
-    background-image: url("/assets/images/background.svg");
+.background-orange-image-connector-bottom {
+    background-image: url("/assets/images/background_lightorange.svg");
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.background-blue-image-connector-bottom {
+    background-image: url("/assets/images/background_lightblue.svg");
     min-height: 100px;
     max-height: 100px;
 }

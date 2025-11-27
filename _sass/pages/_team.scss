@@ -32,6 +32,11 @@
 
         img {
             border-radius: 25px;
+            
+        /*  IMPORTANT NOTE: change the value to match the height of your prefered format. Best method 
+            is to have the same size for all pictures so no weird cases will pop up. This value below 
+            is only to ensure uniformity in the layout  */
+            max-height: 200px;
         }
     }
 

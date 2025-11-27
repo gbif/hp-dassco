@@ -6,72 +6,15 @@ layout: base
         <h1>The Team</h1>
         <p>These are the fine people working to make your experience with DaSSCo just that much better.</p>
         <div class="team-main gap">
-            <div class="team-person">
-                <img src="{{ '/assets/images/placeholders/closeup.png' | relative_url}}">
-                <h2>Pernille Pia Hansen</h2>
-                <h3>Kommunikationskonsulent</h3>
-                <p>
-                    <a href="tel:">+45 12 34 56 78</a>
-                </p>
-                <p>
-                    <a href="mailto:info@dassco.dk">info@dassco.dk</a>
-                </p>
-            </div>
-            <div class="team-person">
-                <img src="{{ '/assets/images/placeholders/closeup.png' | relative_url}}">
-                <h2>Henrik Bredahl Hansen</h2>
-                <h3>Udvikler</h3>
-                <p>
-                    <a href="tel:">+45 12 34 56 78</a>
-                </p>
-                <p>
-                    <a href="mailto:info@dassco.dk">info@dassco.dk</a>
-                </p>
-            </div>
-            <div class="team-person">
-                <img src="{{ '/assets/images/placeholders/closeup.png' | relative_url}}">
-                <h2>Pernille Pia Hansen</h2>
-                <h3>Kommunikationskonsulent</h3>
-                <p>
-                    <a href="tel:">+45 12 34 56 78</a>
-                </p>
-                <p>
-                    <a href="mailto:info@dassco.dk">info@dassco.dk</a>
-                </p>
-            </div>
-            <div class="team-person">
-                <img src="{{ '/assets/images/placeholders/closeup.png' | relative_url}}">
-                <h2>Pernille Pia Hansen</h2>
-                <h3>Kommunikationskonsulent</h3>
-                <p>
-                    <a href="tel:">+45 12 34 56 78</a>
-                </p>
-                <p>
-                    <a href="mailto:info@dassco.dk">info@dassco.dk</a>
-                </p>
-            </div>
-            <div class="team-person">
-                <img src="{{ '/assets/images/placeholders/closeup.png' | relative_url}}">
-                <h2>Pernille Pia Hansen</h2>
-                <h3>Kommunikationskonsulent</h3>
-                <p>
-                    <a href="tel:">+45 12 34 56 78</a>
-                </p>
-                <p>
-                    <a href="mailto:info@dassco.dk">info@dassco.dk</a>
-                </p>
-            </div>
-            <div class="team-person">
-                <img src="{{ '/assets/images/placeholders/closeup.png' | relative_url}}">
-                <h2>Pernille Pia Hansen</h2>
-                <h3>Kommunikationskonsulent</h3>
-                <p>
-                    <a href="tel:">+45 12 34 56 78</a>
-                </p>
-                <p>
-                    <a href="mailto:info@dassco.dk">info@dassco.dk</a>
-                </p>
-            </div>
+            {% assign sortedTeam = site.team | sort: "order" %}
+            {% for member in sortedTeam %}
+                <div class="team-person">
+                    <img src="{{ member.image }}">
+                    <h2>{{ member.name }}</h2>
+                    <h3>{{ member.title }}</h3>
+                    <p><a href="mailto:info@dassco.dk">{{ member.email }}</a></p>
+                </div>
+            {% endfor %}
         </div>
     </div>
 </section>
