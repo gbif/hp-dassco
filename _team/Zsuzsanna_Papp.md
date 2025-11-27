@@ -1,7 +1,7 @@
 ---
-name: Henrik Bredahl Hansen
-title: Udvikler
+name: Zsuzsanna Papp
+title: IT
 email: test@test.dk
 image: /assets/images/augustinas.png
-order: 2
+order: 9
 ---
