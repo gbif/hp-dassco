@@ -9,7 +9,7 @@ layout: base
             {% assign sortedTeam = site.team | sort: "order" %}
             {% for member in sortedTeam %}
                 <div class="team-person">
-                    <img src="{{ member.image }}">
+                    <img src="{{ member.image | relative_url }}">
                     <h2>{{ member.name }}</h2>
                     <h3>{{ member.title }}</h3>
                     <p><a href="mailto:info@dassco.dk">{{ member.email }}</a></p>

@@ -9,8 +9,10 @@ layout: base
         {% assign sorted_articles = site.news | sort: "date" | reverse %}
         {% for article in sorted_articles %}
             <article class="article">
-                <img src={{ article.mainImage }}>
-                <div class="padding" style="display:grid; gap:1rem;">
+                <div class="article-image">
+                    <img src="{{ article.mainImage  | relative_url }}">
+                </div>
+                <div class="article-text" style="display:grid; gap:1rem;">
                     <a href="/news/{{ article.link }}"><h1>{{ article.title }}</h1></a>
                     <p>{{ article.date | date: "%B %-d %Y" }} | {{ article.type }}</p>
                     <p>{{ article.teaser }}</p>

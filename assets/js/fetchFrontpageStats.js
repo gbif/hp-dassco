@@ -27,7 +27,7 @@ async function loadStats() {
         const element = document.getElementById(urls[i].id);
         
         if(data && typeof data.count !== "undefined")
-            element.innerHTML = data.count;
+            element.innerHTML = new Intl.NumberFormat("de-DE").format(data.count);
         else {
             element.innerHTML = "Unavailable";
         }
@@ -36,7 +36,7 @@ async function loadStats() {
 
     const occourence = await fetchData("https://api.gbif.org/v1/occurrence/count");
     if(occourence && typeof occourence !== "undefined")
-            document.getElementById("feature-occourence").innerHTML = occourence;
+            document.getElementById("feature-occourence").innerHTML = new Intl.NumberFormat("de-DE").format(occourence);
         else {
             document.getElementById("feature-occourence").innerHTML = "Unavailable";
         }

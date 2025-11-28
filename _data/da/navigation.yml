@@ -3,13 +3,13 @@
 - text: Om
   menu:
   - text: Om DaSSCo
-    href: /da/about
-  - text: Institutioner
-    href: /da/institutions
+    href: /da/omkring
+  - text: Organisationer
+    href: /da/organisationer
   - text: Holdet
-    href: /da/team
-- text: Nyheder og historier
-  href: /da/news
+    href: /da/holdet
+  - text: Kontakt
+    href: /da/kontakt
 - text: Data
   menu: 
   - text: Observationer
@@ -20,5 +20,7 @@
     href: /da/collection/search
   - text: Literatur
     href: /da/literature/search
-- text: Kontakt
-  href: /da/contakt
+- text: Nyheder og historier
+  href: /da/nyheder
+- text: Resourcer
+  href: /da/resourcer

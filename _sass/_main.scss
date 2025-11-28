@@ -93,7 +93,18 @@ body {
   height: fit-content;
 }
 
+/* Sticky fix for menu */
+.navbar {
+  position: sticky;
+  top: 0;
+}
+
 /* Helper classes */
+.divider {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding-bottom: 2rem;
+}
+
 .background-image-connector-top {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNGRkZGRkYiPjxwYXRoIGQ9Ik0xMjgwIDY5LjY1bC0zMjAgNDkuMjRMMzIwIDIwLjQgMCA2OS42NVYwaDEyODB2NjkuNjV6Ii8+PC9nPjwvc3ZnPg==);
     min-height: 100px;

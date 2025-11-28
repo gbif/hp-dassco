@@ -42,6 +42,8 @@ collections:
     permalink: /news/:title/
   team:
     output: false
+  partners:
+    output: false
 
 
 

@@ -2,7 +2,9 @@
 layout: base
 ---
 <!-- Hero image slideshow -->
-<div class="hero-slideshow">
+<div id="hero-slideshow">
+    <div class="slide" id="slideA"><!-- slide A --></div>
+    <div class="slide" id="slideB"><!-- slide B --></div>
     <div class="hero-title">
         <h1>Danish System of Scientific Collections</h1>
         <p>Part of the European Project DiSSCo</p>
@@ -132,20 +134,17 @@ layout: base
     <div class="background-image-connector-bottom"></div>
     <div class="partners-slider container">
         <div class="partners-track">
-            <img src="{{ '/assets/images/partnerLogos/aarhus-university-logo-vector.png' | relative_url }}" alt="Aarhus University logo">
-            <img src="{{ '/assets/images/partnerLogos/DasCCo logo - web farve 470 x 110.png' | relative_url }}" alt="DaSSCo's logo">
-            <img src="{{ '/assets/images/partnerLogos/DTU Corp_Red_RGB.png' | relative_url }}" alt="Technical University of Denmark's logo">
-            <img src="{{ '/assets/images/partnerLogos/naturhis aarhus logo.png' | relative_url }}" alt="Aarhus Natural History museum logo">
-            <img src="{{ '/assets/images/partnerLogos/SNM_EN_logo_black_RGB.jpg' | relative_url }}" alt="Denmark Natural History museum logo">
+            {% for partner in site.partners %}
+                <a href="{{ partner.link }}" target="_blank"><img src="{{ partner.image | relative_url }}" alt="{{ partner.altImageText }}"></a>
+             {% endfor %}
             
             <!-- Duplicate for infinite scroll effect -->
-            <img src="{{ '/assets/images/partnerLogos/aarhus-university-logo-vector.png' | relative_url }}" alt="Aarhus University logo">
-            <img src="{{ '/assets/images/partnerLogos/DasCCo logo - web farve 470 x 110.png' | relative_url }}" alt="DaSSCo's logo">
-            <img src="{{ '/assets/images/partnerLogos/DTU Corp_Red_RGB.png' | relative_url }}" alt="Technical University of Denmark's logo">
-            <img src="{{ '/assets/images/partnerLogos/naturhis aarhus logo.png' | relative_url }}" alt="Aarhus Natural History museum logo">
-            <img src="{{ '/assets/images/partnerLogos/SNM_EN_logo_black_RGB.jpg' | relative_url }}" alt="Denmark Natural History museum logo">
+             {% for partner in site.partners %}
+                <a href="{{ partner.link }}" target="_blank"><img src="{{ partner.image | relative_url }}" alt="{{ partner.altImageText }}"></a>
+             {% endfor %}
         </div>
     </div>
 </section>
 
 <script src="{{ '/assets/js/fetchFrontpageStats.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/frontPageHeroImageSlideshow.js' | relative_url }}"></script>
