@@ -10,7 +10,7 @@
 @import "pages/team";
 @import "pages/news";
 @import "pages/article";
-@import "pages/institutions";
+@import "pages/organisations";
 
 // You can add additional styling here
 // @import "_example";
@@ -42,9 +42,9 @@
   --gap-medium: clamp(1rem, 1rem + 1vw, 1.5rem);
   --gap-large: clamp(1.5rem, 1.5rem + 2vw, 2rem);
 
-  --padding-small: clamp(0.5rem, 0.5rem + 1vw, 1rem);
-  --padding-medium: clamp(1rem, 1rem + 1vw, 1.5rem);
-  --padding-large: clamp(1.5rem, 1.5rem + 2vw, 2rem);
+  --padding-small: clamp(0.5rem, 0.5rem + 1vw, 1.5rem);
+  --padding-medium: clamp(1.5rem, 1.5rem + 1vw, 2rem);
+  --padding-large: clamp(2rem, 2rem + 2vw, 3rem);
 
   --max-width-mobile: 90%;
   --max-width-tablet: 90%;

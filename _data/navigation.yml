@@ -2,14 +2,14 @@
 
 - text: About
   menu:
-  - text: About DaSSCo
+  - text: About Us
     href: /about
-  - text: Institutions
-    href: /Institutions
-  - text: The team
+  - text: Organisations
+    href: /organisations
+  - text: Team
     href: /team
-- text: News and Stories
-  href: /news
+  - text: Contact
+    href: /contact
 - text: Data
   menu: 
   - text: Specimens
@@ -20,5 +20,7 @@
     href: /collection/search
   - text: Literature
     href: /literature/search
-- text: Contact
-  href: /contact
+- text: News and Stories
+  href: /news
+- text: Resources
+  href: /resources

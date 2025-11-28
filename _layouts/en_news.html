@@ -11,7 +11,7 @@ layout: base
             <article class="article">
                 <img src={{ article.mainImage }}>
                 <div class="padding" style="display:grid; gap:1rem;">
-                    <a href={{ article.link }}><h1>{{ article.title }}</h1></a>
+                    <a href="/news/{{ article.link }}"><h1>{{ article.title }}</h1></a>
                     <p>{{ article.date | date: "%B %-d %Y" }} | {{ article.type }}</p>
                     <p>{{ article.teaser }}</p>
                 </div>    

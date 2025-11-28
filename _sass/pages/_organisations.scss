@@ -1,4 +1,4 @@
-#institutions {
+#organisations {
     h1 {
         color: var(--color-blue);
         font-size: 2rem;
@@ -22,12 +22,12 @@
     }
 
     /* 
-    .institution:nth-child(odd) {
+    .organisation:nth-child(odd) {
         background-color: var(--color-background-lightblue);
     }
     */
 
-    .institution {
+    .organisation {
         > div {
             display:grid;
             align-items: center;
@@ -42,7 +42,7 @@
 
     @media (min-width: 600px) {
 
-        .institution {
+        .organisation {
             > div {
                 grid-template-columns: 2fr 1fr;
                 gap: 2rem;
@@ -52,7 +52,7 @@
     }
 
     @media (min-width: 1024px) {
-        .institution {
+        .organisation {
             > div {
                 grid-template-columns: 2fr 1fr;
                 gap: 5rem;
