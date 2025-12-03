@@ -105,6 +105,26 @@ body {
   padding-bottom: 2rem;
 }
 
+.top-background-image{
+  position: relative;
+  background-image: url("/assets/images/HeroImages/R5__0113_WebLarge-scaled.jpg");
+  min-height: 15rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+
+  > div {
+    position: absolute;
+    background-image: url("/assets/images/backgroundOverlay/white-background-divider.svg");
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    height: 100px;
+  }
+}
+
 .background-image-connector-top {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNGRkZGRkYiPjxwYXRoIGQ9Ik0xMjgwIDY5LjY1bC0zMjAgNDkuMjRMMzIwIDIwLjQgMCA2OS42NVYwaDEyODB2NjkuNjV6Ii8+PC9nPjwvc3ZnPg==);
     min-height: 100px;
@@ -177,8 +197,9 @@ footer {
 
 .dassco-links {
 
-    h4 {
+    h2 {
       color: var(--color-darkgrey);
+      font-size: 1rem;
       font-weight: 700;
     }
 
@@ -190,9 +211,10 @@ footer {
 
 .dassco-contact {
 
-    h4 {
+    h2 {
       color: var(--color-darkgrey);
       font-weight: 700;
+      font-size: 1rem;
     }
 
     p {
@@ -228,6 +250,10 @@ footer {
     gap: var(--gap-medium)
   }
 
+  .top-background-image {
+    min-height: 20rem;
+  }
+
   /* Footer */
   .footer-content {
     grid-template-columns: 1fr 1fr 1fr;
@@ -252,6 +278,11 @@ footer {
   .gap {
     gap: var(--gap-large);
   }
+
+  .top-background-image {
+    min-height: 25rem;
+  }
+
 }
 
 @media (prefers-color-scheme: light) {

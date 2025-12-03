@@ -7,6 +7,12 @@
         justify-items: center;
     }
 
+    .top-background-image{
+        > div {
+            background-image: url("/assets/images/backgroundOverlay/lightorange-background-divider.svg");
+        }
+    }
+
     .article {
         text-align: center;
         border: 1px solid #d8d8d8;
