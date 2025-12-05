@@ -7,7 +7,7 @@ layout: base
         <p class="teaser">{{ page.teaser }}</p>
         <div class="article-top">
             <div class="article-image">
-                <img src="{{ page.mainImage | relative_url }}">
+                <img src="{{ page.mainImage | relative_url }}" alt="{{ page.altImageText[page.lang] }}">
             </div>
             <div class="article-information">
                 <div>
@@ -18,8 +18,24 @@ layout: base
                 </div>
             </div>
         </div>
-        <div class="content">
+        <div class="content divider">
             {{ content }}
+        </div>
+
+        <h2>You may want to read</h2>
+        <div class="recommended-articles">
+            {% assign sorted_articles = site.news | sort: "date" | reverse %}
+            {% for article in sorted_articles limit:3%}
+                <article class="article">
+                    <div class="article-image">
+                        <img src="{{ article.mainImage  | relative_url }}" alt="{{ article.altImageText[page.lang] }}">
+                    </div>
+                    <div class="article-text">
+                        <a href="/news/{{ article.link }}"><h2>{{ article.title }}</h2></a>
+                        <p>{{ article.date | date: "%B %-d %Y" }} | {{ article.type }}</p>
+                    </div>    
+                </article>
+            {% endfor %}
         </div>
     </div>
 </section>

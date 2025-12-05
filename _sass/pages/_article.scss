@@ -1,4 +1,16 @@
+/* fix for remote theme */
+.article {
+    margin: 0;
+    max-width: inherit;
+}
+
+/* styling for article page */
 #article {
+
+    .article {
+        margin: 0;
+        max-width: inherit;
+    }
 
     h1 {
         font-size: 2rem;
@@ -31,9 +43,7 @@
     }
 
     .article-image {
-        height: 200px;
         width: 100%;
-        overflow: hidden;
         text-align: center;
     }
 
@@ -58,5 +68,56 @@
         display: grid;
         gap: 1rem;
         color: var(--color-grey);
+    }
+
+    .recommended-articles {
+        display: grid;
+        gap: 2rem;
+
+        .article {
+            text-align: center;
+            border: 1px solid #d8d8d8;
+            margin: 0;
+            box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.2);
+            background-color: var(--color-white);
+
+            .article-image {
+                max-height: 200px;
+                height: 200px;
+                overflow: hidden;
+                text-align: center;
+                width: 100%;
+            }
+
+            .article-text {
+                padding: 1rem;
+                display: grid;
+                gap: 0.5rem;
+            }
+        }
+    }
+}
+
+@media (min-width: 600px) {
+    .recommended-articles {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .article {
+        margin: 0;
+        max-width: inherit;
+    }
+}
+
+@media (min-width: 1024px) {
+    .recommended-articles {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .article {
+        margin: 0;
+        max-width: inherit;
     }
 }
