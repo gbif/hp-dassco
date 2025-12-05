@@ -14,31 +14,31 @@ layout: base
 <section id="statistics" class="statistics">
     <div class="container stat gap">
         <div class="information">
-            <img src="{{ '/assets/images/specimens.webp' | relative_url }}" class="stat-logo">
+            <img src="{{ '/assets/images/specimens.webp' | relative_url }}" alt="" class="stat-logo">
             <div class="feature-content">
                 <p id="feature-occourence">Loading...</p>
-                <a href=""><h3>Occourences</h3></a>                      
+                <a href=""><h2>Occourences</h2></a>                      
             </div>
         </div>
         <div class="information">
-            <img src="{{ '/assets/images/collections.webp' | relative_url }}" class="stat-logo">
+            <img src="{{ '/assets/images/collections.webp' | relative_url }}" alt="" class="stat-logo">
             <div class="feature-content">
                 <p id="feature-datasets">Loading...</p>
-                <a href=""><h3>Datasets</h3></a>
+                <a href=""><h2>Datasets</h2></a>
             </div>
         </div>
         <div class="information">
-            <img src="{{ '/assets/images/collections.webp' | relative_url }}" class="stat-logo">
+            <img src="{{ '/assets/images/collections.webp' | relative_url }}" alt="" class="stat-logo">
             <div class="feature-content">
                 <p id="feature-collections">Loading...</p>
-                <a href=""><h3>Collections</h3></a>
+                <a href=""><h2>Collections</h2></a>
             </div>
         </div>
         <div class="information">
-            <img src="{{ '/assets/images/collections.webp' | relative_url }}" class="stat-logo">
+            <img src="{{ '/assets/images/collections.webp' | relative_url }}" alt="" class="stat-logo">
             <div class="feature-content">
                 <p id="feature-tbd">Loading...</p>
-                <a href=""><h3>To be determined</h3></a>
+                <a href=""><h2>To be determined</h2></a>
             </div>
         </div>
     </div>
@@ -84,47 +84,110 @@ layout: base
                     <h2>News and Stories</h2>
                     <p>Stay updated! Read the latest DaSSCo news here</p>
                 </div>
-                <img src="{{ '/assets/images/R5__0086_WebSmall.jpg' | relative_url }}">
+                <img src="{{ '/assets/images/R5__0086_WebSmall.jpg' | relative_url }}" alt="">
                 <div class="news-and-stories-information gap">
                     <h3>Find information on Social Media</h3>
                     <p>Want to be updated on the latest news from DaSSCo institutions?</p>
                     <p>Check out our institution's Facebook and LinkedIn. They are updated regularly with the latest information.</p>
                     <p>Follow today!</p>
                     <div class="news-and-stories-logos">
-                        <a href="https://www.facebook.com/StatensNaturhistoriskeMuseum/" target="_blank"><img class="logo" src="{{ '/assets/images/Icons/facebook_blue.svg' | relative_url }}"></a>
-                        <a href="https://www.linkedin.com/company/statens-naturhistoriske-museum/posts/?feedView=all" target="_blank"><img class="logo" src="{{ '/assets/images/Icons/linkedin_blue.svg' | relative_url }}"></a>
+                        <a 
+                            href="https://www.facebook.com/StatensNaturhistoriskeMuseum/" 
+                            target="_blank"
+                            aria-label="Follow us on Facebook (opens in new tab)"
+                            rel="noopener noreferrer"
+                        >
+                            <img 
+                                class="logo"
+                                src="{{ '/assets/images/Icons/facebook_blue.svg' | relative_url }}"
+                                alt="Facebook logo"
+                            >
+                        </a>
+                        <a 
+                            href="https://www.linkedin.com/company/statens-naturhistoriske-museum/posts/?feedView=all"
+                            target="_blank"
+                            aria-label="Follow us on LinkedIn (opens in new tab)"
+                            rel="noopener noreferrer"
+                        >
+                            <img 
+                                class="logo"
+                                src="{{ '/assets/images/Icons/linkedin_blue.svg' | relative_url }}"
+                                alt="LinkenIn logo"
+                            >
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="news-and-stories-news gap">
-                <article class="news-and-stories-news-block">
-                    <a href="" target="_blank">
-                        <img class="news-and-stories-news-block-image" src="{{ '/assets/images/R5__0086_WebSmall.jpg' | relative_url }}">
+                {% assign sorted_articles = site.news | sort: "date" | reverse %}
+                {% for article in sorted_articles limit:2%}
+                    <article class="news-and-stories-news-block">
+                        <a  href="/news/{{ article.link }}" 
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="{{ article.title }}"
+                        >
+                            <div class="news-and-stories-news-block-image" >
+                                <img src="{{ article.mainImage }}" alt="{{ article.title }}">
+                            </div>  
+                        </a>
+                        <div>
+                            <h3>
+                                <a href="" target="_blank" rel="noopener noreferrer">
+                                    {{ article.title }}
+                                </a>
+                            </h3> 
+                            <p class="category">{{ article.type }}</p>
+                        </div>  
+                    </article>
+                {% endfor %}
+
+                <!-- <article class="news-and-stories-news-block">
+                    <a  href="" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="News from the DaSSCo mass digitisation programme &#x2013; April to June 2025"
+                    >
+                        <img 
+                            class="news-and-stories-news-block-image" 
+                            src="{{ '/assets/images/R5__0086_WebSmall.jpg' | relative_url }}" 
+                            alt="DaSSCo mass digitisation programme, April &#x2013; June 2025"
+                        >
                     </a>
                     <div class="padding">
-                        <h3><a href="" target="_blank">
-                            News from the DaSSCo mass digitisation programme &#x2013; April to June 2025
+                        <h3>
+                            <a href="" target="_blank" rel="noopener noreferrer">
+                                News from the DaSSCo mass digitisation programme &#x2013; April to June 2025
                             </a>
                         </h3> 
-                        <a href="" target="_blank" class="category">News</a>
+                        <p class="category">News</p>
                     </div>  
                 </article>
 
                 <article class="news-and-stories-news-block">
-                    <a href="" target="_blank">
-                        <img class="news-and-stories-news-block-image" src="{{ '/assets/images/Roberta.jpg' | relative_url }}">
+                    <a  href="" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        aria-label="Innovative project from UCPH researchers: Using deep learning to automatically generate phylogenetic trees from digitised specimens"
+                    >
+                        <img 
+                            class="news-and-stories-news-block-image"
+                            src="{{ '/assets/images/Roberta.jpg' | relative_url }}" 
+                            alt="Innovative project from UCPH researchers: Using deep learning to automatically generate phylogenetic trees from digitised specimens"
+                        >
                     </a>
                     <div class="padding">
-                        <h3><a href="" target="_blank">
-                            Innovative project from UCPH researchers: Using deep learning to automatically generate phylogenetic trees from digitised specimens
+                        <h3><a href="" target="_blank" rel="noopener noreferrer">
+                                Innovative project from UCPH researchers: Using deep learning to automatically generate phylogenetic trees from digitised specimens
                             </a>
                         </h3> 
-                        <a href="" target="_blank" class="category">News</a>
+                        <p class="category">News</p>
                     </div>  
                 </article>
                 <div class="button">
                     <a href="en_about.html">See all news</a>
-                </div>
+                </div> -->
+
             </div>
         </div>     
 </section>
@@ -135,12 +198,12 @@ layout: base
     <div class="partners-slider container">
         <div class="partners-track">
             {% for partner in site.partners %}
-                <a href="{{ partner.link }}" target="_blank"><img src="{{ partner.image | relative_url }}" alt="{{ partner.altImageText }}"></a>
+                <a href="{{ partner.link }}" target="_blank" rel="noopener noreferrer"><img src="{{ partner.image | relative_url }}" alt="{{ partner.altImageText }}"></a>
              {% endfor %}
             
             <!-- Duplicate for infinite scroll effect -->
              {% for partner in site.partners %}
-                <a href="{{ partner.link }}" target="_blank"><img src="{{ partner.image | relative_url }}" alt="{{ partner.altImageText }}"></a>
+                <a href="{{ partner.link }}" target="_blank" rel="noopener noreferrer"><img src="{{ partner.image | relative_url }}" alt="{{ partner.altImageText }}"></a>
              {% endfor %}
         </div>
     </div>

@@ -73,7 +73,7 @@
     margin-bottom: 0!important;
   }
 
-  h3 {
+  h2 {
     font-size: 1rem;
   }
 }
@@ -100,7 +100,9 @@
 }
 
 .what-is-dassco-main {
-
+  .button {
+    justify-self: left;
+  }
 }
 
 .what-is-dassco-container {
@@ -173,11 +175,19 @@
 .news-and-stories-news-block {
   background-color: var(--color-white);
   border-radius: 1rem;
-  box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.3)
+  box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.3);
+
+  > div {
+    padding: 2rem;
+  }
 }
 
 .news-and-stories-news-block-image {
   border-radius: 1rem 1rem 0 0;
+  max-height: 250px;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
 }
 
 /* Partners Content */
