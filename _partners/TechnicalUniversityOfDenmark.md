@@ -1,6 +1,10 @@
 ---
-name: Technical University of Denmark
+name: 
+    da: Danmarks Tekniske Universitet
+    en: Technical University of Denmark
 image: /assets/images/partnerLogos/DTU Corp_Red_RGB.png
-altImageText: Technical University of Denmark's logo
+altImageText: 
+    da: Danmarks Tekniske Universitets logo
+    en: Technical University of Denmark's logo
 link: https://www.dtu.dk
 ---

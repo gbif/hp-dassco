@@ -141,53 +141,6 @@ layout: base
                         </div>  
                     </article>
                 {% endfor %}
-
-                <!-- <article class="news-and-stories-news-block">
-                    <a  href="" 
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label="News from the DaSSCo mass digitisation programme &#x2013; April to June 2025"
-                    >
-                        <img 
-                            class="news-and-stories-news-block-image" 
-                            src="{{ '/assets/images/R5__0086_WebSmall.jpg' | relative_url }}" 
-                            alt="DaSSCo mass digitisation programme, April &#x2013; June 2025"
-                        >
-                    </a>
-                    <div class="padding">
-                        <h3>
-                            <a href="" target="_blank" rel="noopener noreferrer">
-                                News from the DaSSCo mass digitisation programme &#x2013; April to June 2025
-                            </a>
-                        </h3> 
-                        <p class="category">News</p>
-                    </div>  
-                </article>
-
-                <article class="news-and-stories-news-block">
-                    <a  href="" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        aria-label="Innovative project from UCPH researchers: Using deep learning to automatically generate phylogenetic trees from digitised specimens"
-                    >
-                        <img 
-                            class="news-and-stories-news-block-image"
-                            src="{{ '/assets/images/Roberta.jpg' | relative_url }}" 
-                            alt="Innovative project from UCPH researchers: Using deep learning to automatically generate phylogenetic trees from digitised specimens"
-                        >
-                    </a>
-                    <div class="padding">
-                        <h3><a href="" target="_blank" rel="noopener noreferrer">
-                                Innovative project from UCPH researchers: Using deep learning to automatically generate phylogenetic trees from digitised specimens
-                            </a>
-                        </h3> 
-                        <p class="category">News</p>
-                    </div>  
-                </article>
-                <div class="button">
-                    <a href="en_about.html">See all news</a>
-                </div> -->
-
             </div>
         </div>     
 </section>
@@ -198,12 +151,12 @@ layout: base
     <div class="partners-slider container">
         <div class="partners-track">
             {% for partner in site.partners %}
-                <a href="{{ partner.link }}" target="_blank" rel="noopener noreferrer"><img src="{{ partner.image | relative_url }}" alt="{{ partner.altImageText }}"></a>
+                <a href="{{ partner.link }}" target="_blank" rel="noopener noreferrer"><img src="{{ partner.image | relative_url }}" alt="{{ partner.altImageText[page.lang] }}"></a>
              {% endfor %}
             
             <!-- Duplicate for infinite scroll effect -->
              {% for partner in site.partners %}
-                <a href="{{ partner.link }}" target="_blank" rel="noopener noreferrer"><img src="{{ partner.image | relative_url }}" alt="{{ partner.altImageText }}"></a>
+                <a href="{{ partner.link }}" target="_blank" rel="noopener noreferrer"><img src="{{ partner.image | relative_url }}" alt="{{ partner.altImageText[page.lang] }}"></a>
              {% endfor %}
         </div>
     </div>

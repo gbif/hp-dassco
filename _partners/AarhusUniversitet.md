@@ -1,6 +1,10 @@
 ---
-name: Aarhus Universitet
+name: 
+    da: Aarhus Universitet
+    en: Aarhus University
 image: /assets/images/partnerLogos/aarhus-university-logo-vector.png
-altImageText: Technical University of Denmark's logo
+altImageText: 
+    da: Aarhus Universitets logo
+    en: Aarhus University's logo
 link: https://www.au.dk/
 ---

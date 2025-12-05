@@ -11,7 +11,7 @@ layout: base
         {% for article in sorted_articles %}
             <article class="article">
                 <div class="article-image">
-                    <img src="{{ article.mainImage  | relative_url }}">
+                    <img src="{{ article.mainImage  | relative_url }}" alt="{{ article.altImageText[page.lang] }}">
                 </div>
                 <div class="article-text" style="display:grid; gap:1rem;">
                     <a href="/news/{{ article.link }}"><h1>{{ article.title }}</h1></a>
