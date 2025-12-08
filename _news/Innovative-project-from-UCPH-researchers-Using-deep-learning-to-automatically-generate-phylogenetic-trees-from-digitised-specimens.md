@@ -1,7 +1,7 @@
 ---
 title: "Innovative project from UCPH researchers: Using deep learning to automatically generate phylogenetic trees from digitised specimens"
 date: 2025-05-14
-layout: en_article
+layout: article
 link: /Innovative-project-from-UCPH-researchers-Using-deep-learning-to-automatically-generate-phylogenetic-trees-from-digitised-specimens
 mainImage: "/assets/images/Roberta.jpg"
 altImageText: 

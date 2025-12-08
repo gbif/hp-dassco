@@ -1,7 +1,7 @@
 ---
 title: "News from the DaSSCo mass digitisation programme - October 2024 to March 2025"
 date: 2025-04-15
-layout: en_article
+layout: article
 link: /news-from-the-dassco-mass-digitisation-programme-october-2024-to-march-2025
 mainImage: "/assets/images/402970236-63415d5d-bc3c-4810-9403-d3c4c1bf92e4-scaled.jpg"
 altImageText: 

@@ -1,13 +1,14 @@
 ---
 layout: base
 ---
+{% assign t = site.data.i18n[page.lang].resources %}
 <div class="top-background-image"><div><!-- Background-Overlay --></div></div>
 <section id="resources" class="resources">
     <div class="container gap">
-        <h1>Resources</h1>
-        <p>Here you can find links to all of our resources.</p>
+        <h1>{{ t.title }}</h1>
+        <p>{{ t.description }}</p>
         <div class="">
-            <p><a href="https://github.com/gbif/hp-dassco">Github</a>: The repository of our website here</p>
+            <p><a href="https://github.com/gbif/hp-dassco">{{ t.github.name }}</a>: {{ t.github.description }}</p>
         </div>
     </div>
 </section>

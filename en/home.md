@@ -1,6 +1,6 @@
 ---
 lang-ref: home
-layout: en_myhome
+layout: myhome
 title: Danish System of Scientific Collections
 description: Part of the European Project DiSSCo
 permalink: /

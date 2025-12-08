@@ -1,0 +1,35 @@
+hero:
+  title: Danish System of Scientific Collections
+  subtitle: Part of the European Project DiSSCo
+
+stats:
+  loading: Loading...
+  occourences: Occourences
+  datasets: Datasets
+  collections: Collections
+  default: To be determined
+
+rubrik:
+  title: Digitising Natural History in Denmark
+  subtitle: We are digitising Denmark&#8217;s estimated 19 million natural specimens. We are committed to sharing our data and knowledge globally so that everyone can benefit.
+
+what-is:
+  what:
+    title: What is DaSSCo?
+    text: DaSSCo is a national mass digitisation program and research infrastructure. We are experts in the digitisation of natural history.
+  why:
+    title: Why DaSSCo?
+    text: Denmark's rich natural history collections contain data that can help tackle urgent scientific and societal issues. Our mission is to make that data accessible.
+  who:
+    title: Who are we?
+    text: DaSSCo is a collaboration between Natural History Museum Denmark, Science Museums Aarhus University, the Natural History Museum Aarhus and the Technical University of Denmark.
+  button-text: Read more about DaSSCo
+
+news:
+  title: News and Stories
+  subtitle: Stay updated! Read the latest DaSSCo news here
+  so-me:
+    title: Find information on Social Media
+    intro: Want to be updated on the latest news from DaSSCo institutions?
+    description: Check out our institution's Facebook and LinkedIn. They are updated regularly with the latest information.
+    cta: Follow today!

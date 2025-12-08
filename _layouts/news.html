@@ -1,10 +1,11 @@
 ---
 layout: base
 ---
+{% assign t = site.data.i18n[page.lang].news %}
 <section id="news" class="news">
     <div class="top-background-image"><div><!-- Background-Overlay --></div></div>
     <div class="container divider">
-            <h1>News and Stories</h1>
+            <h1>{{ t.title }}</h1>
         </div>
     <div class="container gap">
         {% assign sorted_articles = site.news | sort: "date" | reverse %}

@@ -1,6 +1,6 @@
 ---
 lang-ref: nyheder
-layout: da_news
+layout: news
 title: Nyheder
 description: Nyheder og historier
 permalink: /da/nyheder/

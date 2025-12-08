@@ -2,6 +2,6 @@
 permalink: organisations
 lang-ref: organisations 
 title: Organisations
-layout: en_organisations
+layout: organisations
 description: For more information about the institutions, visit their websites!
 ---

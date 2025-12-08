@@ -1,0 +1,65 @@
+---
+layout: base
+---
+{% assign t = site.data.i18n[page.lang].about %}
+<div class="top-background-image"><div><!-- Background-Overlay --></div></div>
+<section id="about" class="about">
+    <div class="container">
+        <h1>{{ t.title }}</h1>
+    </div>
+    <div class="about-main container gap">
+        <div class="gap">
+            <div class="what-is-dassco-container padding gap">
+                <h2>{{ t.what.title }}</h2>
+                <p>{{ t.what.text }}</p>
+            </div>
+            <picture class="illustration">
+                <source 
+                srcset="{{ '/assets/images/what_is_dassco.png' | relative_url }}"
+                media="(min-width: 768px)"
+                >
+                <img 
+                    src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" 
+                    alt=""
+                    aria-hidden="true"
+                    loading="lazy"
+                >
+            </picture>
+
+            <picture class="illustration">
+                <source 
+                srcset="{{ '/assets/images/why_dassco.png' | relative_url }}"
+                media="(min-width: 768px)"
+                >
+                <img 
+                    src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" 
+                    alt=""
+                    aria-hidden="true"
+                    loading="lazy"
+                >
+            </picture>
+            <div class="what-is-dassco-container padding gap">
+                <h2>{{ t.why.title }}</h2>
+                <p>{{ t.why.text }}</p>
+            </div>
+
+            <div class="what-is-dassco-container padding gap">
+                <h2>{{ t.who.title }}</h2>
+                <p>{{ t.who.text }}</p>
+            </div>
+            <picture class="illustration">
+                <source 
+                srcset="{{ '/assets/images/who_are_we.png' | relative_url }}"
+                media="(min-width: 768px)"
+                >
+                <img 
+                    src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" 
+                    alt=""
+                    aria-hidden="true"
+                    loading="lazy"
+                >
+            </picture>
+
+        </div>
+    </div>
+</section>

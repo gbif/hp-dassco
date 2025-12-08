@@ -1,6 +1,7 @@
 ---
 layout: base
 ---
+{% assign t = site.data.i18n[page.lang].article %}
 <section id="article" class="article">
     <div class="container">
         <h1>{{ page.title }}</h1>
@@ -22,7 +23,7 @@ layout: base
             {{ content }}
         </div>
 
-        <h2>You may want to read</h2>
+        <h2>{{ t.read-more }}</h2>
         <div class="recommended-articles">
             {% assign sorted_articles = site.news | sort: "date" | reverse %}
             {% for article in sorted_articles limit:3%}

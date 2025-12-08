@@ -1,7 +1,7 @@
 ---
 title: "News from the DaSSCo mass digitisation programme – July to September 2024"
 date: 2025-03-10
-layout: en_article
+layout: article
 link: /news-from-the-dassco-mass-digitisation-programme-july-to-september-2024
 mainImage: "/assets/images/billede-Q3-scaled.jpg"
 altImageText: 

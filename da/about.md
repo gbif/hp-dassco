@@ -1,6 +1,6 @@
 ---
 permalink: /omkring
-layout: da_about
+layout: about
 lang-ref: about
 title: About
 description: Omkring DaSSCo

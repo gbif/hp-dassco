@@ -1,10 +1,11 @@
 ---
 layout: base
 ---
+{% assign t = site.data.i18n[page.lang].organisations %}
 <div class="top-background-image"><div><!-- Background-Overlay --></div></div>
 <section id="organisations">
     <div class="container">
-        <h1>The Organisations</h1>
+        <h1>{{ t.title }}</h1>
     </div>
     <div class="container main">
         {% assign sorted_partners = site.partners | sort: "name.[page.lang]" %}

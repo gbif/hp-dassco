@@ -1,0 +1,21 @@
+---
+layout: base
+---
+{% assign t = site.data.i18n[page.lang].contact %}
+<div class="top-background-image"><div><!-- Background-Overlay --></div></div>
+<section id="contact" class="contact">
+    <div class="contact-main container gap">
+        <h1>{{ t.title }}</h1>
+        <div class="contact-wrapper gap">
+            <div class="contact-text">
+                <h2>{{ t.subtitle }}</h2>
+                <p>{{ t.intro }}</p>
+                <p>{{ t.cta }}</p>
+                <br>
+                <p>{{ t.email }}</p>
+                <p>{{ t.phone-number }}</p>
+            </div>
+            <img src="{{ '/assets/images/Skuffer.jpg' || relative_url }}" alt="">
+        </div>
+    </div>
+</section>

@@ -1,3 +1,4 @@
+{% assign t = site.data.i18n[page.lang].footer %}
 <footer role="contentinfo">
     <div class="container">  
         <div class="footer-content gap">
@@ -5,16 +6,16 @@
                 <img src="{{ '/assets/images/DasCCo-logo-web-farve-230-b-1.png' | relative_url }}" alt="Image of DaSSCo Logo">
             </div>
             <div class="dassco-links gap">
-                <h2>Searching for?</h2>
-                <a href="/about">About</a>
-                <a href="/news">News and Stories</a>
-                <a href="/occurrence/search">Data</a>
+                <h2>{{ t.searching.title }}</h2>
+                <a href="/about">{{ t.searching.about }}</a>
+                <a href="/news">{{ t.searching.news }}</a>
+                <a href="/occurrence/search">{{ t.searching.data }}</a>
             </div>
             <div class="dassco-contact gap">
-                <h2>Contact</h2>
-                <p>info@dassco.dk</p>
-                <p>Gothersgade 130,</p>
-                <p>1123 Copenhagen, Denmark</p>
+                <h2>{{ t.contact.title }}</h2>
+                <p>{{ t.contact.email }}</p>
+                <p>{{ t.contact.address }}</p>
+                <p>{{ t.contact.zip-country }}</p>
             </div>
         </div>
     </div>

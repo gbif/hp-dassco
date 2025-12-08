@@ -1,11 +1,12 @@
 ---
 layout: base
 ---
+{% assign t = site.data.i18n[page.lang].team %}
 <div class="top-background-image"><div><!-- Background-Overlay --></div></div>
 <section id="team" class="team">    
     <div class="container gap">
-        <h1>The Team</h1>
-        <p>These are the fine people working to make your experience with DaSSCo just that much better.</p>
+        <h1>{{ t.title }}</h1>
+        <p>{{ t.description }}</p>
         <div class="team-main gap">
             {% assign sortedTeam = site.team | sort: "order" %}
             {% for member in sortedTeam %}

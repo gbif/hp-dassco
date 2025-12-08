@@ -1,13 +1,14 @@
 ---
 layout: base
 ---
+{% assign t = site.data.i18n[page.lang].myhome %}
 <!-- Hero image slideshow -->
 <div id="hero-slideshow">
     <div class="slide" id="slideA"><!-- slide A --></div>
     <div class="slide" id="slideB"><!-- slide B --></div>
     <div class="hero-title">
-        <h1>Danish System of Scientific Collections</h1>
-        <p>Part of the European Project DiSSCo</p>
+        <h1>{{ t.hero.title}}</h1>
+        <p>{{ t.hero.subtitle}}</p>
     </div>
 </div>
 <!-- Statistics -->
@@ -16,29 +17,29 @@ layout: base
         <div class="information">
             <img src="{{ '/assets/images/specimens.webp' | relative_url }}" alt="" class="stat-logo">
             <div class="feature-content">
-                <p id="feature-occourence">Loading...</p>
-                <a href=""><h2>Occourences</h2></a>                      
+                <p id="feature-occourence">{{ t.stats.loading }}</p>
+                <a href=""><h2>{{ t.stats.occourences }}</h2></a>                      
             </div>
         </div>
         <div class="information">
             <img src="{{ '/assets/images/collections.webp' | relative_url }}" alt="" class="stat-logo">
             <div class="feature-content">
-                <p id="feature-datasets">Loading...</p>
-                <a href=""><h2>Datasets</h2></a>
+                <p id="feature-datasets">{{ t.stats.loading }}</p>
+                <a href=""><h2>{{ t.stats.datasets }}</h2></a>
             </div>
         </div>
         <div class="information">
             <img src="{{ '/assets/images/collections.webp' | relative_url }}" alt="" class="stat-logo">
             <div class="feature-content">
-                <p id="feature-collections">Loading...</p>
-                <a href=""><h2>Collections</h2></a>
+                <p id="feature-collections">{{ t.stats.loading }}</p>
+                <a href=""><h2>{{ t.stats.collections }}</h2></a>
             </div>
         </div>
         <div class="information">
             <img src="{{ '/assets/images/collections.webp' | relative_url }}" alt="" class="stat-logo">
             <div class="feature-content">
-                <p id="feature-tbd">Loading...</p>
-                <a href=""><h2>To be determined</h2></a>
+                <p id="feature-tbd">{{ t.stats.loading }}</p>
+                <a href=""><h2>{{ t.stats.default }}</h2></a>
             </div>
         </div>
     </div>
@@ -48,8 +49,8 @@ layout: base
 <section id="rubrik" class="rubrik">
     <div class="background-orange-image-connector-bottom"></div>
     <div class="container gap">
-        <h2>Digitising Natural History in Denmark</h2>
-        <p>We are digitising Denmark&#8217;s estimated 19 million natural specimens. We are committed to sharing our data and knowledge globally so that everyone can benefit.</p>
+        <h2>{{ t.rubrik.title}}</h2>
+        <p>{{ t.rubrik.subtitle}}</p>
     </div>
 </section>
 
@@ -57,19 +58,19 @@ layout: base
 <section id="what-is-dassco" class="what-is-dassco">
     <div class="what-is-dassco-main container gap">
         <div class="what-is-dassco-container padding">
-            <h3>What is DaSSCo?</h3>
-            <p>DaSSCo is a national mass digitisation program and research infrastructure. We are experts in the digitisation of natural history.</p>
+            <h3>{{ t.what-is.what.title}}</h3>
+            <p>{{ t.what-is.what.text}}</p>
         </div>
         <div class="what-is-dassco-container padding">
-            <h3>Why DaSSCo?</h3>
-            <p>Denmark's rich natural history collections contain data that can help tackle urgent scientific and societal issues. Our mission is to make that data accessible.</p>
+            <h3>{{ t.what-is.why.title}}</h3>
+            <p>{{ t.what-is.why.text}}</p>
         </div>
         <div class="what-is-dassco-container padding">
-            <h3>Who are we?</h3>
-            <p>DaSSCo is a collaboration between Natural History Museum Denmark, Science Museums Aarhus University, the Natural History Museum Aarhus and the Technical University of Denmark.</p>
+            <h3>{{ t.what-is.who.title}}</h3>
+            <p>{{ t.what-is.who.text}}</p>
         </div>
         <div class="button">
-            <a href="./about.html">Read more about DaSSCo</a>
+            <a href="./about.html">{{ t.what-is.button-text}}</a>
         </div>
     </div>
     
@@ -81,15 +82,15 @@ layout: base
         <div class="container news-and-stories-content gap">
             <div class="news-and-stories-main gap">
                 <div class="news-and-stories-header">
-                    <h2>News and Stories</h2>
-                    <p>Stay updated! Read the latest DaSSCo news here</p>
+                    <h2>{{ t.news.title }}</h2>
+                    <p>{{ t.news.subtitle }}</p>
                 </div>
                 <img src="{{ '/assets/images/R5__0086_WebSmall.jpg' | relative_url }}" alt="">
                 <div class="news-and-stories-information gap">
-                    <h3>Find information on Social Media</h3>
-                    <p>Want to be updated on the latest news from DaSSCo institutions?</p>
-                    <p>Check out our institution's Facebook and LinkedIn. They are updated regularly with the latest information.</p>
-                    <p>Follow today!</p>
+                    <h3>{{ t.news.so-me.title }}</h3>
+                    <p>{{ t.news.so-me.intro }}</p>
+                    <p>{{ t.news.so-me.description }}</p>
+                    <p>{{ t.news.so-me.cta }}</p>
                     <div class="news-and-stories-logos">
                         <a 
                             href="https://www.facebook.com/StatensNaturhistoriskeMuseum/" 
