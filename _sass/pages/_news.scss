@@ -1,5 +1,4 @@
 #news {
-    background-color: #f6f1ed;
 
     .container {
         display:grid;
@@ -8,9 +7,7 @@
     }
 
     .top-background-image{
-        > div {
-            background-image: url("/assets/images/backgroundOverlay/lightorange-background-divider.svg");
-        }
+        background-image: url("/assets/images/HeroImages/R5__0113_WebLarge-scaled.jpg");
     }
 
     .article {
