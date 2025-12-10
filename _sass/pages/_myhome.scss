@@ -190,6 +190,57 @@
   width: 100%;
 }
 
+/* Dodo Content */
+.dodo {
+  
+  h2 {
+    color: var(--color-blue);
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  p {
+    color: var(--color-grey);
+    font-weight: 700;
+  }
+
+  .button {
+    justify-self: left;
+  }
+
+  .dodo-box {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    h3 {
+      color: var(--color-darkgrey);
+      font-weight: 700;
+    }
+
+    p {
+      font-weight: 500;
+    }
+
+    .dodo-images {
+      position: relative;
+
+      .dodo {
+        position: absolute;
+        max-height: 100%;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        overflow: hidden;
+
+        img {
+          display: block;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}
+
 /* Partners Content */
 @keyframes scroll {
   0% {
