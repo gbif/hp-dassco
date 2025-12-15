@@ -1,7 +1,7 @@
 ---
 name: Bhupjit Singh
 title: IT Lead
-email: test@test.dk
-image: /assets/images/augustinas.png
+email: info@dassco.dk
+image: /assets/images/Bhupjit_edit.jpg
 order: 2
 ---
