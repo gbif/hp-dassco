@@ -1,7 +1,7 @@
 ---
 name: Fedor Steeman
 title: IT
-email: test@test.dk
-image: /assets/images/augustinas.png
+email: info@dassco.dk
+image: /assets/images/Fedor_redi.jpg
 order: 10
 ---
