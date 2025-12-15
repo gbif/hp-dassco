@@ -1,7 +1,7 @@
 ---
 name: Lars Dam
 title: IT Developer
-email: test@test.dk
-image: /assets/images/augustinas.png
+email: info@dassco.dk
+image: /assets/images/Lars_redi.jpg
 order: 3
 ---
