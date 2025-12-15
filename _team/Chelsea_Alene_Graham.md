@@ -2,6 +2,6 @@
 name: Chelsea Alene Graham
 title: Digitiser Lead
 email: info@dassco.dk
-image: /assets/images/Chelsea.jpg
+image: /assets/images/Chelsea_redi.jpg
 order: 4
 ---
