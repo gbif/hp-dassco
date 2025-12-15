@@ -1,7 +1,7 @@
 ---
 name: Allison Honea Becker
 title: Digitiser
-email: test@test.dk
-image: /assets/images/augustinas.png
+email: info@dassco.dk
+image: /assets/images/Allison_redi.jpg
 order: 5
 ---
