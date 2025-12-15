@@ -1,7 +1,7 @@
 ---
 name: Pernille Pia Hansen
 title: Communications Consultant
-email: test@test.dk
-image: /assets/images/R5__0086_WebSmall.jpg
+email: info@dassco.dk
+image: /assets/images/Pernille_redi.jpg
 order: 14
 ---
