@@ -1,7 +1,7 @@
 ---
 name: Rebekka Lesske
 title: Digitiser
-email: test@test.dk
-image: /assets/images/augustinas.png
+email: info@dassco.dk
+image: /assets/images/Rebekka_redi.jpg
 order: 6
 ---
