@@ -1,7 +1,7 @@
 ---
 name: Mathilde Gomes
 title: Digitiser
-email: test@test.dk
-image: /assets/images/augustinas.png
+email: info@dassco.dk
+image: /assets/images/Mathilde_redi.jpg
 order: 8
 ---
