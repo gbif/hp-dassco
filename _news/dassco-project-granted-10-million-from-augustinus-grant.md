@@ -3,7 +3,7 @@ title: "DaSSCo project granted 10 million from Augustinus Grant"
 date: 2025-03-10 #year, month, day
 layout: article
 link: "/dassco-project-granted-10-million-from-augustinus-grant"
-mainImage: "/assets/images/augustinas.png"
+mainImage: "/assets/images/news/augustinas.png"
 altImageText: 
     da: tom for nu
     en: "An x-ray CT scan of augustinas"

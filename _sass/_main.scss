@@ -11,6 +11,7 @@
 @import "pages/news";
 @import "pages/article";
 @import "pages/organisations";
+@import "pages/resources";
 
 // You can add additional styling here
 // @import "_example";
@@ -186,13 +187,13 @@ body {
 }
 
 .background-orange-image-connector-bottom {
-    background-image: url("/assets/images/background_lightorange.svg");
+    background-image: url("/assets/images/backgroundOverlay/background_lightorange.svg");
     min-height: 100px;
     max-height: 100px;
 }
 
 .background-blue-image-connector-bottom {
-    background-image: url("/assets/images/background_lightblue.svg");
+    background-image: url("/assets/images/backgroundOverlay/background_lightblue.svg");
     min-height: 100px;
     max-height: 100px;
 }

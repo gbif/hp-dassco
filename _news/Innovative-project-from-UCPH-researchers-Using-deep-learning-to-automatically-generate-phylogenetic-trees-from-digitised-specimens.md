@@ -3,7 +3,7 @@ title: "Innovative project from UCPH researchers: Using deep learning to automat
 date: 2025-05-14
 layout: article
 link: /Innovative-project-from-UCPH-researchers-Using-deep-learning-to-automatically-generate-phylogenetic-trees-from-digitised-specimens
-mainImage: "/assets/images/Roberta.jpg"
+mainImage: "/assets/images/news/Roberta.jpg"
 altImageText: 
     da: tom for nu
     en: Roberta Eleanor Hunt, Postdoc in Computer Science working on the project PHYLORAMA.

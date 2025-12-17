@@ -3,7 +3,7 @@ title: "News from the DaSSCo mass digitisation programme – July to September 2
 date: 2025-03-10
 layout: article
 link: /news-from-the-dassco-mass-digitisation-programme-july-to-september-2024
-mainImage: "/assets/images/billede-Q3-scaled.jpg"
+mainImage: "/assets/images/news/billede-Q3-scaled.jpg"
 altImageText: 
     da: tom for nu
     en: Image of people conferring

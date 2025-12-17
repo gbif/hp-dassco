@@ -1,5 +1,11 @@
 #resources {
-    .top-background-image{
+    .top-background-image {
         background-image: url("/assets/images/HeroImages/R5__0113_WebLarge-scaled.jpg");
+    }
+
+    h1 {
+        color: var(--color-blue);
+        font-size: 2rem;
+        font-weight: 700;
     }
 }
