@@ -7,4 +7,5 @@ altImageText:
     da: Københavns Universitets logo
     en: University of Copenhagen's logo
 link: https://www.ku.dk/
+order: 2
 ---

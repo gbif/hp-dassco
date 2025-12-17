@@ -8,7 +8,7 @@ layout: base
         <h1>{{ t.title }}</h1>
     </div>
     <div class="container main">
-        {% assign sorted_partners = site.partners | sort: "name.[page.lang]" %}
+        {% assign sorted_partners = site.partners | sort: "order" %}
         {% for partner in sorted_partners %}
             <div class="organisation">
                 <h2>{{ partner.name[page.lang]}}</h2>
