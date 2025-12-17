@@ -1,7 +1,7 @@
 ---
-permalink: /omkring
+permalink: /da/omkring
 layout: about
-lang-ref: about
+lang-ref: omkring
 title: About
 description: Omkring DaSSCo
 ---
