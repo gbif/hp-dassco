@@ -4,8 +4,10 @@ layout: base
 {% assign t = site.data.i18n[page.lang].resources %}
 <section id="resources" class="resources">
     <div class="top-background-image"><div><!-- Background-Overlay --></div></div>
-    <div class="container gap">
+    <div class="container divider">
         <h1>{{ t.title }}</h1>
+    </div>
+    <div class="container gap">
         <p>{{ t.description }}</p>
         <div class="">
             <p><a href="https://github.com/gbif/hp-dassco">{{ t.github.name }}</a>: {{ t.github.description }}</p>

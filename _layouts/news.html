@@ -5,8 +5,8 @@ layout: base
 <section id="news" class="news">
     <div class="top-background-image"><div><!-- Background-Overlay --></div></div>
     <div class="container divider">
-            <h1>{{ t.title }}</h1>
-        </div>
+        <h1>{{ t.title }}</h1>
+    </div>
     <div class="container gap">
         {% assign sorted_articles = site.news | sort: "date" | reverse %}
         {% for article in sorted_articles %}
