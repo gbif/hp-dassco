@@ -7,16 +7,46 @@ layout: base
     <div class="container gap">
         <h1>{{ t.title }}</h1>
         <p>{{ t.description }}</p>
-        <div class="team-main gap">
-            {% assign sortedTeam = site.team | sort: "order" %}
-            {% for member in sortedTeam %}
+        <div class="gap">
+            
+            <h2 class="divider">Project Management</h2>
+            <div class="team-main gap">
+                {% assign projectTeam = site.team | where: "category", "Project Manager" | sort: "order" %}
+                {% for member in projectTeam %}
                 <div class="team-person">
                     <img src="{{ member.image | relative_url }}" alt="Picture of team member">
                     <h2>{{ member.name }}</h2>
                     <h3>{{ member.title }}</h3>
                     <p><a href="mailto:info@dassco.dk">{{ member.email }}</a></p>
                 </div>
-            {% endfor %}
+                {% endfor %}
+            </div>
+            
+            <h2 class="divider">Data and Development</h2>
+            <div class="team-main gap">
+                {% assign dataTeam = site.team | where: "category", "Data and development" | sort: "order" %}
+                {% for member in dataTeam %}
+                <div class="team-person">
+                    <img src="{{ member.image | relative_url }}" alt="Picture of team member">
+                    <h2>{{ member.name }}</h2>
+                    <h3>{{ member.title }}</h3>
+                    <p><a href="mailto:info@dassco.dk">{{ member.email }}</a></p>
+                </div>
+                {% endfor %}
+            </div>
+
+            <h2 class="divider">Digitiser</h2>
+            <div class="team-main gap">
+                {% assign digitiserTeam = site.team | where: "category", "Digitiser" | sort: "order" %}
+                {% for member in digitiserTeam %}
+                <div class="team-person">
+                    <img src="{{ member.image | relative_url }}" alt="Picture of team member">
+                    <h2>{{ member.name }}</h2>
+                    <h3>{{ member.title }}</h3>
+                    <p><a href="mailto:info@dassco.dk">{{ member.email }}</a></p>
+                </div>
+                {% endfor %}
+            </div>
         </div>
     </div>
 </section>

@@ -1,5 +1,5 @@
 const images = [
-  '/assets/images/HeroImages/R5__0556_WebLarge.jpg',
+  '/assets/images/HeroImages/Background_edited.jpg',
   '/assets/images/HeroImages/R5__0113_WebLarge-scaled.jpg',
   '/assets/images/HeroImages/Shells-with-barcode-downsample.jpg'
 ];

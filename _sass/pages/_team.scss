@@ -1,13 +1,19 @@
 #team {
 
     .top-background-image{
-        background-image: url("/assets/images/HeroImages/R5__0556_WebLarge.jpg");
+        background-image: url("/assets/images/HeroImages/R5__0113_WebLarge-scaled.jpg");
     }
 
     h1 {
         color: var(--color-blue);
         font-size: 2rem;
         font-weight: 700;
+    }
+
+    h2 {
+        color: var(--color-blue);
+        font-size: 1.5rem;
+        font-weight: 600;
     }
 
     .team-main {
@@ -20,6 +26,7 @@
         padding-bottom: 2rem;
 
         h2 {
+            color: var(--color-black);
             font-size: 1.5rem;
             font-weight: 500;
         }
@@ -37,11 +44,6 @@
 
         img {
             border-radius: 25px;
-            
-        /*  IMPORTANT NOTE: change the value to match the height of your prefered format. Best method 
-            is to have the same size for all pictures so no weird cases will pop up. This value below 
-            is only to ensure uniformity in the layout  */
-            max-height: 200px;
         }
     }
 
