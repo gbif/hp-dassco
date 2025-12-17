@@ -4,10 +4,10 @@ hero:
 
 stats:
   loading: Loading...
-  occourences: Occourences
+  observations: Observations
   datasets: Datasets
   collections: Collections
-  default: To be determined
+  literature: Literature
 
 rubrik:
   title: Digitising Natural History in Denmark
