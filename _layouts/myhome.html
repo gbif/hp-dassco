@@ -165,12 +165,24 @@ layout: base
                         >here</a>
                 .</p>
             </div>
-            <div class="dodo-images">
-                <div class="dodo">
-                    <img src="{{ '/assets/images/frontpage/DODO-after.png' | relative_url }}">
+            <div class="dodo-images image-compare" id="dodo-compare">
+                <img
+                    class="img image-after"
+                    src="{{ '/assets/images/frontpage/DODO-after.png' | relative_url }}"
+                    alt="Digitised dodo skull"
+                >
+
+                <div class="image-before-wrapper">
+                    <img
+                    class="img image-before"
+                    src="{{ '/assets/images/frontpage/DODO-before.png' | relative_url }}"
+                    alt="Illustration of the dodo when alive"
+                    >
                 </div>
-                <div class="dodo dodo-overlay">
-                    <img src="{{ '/assets/images/frontpage/DODO-before.png' | relative_url }}">
+
+                <div class="slider-handle" aria-hidden="true">
+                    <span class="handle-line"></span>
+                    <span class="handle-circle"></span>
                 </div>
             </div>
         </div>
@@ -196,3 +208,4 @@ layout: base
 
 <script src="{{ '/assets/js/fetchFrontpageStats.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/frontPageHeroImageSlideshow.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/frontPageDodoSlider.js' | relative_url }}"></script>
