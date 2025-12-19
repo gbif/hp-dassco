@@ -4,7 +4,7 @@ date: 2025-09-03
 layout: article
 link: /News-from-the-DaSSCo-mass-digitisation-programme-April-to-June-2025
 mainImage: "/assets/images/news/IMG_9461.JPG"
-altImageText: The whole Alice setup 
+altImageText:
     da: Billede af Alice setup'et 
     en: Picture of the Alice setup
 type: News
