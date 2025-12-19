@@ -8,5 +8,5 @@ altImageText:
     en: Aarhus Natural History museum logo
 link: https://www.naturhistoriskmuseum.dk/
 order: 4
+text: Skriv teksten her
 ---
-Skriv teksten her

@@ -13,7 +13,9 @@ layout: base
             <div class="organisation">
                 <h2>{{ partner.name[page.lang]}}</h2>
                 <div>
-                    <p>{{ partner.content }}</p>
+                    <div class="organisation-text">
+                        <p>{{ partner.text }}</p>
+                    </div>
                     <div>
                         <img src="{{ partner.image }}" alt="{{ partner.altImageText[page.lang] }}">
                     </div>

@@ -8,5 +8,5 @@ altImageText:
     en: Technical University of Denmark's logo
 link: https://www.dtu.dk
 order: 5
+text: Skriv teksten her
 ---
-Skriv teksten her

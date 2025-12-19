@@ -8,5 +8,5 @@ altImageText:
     en: Denmark Natural History museum logo
 link: https://snm.dk/da
 order: 1
+text: Skriv teksten her
 ---
-Skriv teksten her

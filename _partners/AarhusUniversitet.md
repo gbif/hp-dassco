@@ -8,5 +8,5 @@ altImageText:
     en: Aarhus University's logo
 link: https://www.au.dk/
 order: 3
+text: Skriv teksten her
 ---
-Skriv teksten her

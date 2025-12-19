@@ -8,5 +8,5 @@ altImageText:
     en: University of Copenhagen's logo
 link: https://www.ku.dk/
 order: 2
+text: Skriv teksten her
 ---
-Skriv teksten her
