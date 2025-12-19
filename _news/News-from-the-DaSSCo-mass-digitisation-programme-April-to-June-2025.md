@@ -4,7 +4,7 @@ date: 2025-09-03
 layout: article
 link: /News-from-the-DaSSCo-mass-digitisation-programme-April-to-June-2025
 mainImage: "/assets/images/news/IMG_9461.JPG"
-altImageText: The whole Alice setup 
+altImageText:
     da: Billede af Alice setup'et 
     en: Picture of the Alice setup
 type: News
@@ -15,14 +15,14 @@ teaser: Summer has been very effective - all from educational work trips to big 
 ## Team News
 No team changes this quarter. The DaSSCo team is going strong!
 
-##Digitisation news
+## Digitisation news
 Over the summer, the DaSSCo Technical Team carried out major development on the ALICE workstation. With help from Natural History Museum Denmark (NHMD) carpenter, a custom white-painted wooden enclosure was built. It features replaceable panels, internal reflective siding, an opaque drop ceiling that diffuses light from LED panels mounted above, and holes for six specimen and label cameras. The cameras are mounted externally using custom 3D-printed holders. Four cameras are angled to capture images of the labels on the pin. Two further cameras are set up to image the dorsal and lateral views of an insect. And a final camera images the barcode label with catalog number. We have based this workstation on the ALICE (Angled Label Image Capture and Extraction) multi- camera acquisition method started at NHM London. A meeting with the IT Team is scheduled for 12 August to finalise file- conversion and saving protocols. These decisions will guide the creation of a post-processing pipeline for images produced at the workstation. Workflow testing, development, and documentation for both one- and two-person digitisation will take place in August, aiming for a soft release of the workstation to peers in September.
 
 
 A very big milestone has been achieved this summer too! DaSSCo has been a part of reaching one million natural history specimens now digitised at NHMD. The digital specimens are accessible for everyone now on the Natural History Museum’s collections portal. Read more about it in this article from NHMD (only in Danish).
 Well done DaSSCo team!
 
-##Development news
+## Development news
 We had a productive half-day workshop in May at the Zoological Museum (NHMD), bringing together developer teams from both DiSSCo and DaSSCo. The aim was to strengthen mutual understanding of technical development and to identify opportunities for collaboration. The teams discussed how DaSSCo could benefit from DiSSCo’s core data infrastructure, including DOI services, and whether DaSSCo Specify could serve as a pilot for future Specify CMS integration. Several concrete actions followed: DaSSCo will request the addition of a digital Specimen ID to Specify; DiSSCo will ingest a DaSSCo dataset and assign DOIs to digital specimens; and GBIF will pilot the use of these DOIs in both the GBIF portal and the DaSSCo-hosted portal. DaSSCo is also committed to publishing a description of its digitisation workflow on Github to support other institutions.
 
 To secure long-term support for the deployment and maintenance of the DaSSCo IT infrastructure, the NHMD DaSSCo team has now succeeded in getting DaSSCo listed in the University of Copenhagen’s digitisation project portfolio. This will provide better access to support from UCPH IT for infrastructure deployment. Since the IT infrastructure is shared, this will benefit all DaSSCo partners. Negotiations on the financial aspects are still ongoing.
@@ -34,7 +34,7 @@ The DaSSCo IT Team has also made significant progress on the new Ingestion Clien
 Work has also begun on the Specify bridge, which will allow assets from the Asset Registry Service (ARS) to be transferred into Specify as attachments. The first step is one-way communication, with ARS creating or updating attachments in Specify. The integration and syncing are handled by our external contractor NorthTech. In the longer term, two-way syncing is planned, so that changes made in Specify will be reflected in ARS. Internally, protocols will be needed to define when an asset is ready for publication — typically after passing through the processing pipeline and quality control.
 Finally, version 2.0 of the DaSSCo Digi App is now in development and undergoing beta testing. The new version is expected to be released for general use soon.
 
-##Other News
+## Other News
 In May our Specify Team attended the SPNHC 2025 conference in Lawrence, Kansas. The team met in person with the Specify Collections Consortium team, both in formal sessions and informal settings. They participated in a two-day workshop, “Maximizing Your Specify Instance”, focusing on batch editing, enhanced data handling, and dataset publishing tools. DaSSCo presented “Integrating Specify 7 into a National Mass Digitization Infrastructure”, contributing to the international discussion on large-scale digitisation.
 The conference also showcased a wide range of digitisation projects, from low- budget but efficient workflows to large-scale imaging systems. Smart barcoding systems for moving and reorganising collections were among the many innovative data-management approaches presented. Beyond the technical content, social events created valuable opportunities for networking and collaboration within the natural history collections community.
 
