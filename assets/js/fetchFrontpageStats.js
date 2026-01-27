@@ -38,6 +38,7 @@ async function loadStats() {
     const occourence = await fetchData("https://api.gbif.org/v1/occurrence/count?datasetKey=f506ae89-e503-414a-9e4c-fefee5b5a07b");
     if(occourence && typeof occourence !== "undefined")
             document.getElementById("feature-occourence").innerHTML = new Intl.NumberFormat("da-DK").format(occourence);
+            document.getElementById("feature-occourence-link").href = "https://api.gbif.org/v1/occurrence/count?datasetKey=f506ae89-e503-414a-9e4c-fefee5b5a07b"
         else {
             document.getElementById("feature-occourence").innerHTML = "Unavailable";
         }
