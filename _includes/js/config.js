@@ -16,6 +16,15 @@ var institutionKeys = [
     '44e7a331-0270-4c39-ad64-91c0d8416480',
 ];
 
+var datasetKeys = [
+    'ab38a0f2-fe39-42d8-92e1-97d2e0a5e2f6', // NHMA Entomology
+    '6015b708-235e-43d2-aa8e-aced24f57e0a', // NHMA Freshwater
+    '8f67f5f4-69ee-4ddb-bd16-cb727d384eda', // NHMA Invertebrates wet
+    '137fbdbd-3c31-4fba-b6b6-4489ad39a6c4', // NHMA Malacology
+    '6b524ea4-2593-49de-8e38-cbd87965265b', // NHMA Vertebrate
+    '833db434-f762-11e1-a439-00145eb45e9a', // AU herbarium
+];
+
 var siteConfig = {
     "version": 3,
     "pages": [
@@ -97,12 +106,14 @@ var siteConfig = {
     "occurrenceSearch": {
         "scope": {
             "type": "in",
-            "key": "publishingOrg",
+            "key": "datasetKey",
+            "values": datasetKeys
+            /*"key": "publishingOrg",
             "values": [
                 "760d5f24-4c04-40da-9646-1b2c935da502",
                 "2e7df380-8356-4533-bcb3-5459e23c794e",
                 "8e1a97a0-3ca8-11d9-8439-b8a03c50a862"
-            ]
+            ]*/
         },
         "highlightedFilters": [
             "taxonKey",
