@@ -17,7 +17,7 @@ async function loadStats() {
     const urls = [
         { id: "feature-datasets",  url: "https://api.gbif.org/v1/dataset" },
         { id: "feature-collections", url: "https://api.gbif.org/v1/grscicoll/collection" },
-        { id: "feature-citations", url: "https://api.gbif.org/v1/literature/search?gbifDatasetKey=f506ae89-e503-414a-9e4c-fefee5b5a07b" }
+        //{ id: "feature-citations", url: "https://api.gbif.org/v1/literature/search?gbifDatasetKey=f506ae89-e503-414a-9e4c-fefee5b5a07b" }
     ];
 
     const results = await Promise.all(
@@ -27,9 +27,9 @@ async function loadStats() {
     results.forEach((data, i) => {
         const element = document.getElementById(urls[i].id);
         
-        if(data && typeof data.count !== "undefined")
+        if(data && typeof data.count !== "undefined") {
             element.innerHTML = new Intl.NumberFormat("da-DK").format(data.count);
-        else {
+        } else {
             element.innerHTML = "Unavailable";
         }
             
