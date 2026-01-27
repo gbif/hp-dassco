@@ -183,7 +183,7 @@ var siteConfig = {
     "datasetSearch": {
         excludedFilters: ['publishingCountry', 'networkKey', 'projectId', 'hostingOrg'],
         highlightedFilters: ['q', 'type', 'publishingOrg', 'license'],
-        // defaultTableColumns: ['title', 'description', 'publisher', 'type', 'occurrenceCount', 'literatureCount'],
+        defaultTableColumns: ['title', 'description', 'publisher', 'type', 'occurrenceCount', 'literatureCount'],
         scope: {
             publishingOrg: publisherKeys
         },
