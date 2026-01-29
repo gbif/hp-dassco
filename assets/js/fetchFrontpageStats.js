@@ -87,7 +87,7 @@ async function loadStats() {
     sum = 0;
     resultsColl.forEach((elem, i) => {
         if(elem && typeof elem !== "undefined") {
-            sum += elem;
+            sum += elem.count;
         }
     });
     document.getElementById("feature-collections").innerHTML = new Intl.NumberFormat("da-DK").format(sum);
@@ -100,7 +100,7 @@ async function loadStats() {
     sum = 0;
     resultsPubs.forEach((elem, i) => {
         if(elem && typeof elem !== "undefined") {
-            sum += elem;
+            sum += elem.count;
         }
     });
     document.getElementById("feature-citations").innerHTML = new Intl.NumberFormat("da-DK").format(sum);
