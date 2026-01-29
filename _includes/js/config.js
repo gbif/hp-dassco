@@ -10,6 +10,7 @@ var publisherKeys = [
     '8e1a97a0-3ca8-11d9-8439-b8a03c50a862', // AU Herbarium
 ];
 
+// Remember to also change the list in assets/js/fetchFrontpageStats.js
 var institutionKeys = [
     '68fcaba0-61fe-4e78-a460-4f37654d025d', // NHMD
     '59f46093-8fae-47f3-a9ef-e5fd1d38e4fe', // NHMA

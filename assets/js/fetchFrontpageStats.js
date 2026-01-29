@@ -16,10 +16,16 @@ async function fetchData(url){
 async function loadStats() {
     const urls = [
         { id: "feature-datasets",  url: "https://api.gbif.org/v1/dataset", link: "/dataset/search" },
-        { id: "feature-collections", url: "https://api.gbif.org/v1/grscicoll/collection" , link: "/collection/search"},
+        //{ id: "feature-collections", url: "https://api.gbif.org/v1/grscicoll/collection" , link: "/collection/search"},
         //{ id: "feature-citations", url: "https://api.gbif.org/v1/literature/search?gbifDatasetKey=f506ae89-e503-414a-9e4c-fefee5b5a07b", link: "" }
     ];
     
+    // Remember to also change the list in _includes/js/config.js
+    const institutionKeys = [
+        '68fcaba0-61fe-4e78-a460-4f37654d025d', // NHMD
+        '59f46093-8fae-47f3-a9ef-e5fd1d38e4fe', // NHMA
+        '44e7a331-0270-4c39-ad64-91c0d8416480', // AU Herbarium
+    ];
     
     // Remember to also change the list in _includes/js/config.js
     const datasetKeys = [
@@ -59,6 +65,7 @@ async function loadStats() {
             
     });
     
+    
     // Create the specimen occurrence statistics
     const resultsDatasets = await Promise.all(
         datasetKeys.map(datasetKey => fetchData("https://api.gbif.org/v1/occurrence/count?datasetKey=" + datasetKey))
@@ -71,4 +78,31 @@ async function loadStats() {
     });
     document.getElementById("feature-occourence").innerHTML = new Intl.NumberFormat("da-DK").format(sum);
     document.getElementById("feature-occourence-link").href = "/occurrence/search";
+    
+    
+    // Create the collections statistics
+    const resultsColl = await Promise.all(
+        institutionKeys.map(institutionKey => fetchData("https://api.gbif.org/v1/grscicoll/collection?institutionKey=" + institutionKey))
+    );
+    sum = 0;
+    resultsColl.forEach((elem, i) => {
+        if(elem && typeof elem !== "undefined") {
+            sum += elem;
+        }
+    });
+    document.getElementById("feature-collections").innerHTML = new Intl.NumberFormat("da-DK").format(sum);
+    document.getElementById("feature-collections-link").href = "/collection/search";
+    
+    // Create the publications statistics
+    const resultsPubs = await Promise.all(
+        datasetKeys.map(datasetKey => fetchData("https://api.gbif.org/v1/literature/search?gbifDatasetKey=" + datasetKey))
+    );
+    sum = 0;
+    resultsPubs.forEach((elem, i) => {
+        if(elem && typeof elem !== "undefined") {
+            sum += elem;
+        }
+    });
+    document.getElementById("feature-citations").innerHTML = new Intl.NumberFormat("da-DK").format(sum);
+    document.getElementById("feature-citations-link").href = "/literature/search";
 }
