@@ -15,10 +15,11 @@ async function fetchData(url){
 //https://techdocs.gbif.org/en/openapi/
 async function loadStats() {
     const urls = [
-        { id: "feature-datasets",  url: "https://api.gbif.org/v1/dataset" },
-        { id: "feature-collections", url: "https://api.gbif.org/v1/grscicoll/collection" },
-        //{ id: "feature-citations", url: "https://api.gbif.org/v1/literature/search?gbifDatasetKey=f506ae89-e503-414a-9e4c-fefee5b5a07b" }
+        { id: "feature-datasets",  url: "https://api.gbif.org/v1/dataset", link: "/dataset/search" },
+        { id: "feature-collections", url: "https://api.gbif.org/v1/grscicoll/collection" , link: "/collection/search"},
+        //{ id: "feature-citations", url: "https://api.gbif.org/v1/literature/search?gbifDatasetKey=f506ae89-e503-414a-9e4c-fefee5b5a07b", link: "" }
     ];
+    
     
     const datasetKeys = [
         'f506ae89-e503-414a-9e4c-fefee5b5a07b', // NHMD Amber
@@ -51,6 +52,7 @@ async function loadStats() {
         
         if(data && typeof data.count !== "undefined") {
             element.innerHTML = new Intl.NumberFormat("da-DK").format(data.count);
+            document.getElementById(urls[i].id + "-link").href = urls[i].link
         } else {
             element.innerHTML = "Unavailable";
         }
