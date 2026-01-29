@@ -59,12 +59,15 @@ async function loadStats() {
         }
             
     });
-
-    const occourence = await fetchData("https://api.gbif.org/v1/occurrence/count?datasetKey=f506ae89-e503-414a-9e4c-fefee5b5a07b");
-    if(occourence && typeof occourence !== "undefined") {
-            document.getElementById("feature-occourence").innerHTML = new Intl.NumberFormat("da-DK").format(occourence);
-            document.getElementById("feature-occourence-link").href = "/occurrence/search";
-        } else {
-            document.getElementById("feature-occourence").innerHTML = "Unavailable";
+    
+    // Create the specimen occurrence statistics
+    let sum = 0;
+    datasetKeys.forEach(elem, i) => {
+        const occourrence = await fetchData("https://api.gbif.org/v1/occurrence/count?datasetKey=" + elem);
+        if(occourrence && typeof occourrence !== "undefined") {
+            sum += occurrence;
         }
+    }
+    document.getElementById("feature-occourence").innerHTML = new Intl.NumberFormat("da-DK").format(sum);
+    document.getElementById("feature-occourence-link").href = "/occurrence/search";
 }
