@@ -21,6 +21,7 @@ async function loadStats() {
     ];
     
     
+    // Remember to also change the list in _includes/js/config.js
     const datasetKeys = [
         'f506ae89-e503-414a-9e4c-fefee5b5a07b', // NHMD Amber
         'acf5050c-3a41-4345-a660-652cb9462379', // NHMD Biocultural Botany
