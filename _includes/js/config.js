@@ -16,7 +16,7 @@ var institutionKeys = [
     '44e7a331-0270-4c39-ad64-91c0d8416480',
 ];
 
-const datasetKeys = [
+var datasetKeys = [
     'f506ae89-e503-414a-9e4c-fefee5b5a07b', // NHMD Amber
     'acf5050c-3a41-4345-a660-652cb9462379', // NHMD Biocultural Botany
     '5b5305ae-35d1-4992-9d1a-f447db84b471', // NHMD Danekrae
@@ -201,15 +201,15 @@ var siteConfig = {
     "literatureSearch": {
         "scope": {
             "type": "in",
-            /*"key": "datasetKey",
+            "key": "datasetKey",
             "values": datasetKeys
-            */
-            "key": "publishingOrganizationKey",
+            /*"key": "publishingOrganizationKey",
             "values": [
                 "760d5f24-4c04-40da-9646-1b2c935da502",
                 "2e7df380-8356-4533-bcb3-5459e23c794e",
                 "8e1a97a0-3ca8-11d9-8439-b8a03c50a862"
             ]
+            */
         }
     }
 }
