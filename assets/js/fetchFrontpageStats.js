@@ -102,7 +102,7 @@ async function loadStats() {
     document.getElementById("feature-collections-link").href = "/collection/search";
     
     // Create the publications statistics
-/*    const resultsPubs = await Promise.all(
+    const resultsPubs = await Promise.all(
         datasetKeys.map(datasetKey => fetchData("https://api.gbif.org/v1/literature/search?gbifDatasetKey=" + datasetKey))
     );
     sum = 0;
@@ -111,6 +111,6 @@ async function loadStats() {
             sum += elem.count;
         }
     });
-    document.getElementById("feature-citations").innerHTML = new Intl.NumberFormat("da-DK").format(sum); */
+    document.getElementById("feature-citations").innerHTML = new Intl.NumberFormat("da-DK").format(sum);
     document.getElementById("feature-citations-link").href = "/literature/search";
 }
