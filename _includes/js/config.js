@@ -204,10 +204,10 @@ var siteConfig = {
     "literatureSearch": {
         "scope": {
             "type": "in",
-            /*"key": "datasetKey",
-            "values": datasetKeys*/
-            "key": "publishingOrganizationKey",
-            "values": publisherKeys,
+            "key": "gbifDatasetKey",
+            "values": datasetKeys,
+            /*"key": "publishingOrganizationKey",
+            "values": publisherKeys,*/
         }
     }
 }

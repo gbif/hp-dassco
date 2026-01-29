@@ -13,13 +13,7 @@ async function fetchData(url){
 
 //Read about the api here
 //https://techdocs.gbif.org/en/openapi/
-async function loadStats() {
-    /*const urls = [
-        { id: "feature-datasets",  url: "https://api.gbif.org/v1/dataset", link: "/dataset/search" },
-        //{ id: "feature-collections", url: "https://api.gbif.org/v1/grscicoll/collection" , link: "/collection/search"},
-        //{ id: "feature-citations", url: "https://api.gbif.org/v1/literature/search?gbifDatasetKey=f506ae89-e503-414a-9e4c-fefee5b5a07b", link: "" }
-    ];
-    */
+async function loadStats() {   
     
     // Remember to also change the list in _includes/js/config.js
     const institutionKeys = [
@@ -50,23 +44,6 @@ async function loadStats() {
         '6b524ea4-2593-49de-8e38-cbd87965265b', // NHMA Vertebrate
         '833db434-f762-11e1-a439-00145eb45e9a', // AU herbarium
     ];
-
-    /*
-    const results = await Promise.all(
-        urls.map(endpoint => fetchData(endpoint.url))
-    );
-    results.forEach((data, i) => {
-        const element = document.getElementById(urls[i].id);
-        
-        if(data && typeof data.count !== "undefined") {
-            element.innerHTML = new Intl.NumberFormat("da-DK").format(data.count);
-            document.getElementById(urls[i].id + "-link").href = urls[i].link
-        } else {
-            element.innerHTML = "Unavailable";
-        }
-            
-    });
-    */
     
     
     // Infer the count of datasets from the datasetKeys array
@@ -102,7 +79,7 @@ async function loadStats() {
     document.getElementById("feature-collections-link").href = "/collection/search";
     
     // Create the publications statistics
-    const resultsPubs = await Promise.all(
+    /*const resultsPubs = await Promise.all(
         datasetKeys.map(datasetKey => fetchData("https://api.gbif.org/v1/literature/search?gbifDatasetKey=" + datasetKey))
     );
     sum = 0;
@@ -112,5 +89,5 @@ async function loadStats() {
         }
     });
     document.getElementById("feature-citations").innerHTML = new Intl.NumberFormat("da-DK").format(sum);
-    document.getElementById("feature-citations-link").href = "/literature/search";
+    document.getElementById("feature-citations-link").href = "/literature/search";*/
 }
