@@ -206,8 +206,6 @@ var siteConfig = {
             "type": "in",
             "key": "gbifDatasetKey",
             "values": datasetKeys,
-            /*"key": "publishingOrganizationKey",
-            "values": publisherKeys,*/
         }
     }
 }

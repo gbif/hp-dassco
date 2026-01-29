@@ -79,6 +79,7 @@ async function loadStats() {
     document.getElementById("feature-collections-link").href = "/collection/search";
     
     // Create the publications statistics
+    // Currently does not because of an error in the GBIF API. 
     /*const resultsPubs = await Promise.all(
         datasetKeys.map(datasetKey => fetchData("https://api.gbif.org/v1/literature/search?gbifDatasetKey=" + datasetKey))
     );
