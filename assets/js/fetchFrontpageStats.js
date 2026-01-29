@@ -69,6 +69,11 @@ async function loadStats() {
     */
     
     
+    // Infer the count of datasets from the datasetKeys array
+    document.getElementById("feature-datasets").innerHTML = new Intl.NumberFormat("da-DK").format(datasetKeys.length);
+    document.getElementById("feature-datasets-link").href = "/dataset/search";
+    
+    
     // Create the specimen occurrence statistics
     const resultsDatasets = await Promise.all(
         datasetKeys.map(datasetKey => fetchData("https://api.gbif.org/v1/occurrence/count?datasetKey=" + datasetKey))
@@ -106,7 +111,6 @@ async function loadStats() {
             sum += elem.count;
         }
     });
-    document.getElementById("feature-citations").innerHTML = new Intl.NumberFormat("da-DK").format(sum);
+    document.getElementById("feature-citations").innerHTML = new Intl.NumberFormat("da-DK").format(sum); */
     document.getElementById("feature-citations-link").href = "/literature/search";
-    */
 }
