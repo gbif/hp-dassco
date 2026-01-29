@@ -121,7 +121,7 @@ var siteConfig = {
         "scope": {
             "type": "in",
             "key": "datasetKey",
-            "values": datasetKeys
+            "values": datasetKeys,
             /*"key": "publishingOrg",
             "values": [
                 "760d5f24-4c04-40da-9646-1b2c935da502",
@@ -182,11 +182,12 @@ var siteConfig = {
     },
     "institutionSearch": {},
     "datasetSearch": {
-        excludedFilters: ['publishingCountry', 'networkKey', 'projectId', 'hostingOrg'],
-        highlightedFilters: ['q', 'type', 'publishingOrg', 'license'],
-        defaultTableColumns: ['title', 'description', 'publisher', 'type', 'occurrenceCount', 'literatureCount'],
-        scope: {
-            publishingOrg: publisherKeys
+        "excludedFilters": ['publishingCountry', 'networkKey', 'projectId', 'hostingOrg'],
+        "highlightedFilters": ['q', 'type', 'publishingOrg', 'license'],
+        "defaultTableColumns": ['title', 'description', 'publisher', 'type', 'occurrenceCount', 'literatureCount'],
+        "scope": {
+            "type": "in",
+            "publishingOrg": publisherKeys,
         },
     },
     "publisherSearch": {
