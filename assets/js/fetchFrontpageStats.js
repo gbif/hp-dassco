@@ -60,11 +60,13 @@ async function loadStats() {
     });
     
     // Create the specimen occurrence statistics
+    const resultsDatasets = await Promise.all(
+        datasetKeys.map(datasetKey => fetchData("https://api.gbif.org/v1/occurrence/count?datasetKey=" + datasetKey))
+    );
     let sum = 0;
-    datasetKeys.forEach((elem, i) => {
-        const occourrence = await fetchData("https://api.gbif.org/v1/occurrence/count?datasetKey=" + elem);
-        if(occourrence && typeof occourrence !== "undefined") {
-            sum += occurrence;
+    resultsDatasets.forEach((elem, i) => {
+        if(elem && typeof elem !== "undefined") {
+            sum += elem;
         }
     });
     document.getElementById("feature-occourence").innerHTML = new Intl.NumberFormat("da-DK").format(sum);
