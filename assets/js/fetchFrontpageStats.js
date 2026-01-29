@@ -47,7 +47,6 @@ async function loadStats() {
     const results = await Promise.all(
         urls.map(endpoint => fetchData(endpoint.url))
     );
-
     results.forEach((data, i) => {
         const element = document.getElementById(urls[i].id);
         
@@ -62,12 +61,12 @@ async function loadStats() {
     
     // Create the specimen occurrence statistics
     let sum = 0;
-    datasetKeys.forEach(elem, i) => {
+    datasetKeys.forEach((elem, i) => {
         const occourrence = await fetchData("https://api.gbif.org/v1/occurrence/count?datasetKey=" + elem);
         if(occourrence && typeof occourrence !== "undefined") {
             sum += occurrence;
         }
-    }
+    });
     document.getElementById("feature-occourence").innerHTML = new Intl.NumberFormat("da-DK").format(sum);
     document.getElementById("feature-occourence-link").href = "/occurrence/search";
 }
