@@ -182,12 +182,12 @@ var siteConfig = {
     },
     "institutionSearch": {},
     "datasetSearch": {
-        "excludedFilters": ['publishingCountry', 'networkKey', 'projectId', 'hostingOrg'],
-        "highlightedFilters": ['q', 'type', 'publishingOrg', 'license'],
-        "defaultTableColumns": ['title', 'description', 'publisher', 'type', 'occurrenceCount', 'literatureCount'],
-        "scope": {
-            "type": "in",
-            "publishingOrg": publisherKeys,
+        excludedFilters: ['publishingCountry', 'networkKey', 'projectId', 'hostingOrg'],
+        highlightedFilters: ['q', 'type', 'publishingOrg', 'license'],
+        defaultTableColumns: ['title', 'description', 'publisher', 'type', 'occurrenceCount', 'literatureCount'],
+        scope: {
+            //"type": "in",
+            publishingOrg: publisherKeys,
         },
     },
     "publisherSearch": {
