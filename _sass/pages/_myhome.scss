@@ -108,7 +108,6 @@
 
 .what-is-dassco-container {
   text-align: center;
-  // PERNILLE: ÆNDRE FARVEN PÅ BOKSENE HER NEDEN UNDER
   background-color: rgba(250, 129, 40, 0.2);
   border-radius: 1rem;
   box-shadow: 0px 10px 60px 0px rgba(1, 33, 92, 0.1);
@@ -223,76 +222,36 @@
       font-weight: 500;
     }
 
-    .dodo-images {
+    .dodo-compare-images {
       position: relative;
-      width: 100%;
-      aspect-ratio: 4 / 3;
-      overflow: hidden;
-      user-select: none;
-      cursor: ew-resize; 
+      height: 450px;
     }
 
-    .dodo {
+    .dodo-image {
       position: absolute;
-      inset: 0;
+      height: auto;
+      width: auto;
+      overflow: hidden;
 
       img {
-        position: absolute;
-        inset: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+        display: block;
+        aspect-ratio: auto 16 / 10;
+        height: 450px;
+        width: 720px;
+        max-width: none;
       }
     }
 
-    .dodo-before {
-      clip-path: inset(0 50% 0 0);
-    }
-
-    .dodo-slider {
+    .img-comp-slider {
       position: absolute;
-      bottom: 1rem;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 80%;
-      z-index: 10;
-    }
-
-    .image-before-wrapper {
-      position: absolute;
-      inset: 0;
-      width: 50%;
-      overflow: hidden;
-    }
-
-    .slider-handle {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      z-index: 5;
-      display: flex;
-      align-items: center;
-      pointer-events: none;
-    }
-
-    .handle-line {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      width: 2px;
-      background: white;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-
-    .handle-circle {
+      z-index: 9;
+      cursor: ew-resize;
+      /*set the appearance of the slider:*/
       width: 40px;
       height: 40px;
+      background-color: #2196F3;
+      opacity: 0.7;
       border-radius: 50%;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-      border: solid 3px white;
     }
   }
 }
