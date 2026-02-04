@@ -16,7 +16,7 @@ function initComparisons() {
     img.style.width = (w / 2) + "px";
     /* Create slider: */
     slider = document.createElement("DIV");
-    slider.setAttribute("class", "img-comp-slider");
+    slider.setAttribute("class", "dodo-comp-slider");
     /* Insert slider */
     img.parentElement.insertBefore(slider, img);
     /* Position the slider in the middle: */

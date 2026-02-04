@@ -23,6 +23,10 @@
         border-radius: 10px;
         text-align: left;
     }
+
+    .illustration {
+        display: grid;
+    }
 }
 
 @media (min-width: 600px) {

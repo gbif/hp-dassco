@@ -51,7 +51,7 @@
   padding: 0;
 
   .container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
@@ -65,7 +65,7 @@
 
 .stat-logo {
   max-width: 75%;
-  max-height: 50px;
+  max-height: 35px;
 }
 
 .feature-content {
@@ -96,10 +96,6 @@
   }
 }
 /* What is Dassco */
-.what-is-dassco {
-
-}
-
 .what-is-dassco-main {
   .button {
     justify-self: left;
@@ -108,9 +104,10 @@
 
 .what-is-dassco-container {
   text-align: center;
-  background-color: rgba(250, 129, 40, 0.2);
+  background-color: var(--color-background-lightblue);
   border-radius: 1rem;
   box-shadow: 0px 10px 60px 0px rgba(1, 33, 92, 0.1);
+  border:  1px solid #d9d9d9;
 
   h3 {
     font-size: 1.25rem;
@@ -119,13 +116,13 @@
   }
 
   p {
-    color: var(--color-grey);
+    color: var(--color-darkgrey);
   }
 }
 
 /* News and Stories */
 .news-and-stories {
-    background-color: var(--color-background-lightblue);
+    background-color: var(--color-background-lightorange);
 }
 
 .news-and-stories-content {
@@ -133,10 +130,6 @@
   .news-and-stories-logos {
     display: inline-block;
   }
-}
-
-.news-and-stories-main {
-
 }
 
 .news-and-stories-header {
@@ -167,10 +160,6 @@
   p {
     color: var(--color-grey);
   }
-}
-
-.news-and-stories-news {
-
 }
 
 .news-and-stories-news-block {
@@ -211,7 +200,10 @@
 
   .dodo-box {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+
+    .dodo-text {
+      align-content: start;
+    }
 
     h3 {
       color: var(--color-darkgrey);
@@ -224,7 +216,7 @@
 
     .dodo-compare-images {
       position: relative;
-      height: 450px;
+      height: clamp(180px, 30vw, 450px);
     }
 
     .dodo-image {
@@ -236,22 +228,57 @@
       img {
         display: block;
         aspect-ratio: auto 16 / 10;
-        height: 450px;
-        width: 720px;
+        height: clamp(180px, 30vw, 450px);
+        width: auto;
         max-width: none;
       }
     }
 
-    .img-comp-slider {
+    .dodo-comp-slider {
       position: absolute;
       z-index: 9;
       cursor: ew-resize;
       /*set the appearance of the slider:*/
-      width: 40px;
-      height: 40px;
-      background-color: #2196F3;
-      opacity: 0.7;
-      border-radius: 50%;
+      height: 38px;
+      width: 38px;
+      left: 50%;
+      top: 50%;
+      border: 3px solid #fff;
+      border-radius: 100px;
+      -webkit-box-shadow: 0 0 12px rgba(51, 51, 51, .5);
+      box-shadow: 0 0 12px rgba(51, 51, 51, .5);
+    }
+
+    .dodo-comp-slider::before {
+      bottom: 50%;
+      margin-bottom: 22px;
+      -webkit-box-shadow: 0 3px 0 #fff, 0 0 12px rgba(51, 51, 51, .5);
+      box-shadow: 0 3px 0 #fff, 0 0 12px rgba(51, 51, 51, .5);
+      width: 3px;
+      height: calc(-22px + clamp(180px, 30vw, 450px)/2);
+      left: 50%;
+      transform: translateX(-50%);
+      content: " ";
+      display: block;
+      background: #fff;
+      position: absolute;
+      z-index: 30;
+    }
+
+    .dodo-comp-slider::after {
+      top: 50%;
+      margin-top: 22px;
+      -webkit-box-shadow: 0 -3px 0 #fff, 0 0 12px rgba(51, 51, 51, .5);
+      box-shadow: 0 -3px 0 #fff, 0 0 12px rgba(51, 51, 51, .5);
+      width: 3px;
+      height: calc(-22px + clamp(180px, 30vw, 450px)/2);
+      left: 50%;
+      transform: translateX(-50%);
+      content: " ";
+      display: block;
+      background: #fff;
+      position: absolute;
+      z-index: 30;
     }
   }
 }
@@ -267,6 +294,9 @@
 }
 
 .partners-slider {
+  display: grid;
+  min-height: 15rem;
+  align-items: center;
   width: 100%;
   overflow-x: hidden;
   white-space: nowrap;
@@ -306,11 +336,10 @@
         font-size: 4rem;
     }
   }
+
   /* statistics */
-  .statistics {
-    .container {
-      grid-template-columns: 1fr 1fr 1fr;
-    }
+  .stat-logo {
+    max-height: 50px;
   }
 
   /* What is Dassco */
@@ -342,11 +371,6 @@
 @media (min-width: 1024px) {
 
   /* statistics */
-  .statistics {
-    .container {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-  }
 
   /* What is Dassco */
   .what-is-dassco-main {
@@ -362,6 +386,12 @@
     grid-template-columns: 1fr;
   }
 
+  /* Dodo */
+  .dodo {
+    .dodo-box {
+      grid-template-columns: 1fr 2fr;
+    }
+  }
   /* Partners */
   .partners-track {
     animation: 25s scroll infinite linear;
