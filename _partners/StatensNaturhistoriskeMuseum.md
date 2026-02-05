@@ -8,5 +8,5 @@ altImageText:
     en: Denmark Natural History museum logo
 link: https://snm.dk/da
 order: 1
-text: Skriv teksten her
+text: Natural History Museum Denmark leads the DaSSCo programme and sets the direction for how Denmark’s natural history collections are digitised at scale. The museum contributes with major scientific collections and deep experience with collection management. This helps develop common standards so different institutions can work together smoothly and turn physical specimens into structured digital data that can move through the national infrastructure.
 ---
