@@ -8,5 +8,5 @@ altImageText:
     en: Aarhus University's logo
 link: https://www.au.dk/
 order: 3
-text: Science Museums Aarhus University contributes with key scientific collections including major botanical holdings. The institution supports the practical side of DaSSCo's digitisation by digitising collection data into the shared DaSSCo systems.
+text: Science Museums Aarhus University contributes key scientific collections to the DaSSCo programme, including major botanical holdings in its herbarium. The institution supports the practical side of DaSSCo’s digitisation work by preparing and digitising collection data, so it can be integrated into the shared DaSSCo systems and infrastructure.
 ---
