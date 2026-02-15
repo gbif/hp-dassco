@@ -153,7 +153,7 @@ layout: base
         <h2>Data details</h2>
         <p>We are at the beginning of our digitisation journey. Find data here.</p>
         
-        <div class="dodo-box">
+        <div class="dodo-box gap">
             <div class="gap dodo-text">
                 <h3>The Dodo goes Digital</h3>
                 <p>The only complete surviving modern skull of a dodo in the world is digitised by DaSSCo.</p>
@@ -163,27 +163,25 @@ layout: base
                             target="_blank" rel="noopener noreferrer"
                         >here</a>
                 .</p>
+                <div class="button">
+                    <a href="">Find more data details</a>
+                </div>
             </div>
             <div class="dodo-compare-images" id="dodo-compare">
                 <div class="dodo-image">
                     <img
-                        class=""
                         src="{{ '/assets/images/frontpage/DODO-after.png' | relative_url }}"
-                        alt="Digitised dodo skull"
+                        alt="Digitised scanning of a dodo skull"
                     >
                 </div>
                 <!-- <div class="dodo-comp-slider"></div> -->
                 <div class="dodo-image dodo-image-overlay">
                     <img
-                        class=""
                         src="{{ '/assets/images/frontpage/DODO-before.png' | relative_url }}"
-                        alt="Digitised dodo skull"
+                        alt="Digital recreation of how this dodo would have looked like"
                     >
                 </div>
             </div>
-        </div>
-        <div class="button">
-            <a href="">Find more data details</a>
         </div>
     </div>
 </section>
@@ -196,11 +194,13 @@ layout: base
             {% for partner in site.partners %}
                 <a href="{{ partner.link }}" target="_blank" rel="noopener noreferrer"><img src="{{ partner.image | relative_url }}" alt="{{ partner.altImageText[page.lang] }}"></a>
              {% endfor %}
+                <a href="https://www.ku.dk/" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/images/partnerLogos/ku_logo_uk_v.png' | relative_url }}" alt="logo of Copenhagen University"></a>
             
             <!-- Duplicate for infinite scroll effect -->
              {% for partner in site.partners %}
                 <a href="{{ partner.link }}" target="_blank" rel="noopener noreferrer"><img src="{{ partner.image | relative_url }}" alt="{{ partner.altImageText[page.lang] }}"></a>
              {% endfor %}
+                <a href="https://www.ku.dk/" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/images/partnerLogos/ku_logo_uk_v.png' | relative_url }}" alt="logo of Copenhagen University"></a>
         </div>
     </div>
 </section>
@@ -208,3 +208,4 @@ layout: base
 <script src="{{ '/assets/js/fetchFrontpageStats.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/frontPageHeroImageSlideshow.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/frontPageDodoSlider.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/PartnersCarousel.js' | relative_url }}"></script>

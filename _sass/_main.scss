@@ -244,6 +244,8 @@ footer {
 
 .footer-content {
   text-align: center;
+  display: grid;
+  gap: 1.5rem;
 }
 
 .dassco-logo {
@@ -251,6 +253,9 @@ footer {
 }
 
 .dassco-links {
+  display: grid;
+  gap: 0.5rem;
+  align-self: start;
 
     h2 {
       color: var(--color-darkgrey);
@@ -265,6 +270,9 @@ footer {
 }
 
 .dassco-contact {
+  display: grid;
+  gap: 0.5rem;
+  align-self: start;
 
     h2 {
       color: var(--color-darkgrey);
@@ -275,6 +283,11 @@ footer {
     p {
       color: var(--color-grey);
       font-weight: 500;
+    }
+
+    .dassco-contact-email {
+      color: var(--color-grey);
+      font-weight: 800;
     }
 }
 
@@ -313,6 +326,14 @@ footer {
   .footer-content {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  .dassco-links {
+    gap: 1rem;
+  }
+
+  .dassco-contact {
+    gap: 1rem;
+  }
 }
 
 /* Desktop */
@@ -337,7 +358,6 @@ footer {
   .top-background-image {
     min-height: 25rem;
   }
-
 }
 
 @media (prefers-color-scheme: light) {
