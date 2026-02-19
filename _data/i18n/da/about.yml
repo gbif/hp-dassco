@@ -1,28 +1,12 @@
-title: About Us
+title: Om Os
 
 what:
-  title: What is Dassco
-  text: DaSSCo is a national program to digitise all of Denmark&#8217;s natural history specimens. DaSSCo, 
-        started in September 2021 as a result of a 50 million kroner grant from the Danish Ministry of Higher Education and Science. 
-        Our focus for the first 5 years is to build the infrastructure to support mass digitisation at a national scale. This 
-        includes building up our teams and expertise on a range of natural history objects. Although we won&#8217;t be fully operational until 2026, we have 
-        already started digitising as we test our developing workflows. DaSSCo is committed to the wider goals of open access and sharing our developing expertise, solutions 
-        and software. DaSSCo is part of Pan-European research infrastructure, DiSSCo. DiSSCo involves 120 institutions in 21 countries and will create a virtual, digital 
-        research infrastructure uniting European Science Collections &#8211; thereby making approximately 1.5 billion objects accessible for everyone.
+  title: Hvad er DaSSCo
+  text: DaSSCo er et nationalt program, der skal digitalisere alle Danmarks naturhistoriske samlinger. DaSSCo blev startet i september 2021 som følge af en bevilling på 50 millioner kroner fra Uddannelses- og Forskningsministeriet. Vores fokus i de første fem år er at opbygge den infrastruktur, der kan understøtte masse­digitalisering på nationalt niveau. Dette omfatter opbygning af teams og ekspertise inden for en bred vifte af naturhistoriske genstande. DaSSCo er forpligtet til at fremme åben adgang og dele vores voksende ekspertise, løsninger og software. DaSSCo er en del af den paneuropæiske forskningsinfrastruktur Distributed System of Scientific Collections (DiSSCo), som involverer 120 institutioner i 21 lande og vil skabe en virtuel, digital forskningsinfrastruktur, der samler Europas videnskabelige samlinger – og dermed gør cirka 1,5 milliarder objekter tilgængelige for alle.
+
 why:
-  title: Why Dassco
-  text: The unequal physical distribution of scientific collections worldwide limits access to valuable information. In this digital age DaSSCo 
-        will make digital versions of the specimens widely available for everyone, promoting a better understanding of Earth's ecosystems and 
-        addressing critical questions within global challenges such as climate change and pandemics. In addition to their scientific value, natural 
-        history specimens are an important part of Danish national heritage. Digitisation creates archivable digital surrogates of the physical 
-        specimens. This helps reduce the need for physically handling the specimens, and the associated risk of damage. Digitisation thus 
-        helps protect this important resource for future generations. DaSSCo's mission aligns with global goals, EU policies, and the Danish 
-        Government's vision. The consortium's combined collections hold 19 million botanical, geological, zoological specimens and historical 
-        artifacts collected over 400 years. They showcase the Earth&#8217;s natural heritage and have global significance.
+  title: Hvorfor DaSSCo
+  text: Den ulige fysiske fordeling af videnskabelige samlinger på verdensplan begrænser adgangen til værdifuld information. I denne digitale tidsalder vil DaSSCo gøre digitale versioner af prøverne bredt tilgængelige for alle og dermed fremme en bedre forståelse af Jordens økosystemer og bidrage til at besvare centrale spørgsmål i forbindelse med globale udfordringer. Digitalisering skaber digitale repræsentationer af de fysiske genstande, hvilket reducerer behovet for fysisk håndtering og mindsker risikoen for skader. Digitalisering bidrager således til at beskytte denne vigtige ressource for fremtidige generationer. DaSSCos mission er i tråd med globale mål, EU-politikker og den danske regerings vision. Konsortiets samlede samlinger rummer 19 millioner botaniske, geologiske og zoologiske prøver samt historiske artefakter indsamlet over 400 år.
 who:
-  title: Who are we
-  text: DaSSCo is a collaboration between multiple institutions in Denmark. DaSSCo is formed by a consortium of 4 institutions. The Natural 
-        History Museum of Denmark (The University of Copenhagen) is leading the project, in close collaboration with Science Museums Aarhus 
-        University, the Natural History Museum Aarhus and the Technical University of Denmark. The Technical University of Denmark does not 
-        hold any collections but is a technical partner focussing on 3D imaging and processing. In addition to the consortium partners, there 
-        are 6 other natural history institutions in Denmark with which we collaborate.
+  title: Hvem er DaSSCo
+  text: DaSSCo er et samarbejde mellem flere institutioner i Danmark og består af et konsortium af fire institutioner. Statens Naturhistoriske Museum (Københavns Universitet) leder projektet i tæt samarbejde med Science Museerne, Naturhistorisk Museum Aarhus og Danmarks Tekniske Universitet. Danmarks Tekniske Universitet har ikke egne samlinger, men fungerer som teknisk partner med fokus på 3D-billeddannelse og databehandling.
