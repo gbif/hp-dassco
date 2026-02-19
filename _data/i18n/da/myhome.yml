@@ -1,6 +1,6 @@
 hero:
   title: Danish System of Scientific Collections
-  subtitle: Part of the European Project DiSSCo
+  subtitle: En del af det Europæiske projekt DiSSCo
 
 stats:
   loading: Loading...
@@ -10,26 +10,26 @@ stats:
   literature: Litteratur
 
 rubrik:
-  title: Digitising Natural History in Denmark
-  subtitle: We are digitising Denmark&#8217;s estimated 19 million natural specimens. We are committed to sharing our data and knowledge globally so that everyone can benefit.
+  title: Digitalisering af naturhistorie i Danmark
+  subtitle: Vi digitaliserer Danmarks anslåede 19 millioner naturhistoriske genstande. Vi er forpligtet til at dele vores data og viden globalt, så alle kan få gavn af dem.
 
 what-is:
   what:
-    title: What is DaSSCo?
-    text: DaSSCo is a national mass digitisation program and research infrastructure. We are experts in the digitisation of natural history.
+    title: Hvad er DaSSCo?
+    text: DaSSCo er et nationalt masse­digitaliseringsprogram og en forskningsinfrastruktur. Vi er eksperter i digitalisering af naturhistoriske samlinger.
   why:
-    title: Why DaSSCo?
-    text: Denmark's rich natural history collections contain data that can help tackle urgent scientific and societal issues. Our mission is to make that data accessible.
+    title: Hvorfor DaSSCo?
+    text: Danmarks rige naturhistoriske samlinger indeholder data, der kan bidrage til at håndtere presserende videnskabelige og samfundsmæssige udfordringer. Vores mission er at gøre disse data tilgængelige.
   who:
-    title: Who are we?
-    text: DaSSCo is a collaboration between Natural History Museum Denmark, Science Museums Aarhus University, the Natural History Museum Aarhus and the Technical University of Denmark.
-  button-text: Read more about DaSSCo
+    title: Hvem er vi?
+    text: DaSSCo er et samarbejde mellem Statens Naturhistoriske Museum, Science Museerne Aarhus Universitet, Naturhistorisk Museum Aarhus og Danmarks Tekniske Universitet.
+  button-text: Læs mere om DaSSCo
 
 news:
-  title: News and Stories
-  subtitle: Stay updated! Read the latest DaSSCo news here
+  title: Nyheder og Historier
+  subtitle: Hold dig opdateret! Læs de seneste DaSSCo nyheder her!
   so-me:
-    title: Find information on Social Media
-    intro: Want to be updated on the latest news from DaSSCo institutions?
-    description: Check out our institution's Facebook and LinkedIn. They are updated regularly with the latest information.
-    cta: Follow today!
+    title: Find information på sociale medier
+    intro: Vil du være opdateret på de seneste nyheder fra DaSSCo institutioner?
+    description: Tjek vores institutioners Facebook og LinkedIn. De er jævnligt opdateret med ny information. 
+    cta: Følg os i dag! 
