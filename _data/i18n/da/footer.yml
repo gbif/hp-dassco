@@ -1,6 +1,6 @@
 searching:
-  title: Søger du?
-  about: Omkring
+  title: Hvad søger du?
+  about: Om Os
   news: Nyheder og historier
   data: Data
 
@@ -8,4 +8,4 @@ contact:
   title: Kontakt
   email: info@dassco.dk
   address: Gothersgade 130,
-  zip-country: 1123 Copenhagen, Denmark
+  zip-country: 1123 København, Danmark
