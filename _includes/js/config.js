@@ -18,7 +18,8 @@ var institutionKeys = [
 ];
 
 var hostingOrgKeys = [
-  '2e7df380-8356-4533-bcb3-5459e23c794e', // NHMD  
+    '2e7df380-8356-4533-bcb3-5459e23c794e', // NHMD
+    '8e1a97a0-3ca8-11d9-8439-b8a03c50a862', // AU Herbarium
 ];
 
 // Remember to also change the list in assets/js/fetchFrontpageStats.js
