@@ -118,7 +118,7 @@ var siteConfig = {
             "iso3LetterCode": "dan",
             "cmsLocale": "da-DK",   // TODO: Should this be changed to da-DK?
             "gbifOrgLocalePrefix": "",
-            "mapTileLocale": "de"   // TODO: Should this be changed to da?
+            "mapTileLocale": "da"   // TODO: Should this be changed to da?
         }
     ],
     "messages": {},
