@@ -155,8 +155,8 @@ var siteConfig = {
             "catalogNumber",
             "country",
             "year",
-            //"recordedBy",
-            //"identifiedBy"
+            "recordedBy",
+            "identifiedBy"
         ],
         "tabs": [
             "table",
