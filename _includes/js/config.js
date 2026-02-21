@@ -17,6 +17,10 @@ var institutionKeys = [
     '44e7a331-0270-4c39-ad64-91c0d8416480', // AU Herbarium
 ];
 
+var hostingOrgKeys = [
+  '2e7df380-8356-4533-bcb3-5459e23c794e', // NHMD  
+];
+
 // Remember to also change the list in assets/js/fetchFrontpageStats.js
 var datasetKeys = [
     'f506ae89-e503-414a-9e4c-fefee5b5a07b', // NHMD Amber
@@ -188,7 +192,8 @@ var siteConfig = {
         defaultTableColumns: ['title', 'description', 'publisher', 'type', 'occurrenceCount', 'literatureCount'],
         scope: {
             //"type": "in",
-            publishingOrg: publisherKeys,
+            //publishingOrg: publisherKeys,
+            hostingOrg: hostingOrgKeys,
         },
     },
     "publisherSearch": {
@@ -206,6 +211,7 @@ var siteConfig = {
             "type": "in",
             "key": "gbifDatasetKey",
             "values": datasetKeys,
-        }
+        },
+        //defaultTableColumns: ['title', 'description', 'publisher', 'type', 'occurrenceCount', 'literatureCount'],
     }
 }
