@@ -112,9 +112,9 @@ var siteConfig = {
             "default": false,
             "textDirection": "ltr",
             "iso3LetterCode": "dan",
-            "cmsLocale": "en-GB",
+            "cmsLocale": "en-GB",   // TODO: Should this be changed to da-DK?
             "gbifOrgLocalePrefix": "",
-            "mapTileLocale": "en"
+            "mapTileLocale": "en"   // TODO: Should this be changed to da?
         }
     ],
     "messages": {},
@@ -136,8 +136,8 @@ var siteConfig = {
             "institutionKey",
             "collectionKey",
             "catalogNumber",
-            "recordedBy",
-            "identifiedBy"
+            //"recordedBy",
+            //"identifiedBy"
         ],
         "excludedFilters": [
             "occurrenceStatus",
@@ -155,15 +155,15 @@ var siteConfig = {
             "catalogNumber",
             "country",
             "year",
-            "recordedBy",
-            "identifiedBy"
+            //"recordedBy",
+            //"identifiedBy"
         ],
         "tabs": [
             "table",
             "gallery",
             "map",
-            "clusters",
-            "dashboard",
+            //"clusters",
+            //"dashboard",
             "download"
         ],
         "mapSettings": {

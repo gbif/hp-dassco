@@ -78,8 +78,12 @@ async function loadStats() {
     document.getElementById("feature-collections").innerHTML = new Intl.NumberFormat("da-DK").format(sum);
     document.getElementById("feature-collections-link").href = "/collection/search";
     
+    // TODO: Maybe add stats on number of imaged specimens, if possible.
+    
+    
     // Create the publications statistics
     // Currently does not because of an error in the GBIF API. 
+    // See https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS/Errors/CORSMissingAllowOrigin?utm_source=devtools&utm_medium=firefox-cors-errors&utm_campaign=default
     /*const resultsPubs = await Promise.all(
         datasetKeys.map(datasetKey => fetchData("https://api.gbif.org/v1/literature/search?gbifDatasetKey=" + datasetKey))
     );
