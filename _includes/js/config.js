@@ -5,8 +5,8 @@ var siteTheme = gbifReactComponents.themeBuilder.extend({
 });
 
 var publisherKeys = [
-    '760d5f24-4c04-40da-9646-1b2c935da502', // NHMA
     '2e7df380-8356-4533-bcb3-5459e23c794e', // NHMD
+    '760d5f24-4c04-40da-9646-1b2c935da502', // NHMA
     '8e1a97a0-3ca8-11d9-8439-b8a03c50a862', // AU Herbarium
 ];
 
@@ -19,7 +19,6 @@ var institutionKeys = [
 
 var hostingOrgKeys = [
     '2e7df380-8356-4533-bcb3-5459e23c794e', // NHMD
-    '8e1a97a0-3ca8-11d9-8439-b8a03c50a862', // AU Herbarium
 ];
 
 // Remember to also change the list in assets/js/fetchFrontpageStats.js
@@ -191,11 +190,32 @@ var siteConfig = {
         excludedFilters: ['publishingCountry', 'networkKey', 'projectId', 'hostingOrg'],
         highlightedFilters: ['q', 'type', 'publishingOrg', 'license'],
         defaultTableColumns: ['title', 'description', 'publisher', 'type', 'occurrenceCount', 'literatureCount'],
-        scope: {
-            //"type": "in",
-            //publishingOrg: publisherKeys,
-            hostingOrg: hostingOrgKeys,
+        rootPredicate: {
+            "type": "or",
+            "predicates": [
+                {
+                    "type": "in",
+                    "key": "hostingOrg",
+                    "values": ["2e7df380-8356-4533-bcb3-5459e23c794e"], // NHMD
+                },
+                {
+                    "type": "in",
+                    "key": "publishingOrg",
+                    "values": ["760d5f24-4c04-40da-9646-1b2c935da502"], // NHMA
+                },
+,
+                {
+                    "type": "in",
+                    "key": "publishingOrg",
+                    "values": ["8e1a97a0-3ca8-11d9-8439-b8a03c50a862"], // AU
+                },
+            ],
         },
+//        scope: {
+//            //"type": "in",
+//            //publishingOrg: publisherKeys,
+//            hostingOrg: hostingOrgKeys,
+//        },
     },
     "publisherSearch": {
         "scope": {
