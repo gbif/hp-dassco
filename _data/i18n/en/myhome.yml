@@ -33,3 +33,12 @@ news:
     intro: Want to be updated on the latest news from DaSSCo institutions?
     description: Check out our institution's Facebook and LinkedIn. They are updated regularly with the latest information.
     cta: Follow today!
+
+dodo:
+  title: Data
+  subtitle: We are at the beginning of our digitisation journey. Find data here.
+  teaser: The Dodo goes Digital
+  upper-text: The only complete surviving modern skull of a dodo in the world is digitised by DaSSCo.
+  lower-text: You can see the illustration of how the bird looked when alive versus now. This rare and famous specimen is now available for the entire world to examine and learn from through our data
+  link-text: here
+  button-text: Find more data

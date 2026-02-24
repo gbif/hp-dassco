@@ -26,6 +26,13 @@ div:has(> section.contact){
 
     .contact-wrapper {
         display: grid;
+
+        .contact-text {
+
+            .contact-email {
+                font-weight: 700;
+            }
+        }
     }
 }
 

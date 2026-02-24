@@ -32,4 +32,13 @@ news:
     title: Find information på sociale medier
     intro: Vil du være opdateret på de seneste nyheder fra DaSSCo institutioner?
     description: Tjek vores institutioners Facebook og LinkedIn. De er jævnligt opdateret med ny information. 
-    cta: Følg os i dag! 
+    cta: Følg os i dag!
+
+dodo:
+  title: Data
+  subtitle: Vi er i begyndelsen af vores digitaliseringsrejse. Find data her.
+  teaser: Dodoen går digitalt
+  upper-text: Det eneste fuldt bevarede, moderne kranium af en dodo i verden er blevet digitaliseret af DaSSCo.
+  lower-text: Du kan se en illustration af, hvordan fuglen så ud, da den levede, sammenlignet med hvordan den fremstår i dag. Dette sjældne og berømte eksemplar er nu tilgængeligt for hele verden, så alle kan undersøge og lære af det igennem vores data
+  link-text: her
+  button-text: Find mere data

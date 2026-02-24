@@ -1,0 +1,58 @@
+{% assign t = site.data.i18n[page.lang].cookies %}
+<div id="cookie-banner"
+     style="position:fixed;left:0;right:0;bottom:0;z-index:9999;
+            padding:16px 18px;background:#111;color:#fff;font-size:14px;line-height:1.35;">
+  <div style="max-width:1100px;margin:0 auto;display:flex;gap:12px;align-items:center;flex-wrap:wrap;">
+    <div style="flex:1;min-width:260px;">
+      {{ t.before-link-text }}
+      <a href="{{ site.cookie_policy_url | default: '/legal/' }}"
+         style="color:#9ad; text-decoration:underline;">
+        {{ t.link }}
+      </a>
+      {{ t.after-link-text }}
+    </div>
+
+    <div style="display:flex;gap:10px;align-items:center;">
+      <button id="cookie-accept"
+              style="cursor:pointer;border:0;border-radius:6px;padding:10px 14px;font-weight:600;">
+        {{ t.accept }}
+      </button>
+      <button id="cookie-reject"
+              style="cursor:pointer;border:1px solid #fff;background:transparent;color:#fff;border-radius:6px;
+                     padding:10px 14px;font-weight:600;">
+        {{ t.reject }}
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  const banner = document.getElementById('cookie-banner');
+  const btnAccept = document.getElementById('cookie-accept');
+  const btnReject = document.getElementById('cookie-reject');
+
+  function hideBanner() { banner.style.display = 'none'; }
+  function showBanner() { banner.style.display = 'block'; }
+
+  const choice = localStorage.getItem(STORAGE_KEY);
+
+  if (choice === 'accepted') {
+    hideBanner();
+  } else if (choice === 'rejected') {
+    hideBanner();
+  } else {
+    showBanner();
+  }
+
+  btnAccept.addEventListener('click', function () {
+    localStorage.setItem(STORAGE_KEY, 'accepted');
+    hideBanner();
+  });
+
+  btnReject.addEventListener('click', function () {
+    localStorage.setItem(STORAGE_KEY, 'rejected');
+    hideBanner();
+  });
+})();
+</script>

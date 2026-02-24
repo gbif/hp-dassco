@@ -27,10 +27,16 @@
     .illustration {
         display: grid;
     }
+
+    .about-main {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (min-width: 600px) {
     .about-main {
+
         > div {
             display: grid;
             grid-template-columns: 1fr 1fr;

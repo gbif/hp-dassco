@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-{% assign t = site.data.i18n[page.lang].organisations %}
+{% assign t = site.data.i18n.organisations %}
 <section id="organisations">
     <div class="top-background-image"><div><!-- Background-Overlay --></div></div>
     <div class="container divider">
@@ -14,7 +14,7 @@ layout: base
                 <h2>{{ partner.name[page.lang]}}</h2>
                 <div>
                     <div class="organisation-text">
-                        <p>{{ partner.text }}</p>
+                        <p>{{ partner.text[page.lang] }}</p>
                     </div>
                     <div>
                         <img src="{{ partner.image }}" alt="{{ partner.altImageText[page.lang] }}">

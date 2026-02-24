@@ -1,7 +1,10 @@
 ---
 layout: base
 ---
+<!-- Move the cookie-consent.html include to be on the base layout -->
+{% include cookie-consent.html %}
 {% assign t = site.data.i18n[page.lang].myhome %}
+
 <!-- Hero image slideshow -->
 <div id="hero-slideshow">
     <div class="slide" id="slideA"><!-- slide A --></div>
@@ -150,21 +153,19 @@ layout: base
 <!-- Dodo Section -->
 <section id="dodo" class="dodo">
     <div class="container gap">
-        <h2>Data details</h2>
-        <p>We are at the beginning of our digitisation journey. Find data here.</p>
+        <h2>{{ t.dodo.title }}</h2>
+        <p>{{ t.dodo.subtitle }}</p>
         
         <div class="dodo-box gap">
             <div class="gap dodo-text">
-                <h3>The Dodo goes Digital</h3>
-                <p>The only complete surviving modern skull of a dodo in the world is digitised by DaSSCo.</p>
-                <p>You can see the illustration of how the bird looked when alive versus now.
-                   This rare and famous specimen is now available for the entire world to examine and learn 
-                   from through our data <a href="https://sketchfab.com/3d-models/dodo-0fb0ea663123403888f2e816bbff5fbe"
+                <h3>{{ t.dodo.teaser }}</h3>
+                <p>{{ t.dodo.upper-text }}</p>
+                <p>{{ t.dodo.lower-text }}<a href="https://sketchfab.com/3d-models/dodo-0fb0ea663123403888f2e816bbff5fbe"
                             target="_blank" rel="noopener noreferrer"
-                        >here</a>
+                        >{{ t.dodo.link-text }}</a>
                 .</p>
                 <div class="button">
-                    <a href="">Find more data details</a>
+                    <a href="/occurrence/search">{{ t.dodo.button-text }}</a>
                 </div>
             </div>
             <div class="dodo-compare-images" id="dodo-compare">
@@ -209,3 +210,4 @@ layout: base
 <script src="{{ '/assets/js/frontPageHeroImageSlideshow.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/frontPageDodoSlider.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/PartnersCarousel.js' | relative_url }}"></script>
+
