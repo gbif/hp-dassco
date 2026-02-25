@@ -14,6 +14,7 @@ teaser: Natural History Museum Denmark has released a 3D model of a remarkable a
 
 From ‘Ice Age’ to ‘Alice in Wonderland’, books, drawings, films and animations have cemented the dodo in our imaginations. Its oversized head, wide gaze and prominent nostrils loom large. Or perhaps its impressive girth is what calls your attention, suggesting a slow and ungainly waddle. The word ‘lazy’ hovers around it like the buzz of flies around a corpse. Call someone a ‘dodo’ and like the dodo’s stunted wings, you imply they are obsolete, no longer relevant. With our mental image of the dodo, we express our implicit biases borne of centuries of misunderstanding. But do dodos really deserve this reputation?
 
+![Illustration of Dodo](billedets URL)
 
 ## Image: Illustration of how the dodo could have looked when alive. Photo by: McGill Library on Unsplash
 
