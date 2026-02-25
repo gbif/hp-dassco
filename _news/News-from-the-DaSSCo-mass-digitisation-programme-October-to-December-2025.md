@@ -8,7 +8,7 @@ altImageText:
     da: Digitalisering i fuld gang - to personer ved maskiner
     en: Digitisation in work - two people at machines 
 type: News
-teaser: 
+teaser: Exciting times for DaSSCo - We digitised 163,000 specimens across all institutions throughout the year and DaSSCo head quarter moved location to the beautiful Botanical Garden, Copenhagen. 
 ---
 ## Image: Digitisation at NHMD 
 
