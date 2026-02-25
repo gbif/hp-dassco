@@ -3,7 +3,7 @@ title: "News from the DaSSCo mass digitisation programme – January to March 20
 date: 2024-06-25
 layout: article
 link: /News-from-the-DaSSCo-mass-digitisation-programme-January-to-March-2024
-mainImage: ""
+mainImage: "/assets/images/news/kim-dassco.jpg"
 altImageText: 
     da: DaSSCo projekt manager viser DaSSCo plakat frem til konference 
     en: DaSSCo Project Manager showing DaSSCo poster at conference
