@@ -3,7 +3,7 @@ title: "News from the DaSSCo mass digitisation programme – October to December
 date: 2024-03-21
 layout: article
 link: /News-from-the-DaSSCo-mass-digitisation-programme-October-to-December-2023
-mainImage: "/assets/images/news/Roberta.jpg"
+mainImage: "/assets/images/news/MatildeGomesPinnedInsectsDigitisation-scaled.jpg"
 altImageText: 
     da: Digitaliseringsmedarbejder sidder med insekter på pinde
     en: Digitiser working with pinned insects
@@ -16,7 +16,7 @@ teaser: From four new employees to a collaboration with DeiC, there are plenty o
 
 Last quarter we welcomed four new employees to help us on our digitisation journey. One digitiser, two programmers to work on our data pipelines and a technical intern who went on to do a student project with us developing a way to integrate our image processing with our main IT architecture.
 
-Digitisation news
+## Digitisation news
 
 We finally started digitising the pinned insect collection at Natural History Museum Denmark in October 2023 and 20,899 pinned insect specimens were digitised by the end of the year. Experts at the museum kindly spent time training our digitisation team on handling these delicate specimens so they are able to work quickly, but with minimum risk to the specimens. The digitisers are working closely with collection managers and the DaSSCo Technical Team Leader to test and work out any kinks in our workflows.
 
