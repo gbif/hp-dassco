@@ -3,7 +3,7 @@ title: "News from the DaSSCo mass digitisation programme - October to December 2
 date: 2026-01-13
 layout: article
 link: /News-from-the-DaSSCo-mass-digitisation-programme-October-to-December-2025
-mainImage: "/"
+mainImage: "/assets/images/news/hdfdf527499831-783459c6-1729-4de9-8c4e-e15dea77a815.jpg"
 altImageText: 
     da: Digitalisering i fuld gang - to personer ved maskiner
     en: Digitisation in work - two people at machines 
