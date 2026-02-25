@@ -7,7 +7,7 @@ mainImage: "/assets/images/news/Roberta.jpg"
 altImageText: 
     da: Roberta arbejder på sin computer
     en: Roberta working on her computer
-type: News
+type: Story
 teaser: This interdisciplinary research is new in the science world and is already groundbreaking
 ---
 ## Image: Roberta Eleanor Hunt, Postdoc in Computer Science working on the project PHYLORAMA.
