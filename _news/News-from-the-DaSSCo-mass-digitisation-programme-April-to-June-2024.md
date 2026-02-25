@@ -3,7 +3,7 @@ title: "News from the DaSSCo mass digitisation programme – April to June 2024"
 date: 2024-10-23
 layout: article
 link: /News-from-the-DaSSCo-mass-digitisation-programme-April-to-June-2024
-mainImage: "/ "
+mainImage: "/assets/images/news/sommmerfugle digi.jpg"
 altImageText: 
     da: Sommerfugle bliver digitaliseret 
     en: Butterflies being digitised 
