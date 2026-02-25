@@ -3,7 +3,7 @@ title: "Why-is-the-famous-Dodo-bird-important.md"
 date: 2024-09-29
 layout: article
 link: /Why-is-the-famous-Dodo-bird-important
-mainImage: "/assets/images/news/dodo-Header-blog-1024x392-1.jpeg"
+mainImage: "/assets/images/news/dodo-"
 altImageText: 
     da: Illustration af Dodo fuglen
     en: Illustration of the Dodo bird
