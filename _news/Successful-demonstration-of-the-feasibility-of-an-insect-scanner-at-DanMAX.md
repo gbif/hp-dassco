@@ -3,7 +3,7 @@ title: "Successful demonstration of the feasibility of an insect scanner at DanM
 date: 2024-09-29
 layout: article
 link: /Successful-demonstration-of-the-feasibility-of-an-insect-scanner-at-DanMAX
-mainImage: "/"
+mainImage: "/assets/images/news/x-ray flue.png"
 altImageText: 
     da: X-ray af flue
     en: X-ray of fly 
