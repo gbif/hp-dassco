@@ -7,7 +7,7 @@ mainImage: "/assets/images/news/dodo-"
 altImageText: 
     da: Illustration af Dodo fuglen
     en: Illustration of the Dodo bird
-type: News
+type: Story
 teaser: Natural History Museum Denmark has released a 3D model of a remarkable and rare dodo skull from its collections. But why is this important?
 ---
 ## Image: Illustration of the Dodo bird
