@@ -1,5 +1,5 @@
 ---
-title: "Why-is-the-famous-Dodo-bird-important.md"
+title: "Why is the famous Dodo bird important"
 date: 2024-09-29
 layout: article
 link: /Why-is-the-famous-Dodo-bird-important
