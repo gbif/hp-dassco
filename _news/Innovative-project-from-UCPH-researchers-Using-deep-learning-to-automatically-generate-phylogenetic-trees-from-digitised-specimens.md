@@ -5,8 +5,8 @@ layout: article
 link: /Innovative-project-from-UCPH-researchers-Using-deep-learning-to-automatically-generate-phylogenetic-trees-from-digitised-specimens
 mainImage: "/assets/images/news/Roberta.jpg"
 altImageText: 
-    da: tom for nu
-    en: Roberta Eleanor Hunt, Postdoc in Computer Science working on the project PHYLORAMA.
+    da: Roberta arbejder på sin computer
+    en: Roberta working on her computer
 type: News
 teaser: This interdisciplinary research is new in the science world and is already groundbreaking
 ---
