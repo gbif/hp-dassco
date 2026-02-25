@@ -2,7 +2,7 @@
 title: "News from the DaSSCo mass digitisation programme – April to June 2025"
 date: 2025-09-03
 layout: article
-link: /News-from-the-DaSSCo-mass-digitisation-programme-April-to-June2025
+link: /News-from-the-DaSSCo-mass-digitisation-programme-April-to-June-2025
 mainImage: "/assets/images/news/IMG_9461.JPG"
 altImageText: 
     da: ALICE setup'et med et insekt der bliver digitaliseret
