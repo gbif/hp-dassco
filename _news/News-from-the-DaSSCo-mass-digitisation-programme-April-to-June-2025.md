@@ -1,6 +1,6 @@
 ---
 title: "News from the DaSSCo mass digitisation programme – April to June 2025"
-date: 2025-03-09
+date: 2025-09-03
 layout: article
 link: /News-from-the-DaSSCo-mass-digitisation-programme-April-to-June2025
 mainImage: "/"
