@@ -3,14 +3,14 @@ title: "News from the DaSSCo mass digitisation programme – April to June 2025"
 date: 2025-09-03
 layout: article
 link: /News-from-the-DaSSCo-mass-digitisation-programme-April-to-June2025
-mainImage: "/"
+mainImage: "/assets/images/news/IMG_9461.JPG"
 altImageText: 
-    da: 
-    en: 
+    da: ALICE setup'et med et insekt der bliver digitaliseret
+    en: ALICE setup with pinned insect being digitised
 type: News
 teaser: Summer has been very effective - all from educational work trips to big milestones for the DaSSCo Team.
 ---
-## Image: 
+## Image: ALICE setup with pinned insect being digitised
 
 ## Team news
 No team changes this quarter. The DaSSCo team is going strong!
