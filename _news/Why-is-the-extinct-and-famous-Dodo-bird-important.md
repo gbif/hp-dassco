@@ -1,8 +1,8 @@
 ---
-title: "Why is the famous Dodo bird important"
+title: "Why is the extinct and famous Dodo bird important?"
 date: 2024-09-29
 layout: article
-link: /Why-is-the-famous-Dodo-bird-important
+link: /Why-is-the-extinct-and-famous-Dodo-bird-important
 mainImage: "/assets/images/news/dodo-"
 altImageText: 
     da: Illustration af Dodo fuglen
