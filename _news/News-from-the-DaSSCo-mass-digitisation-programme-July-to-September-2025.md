@@ -10,7 +10,7 @@ altImageText:
 type: News
 teaser: From finding an original Flora Danica drawing to hosting natural history colleagues from Sweden, these months have been interesting for DaSSCo! 
 ---
-## Image: Butterflies digitised by DaSSCo 
+## Image: Several species of butterfly in the family Nymphalidae
 
 ## Team news
 No news on the team status. Keep up the good work everyone!
@@ -99,5 +99,5 @@ On September 26, the NHMD Digital Collections team held a strategic
 workshop. Discussions focused on future staffing for DaSSCo, and the outcomes will inform planning
 for 2025–2026 and beyond.
 
-## Image: Selfie from the strategic workshop at Kim’s home
+## Image: Selfie from the strategic workshop
 
