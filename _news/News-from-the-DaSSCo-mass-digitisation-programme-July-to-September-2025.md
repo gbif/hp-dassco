@@ -3,7 +3,7 @@ title: "News from the DaSSCo mass digitisation programme - July to September 202
 date: 2025-10-02
 layout: article
 link: /News-from-the-DaSSCo-mass-digitisation-programme-July-to-September-2025
-mainImage: "/ "
+mainImage: "/assets/images/news/488355461-b52fc295-c099-446b-9d8f-5381c23e328f.jpg"
 altImageText: 
     da: Orange og brune sommerfugle på række
     en: Orange and brown butterflies on row
