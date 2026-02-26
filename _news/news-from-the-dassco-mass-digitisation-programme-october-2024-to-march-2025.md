@@ -23,6 +23,10 @@ DaSSCo sadly also had to say goodbye to several people. We had to say goodbye to
 In October 2024 DaSSCo digitsers went on a two- day visit to Aarhus, where they had the chance to meet their digitisation colleagues in person and go through the different workflows together, trying to improve issues. They installed a new imaging enclosure at the Aarhus Herbarium (NHMA), which supports larger, better light panels and protects against ambient light. Likewise they made plans for improving the workstation for digitizing pinned insects at NHMA, which will receive a larger table and second monitor to make the workflow easier and more ergonomic.
 
 
+<p align="center">
+  <img src="/assets/images/news/Picture1.jpg" width="300" alt="Many happy people at a long table, cheering">
+</p>
+
 ## Image: The new, bigger enclosure for herbarium sheet imaging at AAU, before the curtains were added. Two digitisers are preparing the small screen to go inside the enclosure.
 
 A milestone was reached at the Danish Herbarium at NHMD. The digitisation of which is now around ¼ accomplished – over 750 out of 3000 boxes of specimens are now digitised. Likewise in In the NHMD Entomology collection, they digitised around 2.000 specimens of grass-associated Nymphalidae butterflies for a project.
