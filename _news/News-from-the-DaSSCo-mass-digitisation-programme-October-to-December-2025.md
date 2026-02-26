@@ -23,12 +23,21 @@ This adds up to more than 41,000 in total. If we are looking at the full year of
 In October 2025, DaSSCo reached the halfway point in the digitisation of the Danish Herbarium at NHMD. The Danish Herbarium contains plants collected in Denmark, while specimens collected elsewhere are in the General
 Herbarium. The halfway point was reached at box 1626 out of a total of 3252 boxes. At that time 68,895 specimens from 77 different plant families had been digitised. The milestone was marked with a small celebration held together with two other anniversaries.
 
+<p align="center">
+  <img src="/assets/images/news/527498762-688d34bf-d349-40a3-921c-dcdb1c305062.jpeg" width="300" alt="Many happy people at a long table, cheering">
+</p>
+
 ## Image: From the DaSSCo celebration (with other staff)
 
 During the quarter, the pinned insect digitisation workstations at NHMD were moved to a new and larger room. This provides improved working
 conditions, more space for digitisation activities, and a better room climate compared to the previous location, which tended to overheat during summer.
 
 In November 2025, DaSSCo completed the digitisation of the Danish Orchid collection at NHMD. All orchids have been protected in Denmark since 1991, and most specimens collected after that year are therefore represented by photographs rather than preserved plant material. The NHMD Herbarium holds nearly 5,000 Danish orchid specimens in total.
+
+
+<p align="center">
+  <img src="/assets/images/news/orkide til net - overstreget.jpeg" width="300" alt="Pressed orchid on herbarium sheet">
+</p>
 
 ## Image:
 Cephalanthera longifolia, collected in Denmark in 1925
