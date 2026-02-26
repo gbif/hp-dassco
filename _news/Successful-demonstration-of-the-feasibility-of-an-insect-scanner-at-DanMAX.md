@@ -14,13 +14,13 @@ teaser: Look at the x-ray images below!
 
 This 3D map of a fly demonstrates that high quality x-ray images may be acquired, with a pixel size of 550 nm, despite the pin still being in place. The full phase contrast tomography scan took 90 seconds. This confirms the feasibility of establishing a dedicated high throughput insect scanner at the DanMAX beamline in Lund, with the help of robots. This work is a collaboration between DaSSCo partner institutions.
 
+
 <p align="center">
-<img src="./assets/images/news/xray 2.png" width="300">
+  <img src="/assets/images/news/wray 2.png" width="300" alt="xray of specimen">
 </p>
 
 <p align="center">
-<img src="./assets/images/news/xray 3.png" width="300">
+  <img src="/assets/images/news/xray 3.png" width="300" alt="x ray of another specimen">
 </p>
 
-https://3dim.dtu.dk/
-https://www.maxiv.lu.se/
+[See more in these links:] (https://3dim.dtu.dk/) (https://www.maxiv.lu.se/)
