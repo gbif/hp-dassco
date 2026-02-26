@@ -21,4 +21,4 @@ This 3D map of a fly demonstrates that high quality x-ray images may be acquired
   <img src="/assets/images/news/xray 3.png" width="300" alt="x ray of another specimen">
 </p>
 
-[See more in these links:] (https://3dim.dtu.dk/) (https://www.maxiv.lu.se/)
+![See more in these links:] (https://3dim.dtu.dk/) (https://www.maxiv.lu.se/)
