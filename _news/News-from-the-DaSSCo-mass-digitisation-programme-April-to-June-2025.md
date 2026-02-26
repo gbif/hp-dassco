@@ -22,7 +22,7 @@ A very big milestone has been achieved this summer too! DaSSCo has been a part o
 Well done DaSSCo team!
 
 <p align="center">
-  <img src="/assets/images/news/rebekka.jpg" width="300" alt="Illustration of Dodo">
+  <img src="/assets/images/news/rebekka.jpg" width="300" alt="Digitiser with sunglasses at the digitising machine">
 </p>
 
 ## Development news
@@ -36,6 +36,11 @@ Work has also begun on the Specify bridge, which will allow assets from the Asse
 Finally, version 2.0 of the DaSSCo Digi App is now in development and undergoing beta testing. The new version is expected to be released for general use soon.
 
 ## Other News
+
+<p align="center">
+  <img src="/assets/images/news/botanical.jpg" width="300" alt="Botanical Garden">
+</p>
+
 In May our Specify Team attended the SPNHC 2025 conference in Lawrence, Kansas. The team met in person with the Specify Collections Consortium team, both in formal sessions and informal settings. They participated in a two-day workshop, “Maximizing Your Specify Instance”, focusing on batch editing, enhanced data handling, and dataset publishing tools. DaSSCo presented “Integrating Specify 7 into a National Mass Digitization Infrastructure”, contributing to the international discussion on large-scale digitisation.
 The conference also showcased a wide range of digitisation projects, from low- budget but efficient workflows to large-scale imaging systems. Smart barcoding systems for moving and reorganising collections were among the many innovative data-management approaches presented. Beyond the technical content, social events created valuable opportunities for networking and collaboration within the natural history collections community.
 
