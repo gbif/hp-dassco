@@ -24,7 +24,14 @@ DaSSCo started digitisation on the second pinned insect workstation at NHMD. Thi
 
 Science Museums Aarhus (AU) and The Natural History Museum Aarhus (NHMA) have been busy testing their new workstations. It is hoped that digitisation will start there in May or June 2024.
 
+<p align="center">
+<img src="./<p align="center">
+<img src="./images/billede.png" width="300">
+</p>
+" width="300">
+</p>
 
+## Image: Digitiser working on Herbarium workstation
 
 ## Development news
 At the Zoological Museum (NHMD) the Technical Team have collaborated to design and build a modified herbarium workstation (to replace the old one). The new design addressed issues with the evenness of the lighting and provides a much more stable set up. The new herbarium setup is now up and running.
@@ -38,5 +45,3 @@ A small DaSSCo team have been continuing to capture requirements for the next st
 DaSSCo staff had the possibility to join a fascinating introduction (by Thomas Pape, President of the ICZN (International Commission on Zoological Nomenclature) to taxonomy for zoologists at the Zoological Museum (NHMD) in February. Everyone who attended thoroughly enjoyed the talk and have a much firmer grasp on why scientific names matter.
 
 DaSSCo presented a poster at the launch of NORA (National Open Research Analysis) in March 2024. Details on the new Danish research portal can be found here: https://forskningsportal.dk/. The conference was filled with presentations and posters from numerous research institutions and many were interested to hear about DaSSCo.
-
-
