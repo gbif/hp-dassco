@@ -93,7 +93,7 @@ The dodo is a symbol of man-made extinction, and we can learn from its history. 
 
 Whilst the dodo is now sadly extinct, its remains continue to inform and inspire us. Access to the specimens is essential if we hope to continue to learn from these lessons of the past. However, many natural history specimens are rare, scientifically valuable and fragile. Preserving them for the future is a primary goal of natural history institutions and providing physical access to them is fraught with risk. This is why digitisation is so important. By digitising the specimens, we can share these important artefacts with the world without exposing them to potential damage. By making digital specimens available we can stimulate further research on this and generate awareness and debate on critical topics such as the extinction of our flora and fauna.
 
-[Download your own 3D model of the Copenhagen dodo skull here.] (https://sketchfab.com/3d-models/dodo-0fb0ea663123403888f2e816bbff5fbe)
+![Download your own 3D model of the Copenhagen dodo skull here.] (https://sketchfab.com/3d-models/dodo-0fb0ea663123403888f2e816bbff5fbe)
 
 ## References
 
