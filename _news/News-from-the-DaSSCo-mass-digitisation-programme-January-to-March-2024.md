@@ -25,11 +25,9 @@ DaSSCo started digitisation on the second pinned insect workstation at NHMD. Thi
 Science Museums Aarhus (AU) and The Natural History Museum Aarhus (NHMA) have been busy testing their new workstations. It is hoped that digitisation will start there in May or June 2024.
 
 <p align="center">
-<img src="./<p align="center">
-<img src="./images/billede.png" width="300">
+  <img src="/assets/images/news/Herbarium digitisation.jpg" width="300" alt="digitiser drilling to make workstation">
 </p>
-" width="300">
-</p>
+
 
 ## Image: Digitiser working on Herbarium workstation
 
