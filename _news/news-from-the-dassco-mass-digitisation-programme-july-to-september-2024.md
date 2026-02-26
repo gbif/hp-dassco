@@ -27,6 +27,9 @@ We have been working with an external consultant to work on our transcription pl
 
 A part of our NHMD team visited London on September 24th to the 25th to learn about digitisation at the Natural History Museum and the Herbarium of Royal Gardens, Kew. They used this opportunity to look in detail at the NHM’s ALICE set up for imaging pinned insects without removing specimen labels, as we are currently developing something similar. They were able to ask targeted questions to aid with our own workstation and workflow development work and develop some important contacts.
 
+<p align="center">
+  <img src="/assets/images/news/guide.jpg" width="300" alt="Happy host inside the Botanical garden">
+</p>
 
 ## Image: Our host from the Royal Botanic Gardens, Kew showing off the digitisation project
 
@@ -38,6 +41,9 @@ At NHMD, the Science and Collections Department hosted a group from Natural Hist
 
 The DaSSCo Steering Group met in person on 3rd September 2024 at DTU (one of the DaSSCo Consortium partners). We got a tour of the facilities of relevance to DaSSCo including seeing the CT scanner which we will be incorporating into a DaSSCo pipeline. Discussions at the meeting also centered on promising early results from the synchrotron in Lund. Read more here.
 
+<p align="center">
+  <img src="/assets/images/news/steering group'.jpg" width="300" alt="Five men standing around a digitising machine">
+</p>
 
 ## Image: Steering Group Meeting
 
