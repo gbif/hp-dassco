@@ -21,6 +21,10 @@ Over the summer, the DaSSCo Technical Team carried out major development on the 
 A very big milestone has been achieved this summer too! DaSSCo has been a part of reaching one million natural history specimens now digitised at NHMD. The digital specimens are accessible for everyone now on the Natural History Museum’s collections portal. Read more about it in this article from NHMD (only in Danish).
 Well done DaSSCo team!
 
+<p align="center">
+  <img src="/assets/images/news/rebekka.jpg" width="300" alt="Illustration of Dodo">
+</p>
+
 ## Development news
 We had a productive half-day workshop in May at the Zoological Museum (NHMD), bringing together developer teams from both DiSSCo and DaSSCo. The aim was to strengthen mutual understanding of technical development and to identify opportunities for collaboration. The teams discussed how DaSSCo could benefit from DiSSCo’s core data infrastructure, including DOI services, and whether DaSSCo Specify could serve as a pilot for future Specify CMS integration. Several concrete actions followed: DaSSCo will request the addition of a digital Specimen ID to Specify; DiSSCo will ingest a DaSSCo dataset and assign DOIs to digital specimens; and GBIF will pilot the use of these DOIs in both the GBIF portal and the DaSSCo-hosted portal. DaSSCo is also committed to publishing a description of its digitisation workflow on Github to support other institutions.
 
@@ -39,7 +43,4 @@ DaSSCo Lead and member of the Steering Group (NHMD) represented Denmark and DaSS
 Other highlights from the meetings included demonstrations of DiSSCo services such as DiSSCover and ELVIS, which are already publicly accessible.
 
 In a more informal setting the DaSSCo team joined colleagues from the Digital and Preserved Collections units at NHMD for a field trip to Melby Overdrev in June. It was a great opportunity to get to know each other better outside the offices and to explore Danish heathland and coastal habitats. The field trip strengthened team bonds and reminded DaSSCo why our digitisation work matters by connecting the digital world with the natural world.
-
-
-
 
