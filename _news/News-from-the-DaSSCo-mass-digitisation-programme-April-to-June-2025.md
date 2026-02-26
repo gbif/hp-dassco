@@ -18,9 +18,12 @@ No team changes this quarter. The DaSSCo team is going strong!
 ## Digitisation news
 Over the summer, the DaSSCo Technical Team carried out major development on the ALICE workstation. With help from Natural History Museum Denmark (NHMD) carpenter, a custom white-painted wooden enclosure was built. It features replaceable panels, internal reflective siding, an opaque drop ceiling that diffuses light from LED panels mounted above, and holes for six specimen and label cameras. The cameras are mounted externally using custom 3D-printed holders. Four cameras are angled to capture images of the labels on the pin. Two further cameras are set up to image the dorsal and lateral views of an insect. And a final camera images the barcode label with catalog number. We have based this workstation on the ALICE (Angled Label Image Capture and Extraction) multi- camera acquisition method started at NHM London. A meeting with the IT Team is scheduled for 12 August to finalise file- conversion and saving protocols. These decisions will guide the creation of a post-processing pipeline for images produced at the workstation. Workflow testing, development, and documentation for both one- and two-person digitisation will take place in August, aiming for a soft release of the workstation to peers in September.
 
+<p align="center">
+  <img src="/assets/images/news/IMG_9462.JPG" width="300" alt="Setup of Workstation">
+</p>
+
 A very big milestone has been achieved this summer too! DaSSCo has been a part of reaching one million natural history specimens now digitised at NHMD. The digital specimens are accessible for everyone now on the Natural History Museum’s collections portal. Read more about it in this article from NHMD (only in Danish).
 Well done DaSSCo team!
-
 
 
 ## Development news
@@ -37,6 +40,10 @@ Finally, version 2.0 of the DaSSCo Digi App is now in development and undergoing
 
 In May our Specify Team attended the SPNHC 2025 conference in Lawrence, Kansas. The team met in person with the Specify Collections Consortium team, both in formal sessions and informal settings. They participated in a two-day workshop, “Maximizing Your Specify Instance”, focusing on batch editing, enhanced data handling, and dataset publishing tools. DaSSCo presented “Integrating Specify 7 into a National Mass Digitization Infrastructure”, contributing to the international discussion on large-scale digitisation.
 The conference also showcased a wide range of digitisation projects, from low- budget but efficient workflows to large-scale imaging systems. Smart barcoding systems for moving and reorganising collections were among the many innovative data-management approaches presented. Beyond the technical content, social events created valuable opportunities for networking and collaboration within the natural history collections community.
+
+<p align="center">
+  <img src="assets/images/news/20250530_084942.jpg" width="300" alt="Presenting at conference">
+</p>
 
 DaSSCo Lead and member of the Steering Group (NHMD) represented Denmark and DaSSCo at the DiSSCo Interim General Assembly and Interim Council meetings. These are the current governing bodies of the DiSSCo organisation. The main topic was progress toward EU approval of DiSSCo as a European Research Infrastructure Consortium (ERIC). A step-1 application has been submitted, and a response is expected in autumn 2025. If approved, the next step will be the legal formation of DiSSCo as a consortium of participating countries, officially launching the construction phase of the research infrastructure.
 Other highlights from the meetings included demonstrations of DiSSCo services such as DiSSCover and ELVIS, which are already publicly accessible.
