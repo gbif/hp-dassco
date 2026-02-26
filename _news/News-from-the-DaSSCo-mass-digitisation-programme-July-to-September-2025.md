@@ -40,6 +40,10 @@ complete Flora Danica set, including the copper plate, print, and porcelain
 plate featuring the same motif. This unique set will be exhibited in NHMD’s
 upcoming exhibitions.
 
+<p align="center">
+  <img src="/assets/images/news/Flora danica.jpg" width="300" alt="Beautiful sketch of the flower Flora Danica">
+</p>
+
 ## Image: Original Flora Danica sketch
 At Aarhus University’s Herbarium (AAU), digitisation of the Fabaceae (legume)
 family is close to completion. Fabaceae is one of the largest plant families in
@@ -98,6 +102,10 @@ same website.
 On September 26, the NHMD Digital Collections team held a strategic
 workshop. Discussions focused on future staffing for DaSSCo, and the outcomes will inform planning
 for 2025–2026 and beyond.
+
+<p align="center">
+  <img src="/assets/images/news/MiConv.com__IMG_1852.jpg" width="300" alt="Lots of happy faces">
+</p>
 
 ## Image: Selfie from the strategic workshop
 
