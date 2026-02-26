@@ -32,6 +32,10 @@ All that remains of encounters with dodos in this 100-year period are a handful 
 
 Descriptions, drawings and paintings based on direct observations of the dodo are rare. Many are copies of others or based on simplified descriptions or dead/decayed animals written by non-scientists (Hume 2006). This is exemplified by the prominent nostril holes in many paintings. It is clear from accounts at the time that the nostril holes were mere slits when the birds were alive (Hume and Cheke 2004). Shrinking of the skin exposed them as round holes after death. There are also very few written observations of the dodo’s behaviour. But study published in the Zoological Journal of the Linnean Society (Young et al. 2024) shows that the dodo actually had tendons in the legs almost the same diameter as the bone itself, indicating that it was extremely agile and speedy – and not lazy at all.   
 
+<p align="center">
+  <img src="/assets/images/news/DODO-maleri-downsample.png" width="300" alt="Illustration of Dodo">
+</p>
+
 
 ## Image: An illustration of the Copenhagen Skull. Illustration by: Jon Fjeldså, Natural History Museum of Denmark
 
@@ -49,6 +53,10 @@ A small number of dodos were transported from Mauritius at the end of the 16th a
 
 The most complete specimen is held at Oxford University Museum (UK) and consists of a mummified head, a few feathers and a foot. The Natural History Museum Denmark holds a complete skull without any skin in its collections (the “Copenhagen skull”) and the Prague National Museum has the front of a skull. No other recent specimen has survived.
 
+<p align="center">
+  <img src="/assets/images/news/dodos_remains-1536x725.png" width="300" alt="Dodo remains - two skulls and a foot">
+</p>
+
 
 ## Image: The mummified skin from the head of the Oxford dodo represents the only surviving soft tissue available for DNA research. Photo by: Oxford University Museum
 
@@ -61,10 +69,18 @@ Luckily, the bird is also known from sub-fossil bones (bones which have been bur
 
 We do not know exactly when or by whom the Copenhagen skull was collected. We know that it was sent to Holland and became part of the collection of Bernardus Paludanus (a collector of rare objects) in Enkhuizen (present day Netherlands). It is possible that its acquisition was facilitated by Jan Huyghen van Lindschoten. Lindschoten had settled in Enkhuizen in 1592 after visiting the East Indies and enjoyed a close working relationship with Paludanus (Wissen 1995). In 1651, the skull was moved to Gottorf Castle in Schleswig (Germany). Whilst there, it was described by Adam Olearius, who was cultural director to the Dukes of Schleswig, in 1670. Finally, following the occupation of the castle by Danish forces in 1702, the skull was taken to Denmark and added to the Royal Danish collection. If this reconstructed history is correct, it makes the Copenhagen skull the oldest known surviving remains of any of the dodos brought to Europe in the 17th century (Hume 2006).
 
+<p align="center">
+  <img src="/assets/images/news/DODO-skull-downsample.png" width="300" alt="Copenhagen Dodo skull">
+</p>
 
 ## Image: 3D illustration of the Copenhagen skull, specimen NHMD000129015 (ZMUC 90-806/AVES-105485)]. Photo by: Kasper Lykke Hansen, Natural History Museum of Denmark
 
 In 1840, the Copenhagen skull was rediscovered in the collections at the Kongelige Naturhistoriske Museum (Royal Natural History Museum) by Danish zoologist, Johannes Theodor Reinhardt. By this time, most people had forgotten about the dodo. Reinhardt re-examined the specimen and published his findings in 1842. In this publication, he proposed that the dodo was in fact a giant, flightless pigeon. Reinhardt’s claims were initially met with scepticism. But in 2002, DNA extracted from the Oxford specimen proved that Reinhardt was correct (Shapiro et al. 2002). Whilst dodos are most closely related to the, also extinct, Rodrigues solitaire, both are more closely related to pigeons and doves than to other birds and are now placed in the same scientific family as them.
+
+
+<p align="center">
+  <img src="/assets/images/news/dodo-and-pigeons.jpg" width="300" alt="Copenhagen Dodo skull">
+</p>
 
 
 ## Image: The dodo and its size compared to other pigeons. Photo from: https://bcs.whfreeman.com/
@@ -77,7 +93,7 @@ The dodo is a symbol of man-made extinction, and we can learn from its history. 
 
 Whilst the dodo is now sadly extinct, its remains continue to inform and inspire us. Access to the specimens is essential if we hope to continue to learn from these lessons of the past. However, many natural history specimens are rare, scientifically valuable and fragile. Preserving them for the future is a primary goal of natural history institutions and providing physical access to them is fraught with risk. This is why digitisation is so important. By digitising the specimens, we can share these important artefacts with the world without exposing them to potential damage. By making digital specimens available we can stimulate further research on this and generate awareness and debate on critical topics such as the extinction of our flora and fauna.
 
-Download your own 3D model of the Copenhagen dodo skull here.
+[Download your own 3D model of the Copenhagen dodo skull here.] (https://sketchfab.com/3d-models/dodo-0fb0ea663123403888f2e816bbff5fbe)
 
 ## References
 
