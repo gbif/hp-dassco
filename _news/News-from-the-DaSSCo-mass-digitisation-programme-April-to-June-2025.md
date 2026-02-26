@@ -42,11 +42,15 @@ In May our Specify Team attended the SPNHC 2025 conference in Lawrence, Kansas. 
 The conference also showcased a wide range of digitisation projects, from low- budget but efficient workflows to large-scale imaging systems. Smart barcoding systems for moving and reorganising collections were among the many innovative data-management approaches presented. Beyond the technical content, social events created valuable opportunities for networking and collaboration within the natural history collections community.
 
 <p align="center">
-  <img src="assets/images/news/20250530_084942.jpg" width="300" alt="Presenting at conference">
+  <img src="/assets/images/news/20250530_084942.jpg" width="300" alt="Presenting at conference">
 </p>
 
 DaSSCo Lead and member of the Steering Group (NHMD) represented Denmark and DaSSCo at the DiSSCo Interim General Assembly and Interim Council meetings. These are the current governing bodies of the DiSSCo organisation. The main topic was progress toward EU approval of DiSSCo as a European Research Infrastructure Consortium (ERIC). A step-1 application has been submitted, and a response is expected in autumn 2025. If approved, the next step will be the legal formation of DiSSCo as a consortium of participating countries, officially launching the construction phase of the research infrastructure.
 Other highlights from the meetings included demonstrations of DiSSCo services such as DiSSCover and ELVIS, which are already publicly accessible.
 
 In a more informal setting the DaSSCo team joined colleagues from the Digital and Preserved Collections units at NHMD for a field trip to Melby Overdrev in June. It was a great opportunity to get to know each other better outside the offices and to explore Danish heathland and coastal habitats. The field trip strengthened team bonds and reminded DaSSCo why our digitisation work matters by connecting the digital world with the natural world.
+
+<p align="center">
+  <img src="/assets/images/news/IMG_1839.JPG" width="300" alt="Group photo of everyone">
+</p>
 
