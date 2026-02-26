@@ -22,6 +22,9 @@ One of our digitisers has been appointed as the DaSSCo Senior Digitiser (Develop
 ## Digitisation news
 With two entomology workstations up and running at NHMD, Entomology Collection Managers have now joined forces with the DaSSCo digitisers in digitising Dung Beetles and Lepidoptera (mostly Sphingidae and Lasiocampidae) on simplified Pinned Insect workstations. Entomology Collections Managers have also begun imaging Danish Butterflies using these workstations.
 
+<p align="center">
+  <img src="/assets/images/news/rebekka.jpg" width="300" alt="Digitiser with sunglasses at the digitising machine">
+</p>
 
 For the Herbarium, digitisation has carried on at a steady pace on the first workstation. A second workstation has been set up and is being piloted this summer ahead of a training day on 8 August for Botany Collections Managers.
 
@@ -39,8 +42,11 @@ DaSSCo’s IT Lead has been leading on work to develop a basic user interface in
 The DaSSCo Steering Group agreed at their June 2024 meeting to adapt and test a piece of software that we will use initially to capture information from specimen labels. More information on this soon.
 
 ## Other news
+<p align="center">
+  <img src="/assets/images/news/botanical.jpg" width="300" alt="Botanical Garden">
+</p>
 
-Our Technical Team Leader was at the 2+3D conference in Amsterdam, The Netherlands at the end of May. The conference brings together professionals from the museum world and the talks cover how different institutions approach similar challenges through tailored workflows and practices .
+Our Technical Team Leader was at the 2+3D conference in Amsterdam, The Netherlands at the end of May. The conference brings together professionals from the museum world and the talks cover how different institutions approach similar challenges through tailored workflows and practices.
 
 She attended a couple of workshops related to colour management and says that it was a great opportunity to make new contacts with imaging professionals, who face some of the same obstacles we do here at DaSSCo.
 
