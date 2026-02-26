@@ -21,9 +21,7 @@ Over the summer, the DaSSCo Technical Team carried out major development on the 
 A very big milestone has been achieved this summer too! DaSSCo has been a part of reaching one million natural history specimens now digitised at NHMD. The digital specimens are accessible for everyone now on the Natural History Museum’s collections portal. Read more about it in this article from NHMD (only in Danish).
 Well done DaSSCo team!
 
-<p align="center">
-  <img src="/assets/images/news/rebekka.jpg" width="300" alt="Digitiser with sunglasses at the digitising machine">
-</p>
+
 
 ## Development news
 We had a productive half-day workshop in May at the Zoological Museum (NHMD), bringing together developer teams from both DiSSCo and DaSSCo. The aim was to strengthen mutual understanding of technical development and to identify opportunities for collaboration. The teams discussed how DaSSCo could benefit from DiSSCo’s core data infrastructure, including DOI services, and whether DaSSCo Specify could serve as a pilot for future Specify CMS integration. Several concrete actions followed: DaSSCo will request the addition of a digital Specimen ID to Specify; DiSSCo will ingest a DaSSCo dataset and assign DOIs to digital specimens; and GBIF will pilot the use of these DOIs in both the GBIF portal and the DaSSCo-hosted portal. DaSSCo is also committed to publishing a description of its digitisation workflow on Github to support other institutions.
@@ -36,10 +34,6 @@ Work has also begun on the Specify bridge, which will allow assets from the Asse
 Finally, version 2.0 of the DaSSCo Digi App is now in development and undergoing beta testing. The new version is expected to be released for general use soon.
 
 ## Other News
-
-<p align="center">
-  <img src="/assets/images/news/botanical.jpg" width="300" alt="Botanical Garden">
-</p>
 
 In May our Specify Team attended the SPNHC 2025 conference in Lawrence, Kansas. The team met in person with the Specify Collections Consortium team, both in formal sessions and informal settings. They participated in a two-day workshop, “Maximizing Your Specify Instance”, focusing on batch editing, enhanced data handling, and dataset publishing tools. DaSSCo presented “Integrating Specify 7 into a National Mass Digitization Infrastructure”, contributing to the international discussion on large-scale digitisation.
 The conference also showcased a wide range of digitisation projects, from low- budget but efficient workflows to large-scale imaging systems. Smart barcoding systems for moving and reorganising collections were among the many innovative data-management approaches presented. Beyond the technical content, social events created valuable opportunities for networking and collaboration within the natural history collections community.
