@@ -23,7 +23,9 @@ what-is:
   who:
     title: Hvem er vi?
     text: DaSSCo er et samarbejde mellem Statens Naturhistoriske Museum, Science Museerne Aarhus Universitet, Naturhistorisk Museum Aarhus og Danmarks Tekniske Universitet.
-  button-text: Læs mere om DaSSCo
+  button:
+    link: ./omkring.html
+    text: Læs mere om DaSSCo
 
 news:
   title: Nyheder og Historier
@@ -41,4 +43,6 @@ dodo:
   upper-text: Det eneste fuldt bevarede, moderne kranium af en dodo i verden er blevet digitaliseret af DaSSCo.
   lower-text: Du kan se en illustration af, hvordan fuglen så ud, da den levede, sammenlignet med hvordan den fremstår i dag. Dette sjældne og berømte eksemplar er nu tilgængeligt for hele verden, så alle kan undersøge og lære af det igennem vores data
   link-text: her
-  button-text: Find mere data
+  button:
+    link: /occurrence/search
+    text: Find mere data

@@ -23,7 +23,9 @@ what-is:
   who:
     title: Who are we?
     text: DaSSCo is a collaboration between Natural History Museum Denmark, Science Museums Aarhus University, the Natural History Museum Aarhus and the Technical University of Denmark.
-  button-text: Read more about DaSSCo
+  button:
+    link: ./about.html
+    text: Read more about DaSSCo
 
 news:
   title: News and Stories
@@ -41,4 +43,6 @@ dodo:
   upper-text: The only complete surviving modern skull of a dodo in the world is digitised by DaSSCo.
   lower-text: You can see the illustration of how the bird looked when alive versus now. This rare and famous specimen is now available for the entire world to examine and learn from through our data
   link-text: here
-  button-text: Find more data
+  button:
+    link: /occurrence/search
+    text: Find more data
