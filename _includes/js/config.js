@@ -66,6 +66,9 @@ var siteConfig = {
             "id": "institutionKey"
         },
         {
+            "id": "literature"
+        },
+        {
             "id": "literatureSearch"
         }
     ],
@@ -226,6 +229,29 @@ var siteConfig = {
             "values": publisherKeys,
         }
     },
+    literature: {
+        rootFilter: {
+          predicate: {
+/*            type: 'or', predicates: [
+              {
+                type: 'in',
+                key: 'countriesOfResearcher',
+                values: ['US', 'UM', 'AS', 'FM', 'GU', 'MH', 'MP', 'PR', 'PW', 'VI']
+              },
+              {
+                type: 'in',
+                key: 'countriesOfCoverage',
+                values: ['US', 'UM', 'AS', 'FM', 'GU', 'MH', 'MP', 'PR', 'PW', 'VI']
+              }
+            ]
+              */
+              type: 'in',
+              key: "gbifDatasetKey",
+              values: datasetKeys,
+          }
+        },
+        highlightedFilters: ['q', 'countriesOfResearcher', 'countriesOfCoverage', 'year']
+      },
     "literatureSearch": {
         "scope": {
             "type": "in",
