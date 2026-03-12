@@ -1,6 +1,9 @@
 ---
 layout: base
 ---
+<link href="/assets/fontawesome-free-6.3.0-web/css/fontawesome.min.css" rel="stylesheet">
+<link href="/assets/fontawesome-free-6.3.0-web/css/brands.min.css" rel="stylesheet">
+
 {% assign t = site.data.i18n[page.lang].resources %}
 <section id="resources" class="resources">
     <div class="top-background-image"><div><!-- Background-Overlay --></div></div>
@@ -10,17 +13,11 @@ layout: base
     <div class="container gap">
         <p>{{ t.description }}</p>
         <div class="">
-            <p><a href="https://github.com/NHMDenmark"><img 
-                                class="logo"
-                                src="{{ '/assets/images/Icons/github.svg' | relative_url }}"
-                                style="responsive"
-                                alt="Github logo"
-                            > <i class="fa-brands fa-github"></i> {{ t.github.name }}</a>: {{ t.github.description }}</p>
+            <p><a href="https://github.com/NHMDenmark">
+                <i class="fa-brands fa-github" alt="Github logo"></i> {{ t.github.name }}</a>: {{ t.github.description }}</p>
         </div>
         <div class="">
             <p>{{ t.text }}</p>
         </div>
     </div>
 </section>
-<link href="/assets/fontawesome-free-6.3.0-web/css/fontawesome.min.css" rel="stylesheet">
-<link href="/assets/fontawesome-free-6.3.0-web/css/brands.min.css" rel="stylesheet">
