@@ -10,7 +10,11 @@ layout: base
     <div class="container gap">
         <p>{{ t.description }}</p>
         <div class="">
-            <p><a href="https://github.com/NHMDenmark">{{ t.github.name }}</a>: {{ t.github.description }}</p>
+            <p><a href="https://github.com/NHMDenmark"><img 
+                                class="logo"
+                                src="{{ '/assets/images/Icons/github.svg' | relative_url }}"
+                                alt="Github logo"
+                            >{{ t.github.name }}</a>: {{ t.github.description }}</p>
         </div>
         <div class="">
             <p>{{ t.text }}</p>
