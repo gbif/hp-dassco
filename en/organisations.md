@@ -1,7 +1,7 @@
 ---
 permalink: organisations
 lang-ref: organisations 
-title: Organisations
+title: Partners
 layout: organisations
-description: For more information about the institutions, visit their websites!
+description: For more information about the partners, visit their websites!
 ---
