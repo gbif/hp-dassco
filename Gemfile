@@ -32,3 +32,6 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 
 gem "webrick", "~> 1.8.2"
+
+# Fixing crash on local computer installation with ruby 3.4.8
+gem "bigdecimal"
