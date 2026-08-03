@@ -215,10 +215,11 @@ var siteConfig = {
                 },
             ],
         }, */
-        scope: {
-            type: "in",
+        "scope": {
+            "type": "in",
             //publishingOrg: publisherKeys,
-            hostingOrg: hostingOrgKeys,
+            "key": "hostingOrg", 
+            "values": hostingOrgKeys,
         },
     },
     "publisherSearch": {
