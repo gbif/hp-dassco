@@ -262,6 +262,6 @@ var siteConfig = {
         },
         highlightedFilters: ['q', /*'countriesOfResearcher',*/ 'countriesOfCoverage', 'year'],
         //defaultTableColumns: ['title', 'description', 'publisher', 'type', 'occurrenceCount', 'literatureCount'],
-        "defaultEnabledTableColumns": ['title', 'authors', 'year', 'publisher', 'source', 'websites'],
+        //"defaultEnabledTableColumns": ['title', 'authors', 'year', 'publisher', 'source', 'websites'],
     }
 }
