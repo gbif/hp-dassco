@@ -143,7 +143,7 @@ var siteConfig = {
             "institutionKey",
             "datasetKey",
             "collectionKey",
-            "catalogNumber",
+            //"catalogNumber",
             //"recordedBy",
             //"identifiedBy"
         ],
