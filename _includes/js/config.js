@@ -194,7 +194,7 @@ var siteConfig = {
         excludedFilters: ['publishingCountry', 'networkKey', 'projectId', 'hostingOrg'],
         highlightedFilters: ['q', 'type', 'publishingOrg', 'license'],
         defaultTableColumns: ['title', 'description', 'publisher', 'type', 'occurrenceCount', 'literatureCount'],
-/*        rootPredicate: {
+        rootPredicate: {
             "type": "or",
             "predicates": [
                 {
@@ -207,20 +207,16 @@ var siteConfig = {
                     "key": "publishingOrg",
                     "values": ["760d5f24-4c04-40da-9646-1b2c935da502"], // NHMA
                 },
-,
                 {
                     "type": "in",
                     "key": "publishingOrg",
                     "values": ["8e1a97a0-3ca8-11d9-8439-b8a03c50a862"], // AU
                 },
             ],
-        }, */
-        "scope": {
-            "type": "in",
-            //publishingOrg: publisherKeys,
-            "key": "hostingOrg", 
-            "values": hostingOrgKeys,
         },
+/*        scope: {
+            hostingOrg: hostingOrgKeys,
+        },*/
     },
     "publisherSearch": {
         "scope": {
