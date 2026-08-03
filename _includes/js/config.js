@@ -259,5 +259,6 @@ var siteConfig = {
             "values": datasetKeys,
         },
         //defaultTableColumns: ['title', 'description', 'publisher', 'type', 'occurrenceCount', 'literatureCount'],
+        defaultTableColumns: ['title', 'author', 'year', 'journal'],
     }
 }
