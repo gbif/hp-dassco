@@ -12,3 +12,5 @@ You can find information on editing this site and more on [gbif/hosted-portals](
 
 
 # DaSSCo notes
+
+Adding new collections requires adding a new GBIF dataset key in the array datasetKeys found in [config.js](_inlcudes/js/config.js).
