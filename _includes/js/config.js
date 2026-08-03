@@ -183,7 +183,7 @@ var siteConfig = {
     "collectionSearch": {
         excludedFilters: ['country', 'active'],
         // highlightedFilters: ['q', 'type', 'publishingOrg', 'license'],
-        highlightedFilters: ['q', 'institution'],
+        highlightedFilters: ['q', 'institutionName'],
         // defaultTableColumns: ['title', 'description', 'publisher', 'type', 'occurrenceCount', 'literatureCount'],
         scope: {
             institutionKey: institutionKeys,
