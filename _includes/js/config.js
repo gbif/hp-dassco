@@ -216,6 +216,7 @@ var siteConfig = {
             ],
         }, */
         scope: {
+            type: "in",
             //publishingOrg: publisherKeys,
             hostingOrg: hostingOrgKeys,
         },
@@ -230,30 +231,17 @@ var siteConfig = {
             "values": publisherKeys,
         }
     },
-    literature: {
+/*    literature: {
         rootFilter: {
           predicate: {
-/*            type: 'or', predicates: [
-              {
-                type: 'in',
-                key: 'countriesOfResearcher',
-                values: ['US', 'UM', 'AS', 'FM', 'GU', 'MH', 'MP', 'PR', 'PW', 'VI']
-              },
-              {
-                type: 'in',
-                key: 'countriesOfCoverage',
-                values: ['US', 'UM', 'AS', 'FM', 'GU', 'MH', 'MP', 'PR', 'PW', 'VI']
-              }
-            ]
-              */
               type: 'in',
               key: "gbifDatasetKey",
               values: datasetKeys,
           }
         },
-        highlightedFilters: ['q', /*'countriesOfResearcher',*/ 'countriesOfCoverage', 'year'],
+        highlightedFilters: ['q', 'countriesOfResearcher', 'countriesOfCoverage', 'year'],
         defaultEnabledTableColumns: ['title', 'authors', 'year', 'publisher', 'source'],
-      },
+      },*/
     "literatureSearch": {
         "scope": {
             "type": "in",
