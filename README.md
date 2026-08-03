@@ -9,3 +9,6 @@ This Jekyll website, **[dassco (Staging)](https://dassco.hp.gbif-staging.org/)**
 You can find information on editing this site and more on [gbif/hosted-portals](https://github.com/gbif/hosted-portals)
 
 > Powered by [GBIF](https://www.gbif.org/)
+
+
+# DaSSCo notes
