@@ -260,7 +260,8 @@ var siteConfig = {
             "key": "gbifDatasetKey",
             "values": datasetKeys,
         },
+        highlightedFilters: ['q', /*'countriesOfResearcher',*/ 'countriesOfCoverage', 'year'],
         //defaultTableColumns: ['title', 'description', 'publisher', 'type', 'occurrenceCount', 'literatureCount'],
-        "defaultEnabledTableColumns": ['title', 'authors', 'year', 'publisher'],
+        "defaultEnabledTableColumns": ['title', 'authors', 'year', 'publisher', 'source', 'websites'],
     }
 }
