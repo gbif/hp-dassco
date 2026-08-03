@@ -250,7 +250,8 @@ var siteConfig = {
               values: datasetKeys,
           }
         },
-        highlightedFilters: ['q', 'countriesOfResearcher', 'countriesOfCoverage', 'year']
+        highlightedFilters: ['q', /*'countriesOfResearcher',*/ 'countriesOfCoverage', 'year'],
+        defaultTableColumns: ['title', 'author', 'year', 'journal'],
       },
     "literatureSearch": {
         "scope": {
