@@ -119,9 +119,9 @@ var siteConfig = {
             "default": false,
             "textDirection": "ltr",
             "iso3LetterCode": "dan",
-            "cmsLocale": "da-DK",   // TODO: Should this be changed to da-DK?
+            "cmsLocale": "da-DK",   
             "gbifOrgLocalePrefix": "",
-            "mapTileLocale": "da"   // TODO: Should this be changed to da?
+            "mapTileLocale": "da"   
         }
     ],
     "messages": {},
@@ -252,7 +252,7 @@ var siteConfig = {
           }
         },
         highlightedFilters: ['q', /*'countriesOfResearcher',*/ 'countriesOfCoverage', 'year'],
-        defaultEnabledTableColumns: ['title', 'author', 'year', 'journal'],
+        defaultEnabledTableColumns: ['title', 'authors', 'year', 'publisher', 'source'],
       },
     "literatureSearch": {
         "scope": {
@@ -261,6 +261,6 @@ var siteConfig = {
             "values": datasetKeys,
         },
         //defaultTableColumns: ['title', 'description', 'publisher', 'type', 'occurrenceCount', 'literatureCount'],
-        "defaultEnabledTableColumns": ['title', 'author', 'year', 'journal'],
+        "defaultEnabledTableColumns": ['title', 'authors', 'year', 'publisher'],
     }
 }
