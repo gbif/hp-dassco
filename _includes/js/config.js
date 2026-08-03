@@ -252,7 +252,7 @@ var siteConfig = {
           }
         },
         highlightedFilters: ['q', /*'countriesOfResearcher',*/ 'countriesOfCoverage', 'year'],
-        defaultTableColumns: ['title', 'author', 'year', 'journal'],
+        defaultEnabledTableColumns: ['title', 'author', 'year', 'journal'],
       },
     "literatureSearch": {
         "scope": {
