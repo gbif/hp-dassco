@@ -8,7 +8,7 @@ github:
   
 hosted-portal:
     name: Hjemmesiden
-    description: Denne hjemmeside er en <a href="https://www.gbif.org/hosted-portals">GBIF hosted portal</a> og kildekoden er tilgængelig på Hithub. 
+    description: Denne hjemmeside er en <a href="https://www.gbif.org/hosted-portals">GBIF hosted portal</a> og kildekoden er tilgængelig på Github. 
     
 
 text: 
