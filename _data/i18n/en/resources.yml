@@ -1,8 +1,12 @@
 title: Resources
-description: DaSSCo develops software tools for digitisation of natural history collections which we make available in Github.
+description: DaSSCo develops software tools for digitisation of natural history collections which we make available online.
 
 github:
   name: Github
   description: Overview of all Github repositories developed by DaSSCo and NHMD.
+
+hosted-portal:
+    name: Website sources
+    description: This website is a <a href="https://www.gbif.org/hosted-portals">GBIF hosted portal</a> and the source code is available in Github.
 
 text:

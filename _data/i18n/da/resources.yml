@@ -1,8 +1,14 @@
 title: Ressourcer 
-description: DaSSCo udvikler software til digitalisering af naturhistoriske samlinger, som vi stiller til rådighed på GitHub. 
+description: DaSSCo udvikler software til digitalisering af naturhistoriske samlinger, som vi stiller til rådighed online. 
 
 github:
   name: Github
   description: Alle repositories i vores organisation på Github.
+  
+  
+hosted-portal:
+    name: Hjemmesiden
+    description: Denne hjemmeside er en <a href="https://www.gbif.org/hosted-portals">GBIF hosted portal</a> og kildekoden er tilgængelig på Hithub. 
+    
 
 text: 
