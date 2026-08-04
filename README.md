@@ -16,3 +16,24 @@ You can find information on editing this site and more on [gbif/hosted-portals](
 Adding new collections requires adding a new GBIF dataset key in the array datasetKeys found in [config.js](_includes/js/config.js).
 
 See build status on [GBIF Jenkins server](https://builds.gbif.org/view/Hosted%20Portals/job/hp-dassco/).
+
+To run the website locally during development use the Docker setup at [https://github.com/gbif/hosted-portals/tree/main/docker](https://github.com/gbif/hosted-portals/tree/main/docker).
+
+On MacOS you can use podman at do the following:
+
+```sh
+podman machine init
+podman machine start
+```
+Maybe set environment variable (must be changed to fit the output of the start command):
+```sh
+export DOCKER_HOST='unix:///var/folders/0m/yfsc5z1x50z9dtxgvd7bjj280000gp/T/podman/podman-machine-default-api.sock'
+```
+
+Then change directory into your local clone of the hp-dassco repository at do:
+```sh
+podman run -it -e JEKYLL_ENV=development --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 docker.gbif.org/fast-jekyll:4.1.0 jekyll serve --strict-front-matter
+```
+
+The web server is now available on [http://0.0.0.0:4000/](http://0.0.0.0:4000/).
+This only works for everything produced by Jekyll but not for the GBIF search plugins.
