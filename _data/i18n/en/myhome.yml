@@ -2,12 +2,6 @@ hero:
   title: Danish System of Scientific Collections
   subtitle: A National Research Infrastructure
 
-stats:
-  loading: Loading...
-  specimens: Specimens
-  datasets: Datasets
-  collections: Collections
-  literature: Literature
 
 rubrik:
   title: Digitising Natural History in Denmark

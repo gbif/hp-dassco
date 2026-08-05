@@ -48,7 +48,7 @@ async function loadStats() {
     
     // Infer the count of datasets from the datasetKeys array
     document.getElementById("feature-datasets").innerHTML = new Intl.NumberFormat("da-DK").format(datasetKeys.length);
-    document.getElementById("feature-datasets-link").href = "/dataset/search";
+    //document.getElementById("feature-datasets-link").href = "/dataset/search";
     
     
     // Create the specimen occurrence statistics
@@ -61,8 +61,8 @@ async function loadStats() {
             sum += elem;
         }
     });
-    document.getElementById("feature-occourence").innerHTML = new Intl.NumberFormat("da-DK").format(sum);
-    document.getElementById("feature-occourence-link").href = "/occurrence/search";
+    document.getElementById("feature-occurrence").innerHTML = new Intl.NumberFormat("da-DK").format(sum);
+    //document.getElementById("feature-occurrence-link").href = "/occurrence/search";
     
     
     // Create the collections statistics
@@ -76,7 +76,7 @@ async function loadStats() {
         }
     });
     document.getElementById("feature-collections").innerHTML = new Intl.NumberFormat("da-DK").format(sum);
-    document.getElementById("feature-collections-link").href = "/collection/search";
+    //document.getElementById("feature-collections-link").href = "/collection/search";
     
     // TODO: Maybe add stats on number of imaged specimens, if possible.
     

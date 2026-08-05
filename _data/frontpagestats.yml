@@ -1,0 +1,29 @@
+- link: /occurrence/search
+  icon: /assets/images/Icons/specimens.svg
+  id: feature-occurrence
+  en:
+    text: Specimens
+    loading: Loading...
+  da: 
+    text: Eksemplarer
+    loading: Henter...
+    
+- link: /dataset/search
+  icon: /assets/images/Icons/data.svg
+  id: feature-datasets
+  en:
+    text: Datasets
+    loading: Loading...
+  da: 
+    text: Datasæt
+    loading: Henter...
+
+- link: /collection/search
+  icon: /assets/images/Icons/collections.svg
+  id: feature-collections
+  en:
+    text: Collections
+    loading: Loading...
+  da: 
+    text: Samlinger
+    loading: Henter...

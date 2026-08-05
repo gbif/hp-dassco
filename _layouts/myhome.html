@@ -4,6 +4,7 @@ layout: base
 <!-- Move the cookie-consent.html include to be on the base layout -->
 <!--{% include cookie-consent.html %} --> <!-- Currently disabling cookie banner since we are not using cookies. --->
 {% assign t = site.data.i18n[page.lang].myhome %}
+{% assign stat_blocks = site.data.frontpagestats %}
 
 <!-- Hero image slideshow -->
 <div id="hero-slideshow">
@@ -17,15 +18,22 @@ layout: base
 <!-- Statistics -->
 <section id="statistics" class="statistics">
     <div class="container stat gap divider">
+        {% for s in stat_blocks %}
         <div class="information">
-            <a id="feature-occourence-link" href="">
-            <img src="{{ '/assets/images/Icons/specimens.svg' | relative_url }}" alt="" class="stat-logo">
+            {% if page.lang == "en" %}
+            <a href="{{ site.baseurl }}{{ s.link }}">
+            {% else %}
+            <a href="{{ site.baseurl }}/{{ page.lang }}{{ s.link }}">
+            {% endif %}
+            <img src="{{ s.icon }}" alt="" class="stat-logo">
             <div class="feature-content">
-                <p id="feature-occourence">{{ t.stats.loading }}</p>
-                <h2>{{ t.stats.specimens }}</h2>                      
+                <p id="{{ s.id }}">{{ s[page.lang].loading }}</p>
+                <h2>{{ s[page.lang].text }}</h2>                      
             </div>
             </a>
         </div>
+        {% endfor %}
+        <!--
         <div class="information">
             <a id="feature-datasets-link" href="">
             <img src="{{ '/assets/images/Icons/data.svg' | relative_url }}" alt="" class="stat-logo">
@@ -44,6 +52,7 @@ layout: base
             </div>
             </a>
         </div>
+        -->
         <!--
         <div class="information">
             <img src="{{ '/assets/images/Icons/Literature.svg' | relative_url }}" alt="" class="stat-logo">

@@ -2,12 +2,6 @@ hero:
   title: Danish System of Scientific Collections
   subtitle: En national forskningsinfrastruktur
 
-stats:
-  loading: Loading...
-  specimens: Eksemplarer
-  datasets: Datasæt
-  collections: Samlinger
-  literature: Litteratur
 
 rubrik:
   title: Digitalisering af naturhistorie i Danmark
