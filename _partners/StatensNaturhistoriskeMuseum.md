@@ -6,7 +6,7 @@ image: /assets/images/partnerLogos/SNM_EN_logo_black_RGB.jpg
 altImageText:
     da: Statens Naturhistoriske Museum logo
     en: Denmark Natural History museum logo
-link: https://snm.dk/da
+link: https://snm.dk/
 order: 1
 text:
     da: Statens Naturhistoriske Museum ved Københavns Universitet leder DaSSCo-programmet og sætter retningen for, hvordan Danmarks naturhistoriske samlinger digitaliseres i stor skala. Museet bidrager med omfattende videnskabelige samlinger og solid erfaring med samlingsforvaltning. Dette er med til at udvikle fælles standarder, så forskellige institutioner kan samarbejde effektivt og omdanne fysiske genstande til strukturerede digitale data, der kan indgå i den nationale infrastruktur.
