@@ -44,8 +44,11 @@ var datasetKeys = [
     '833db434-f762-11e1-a439-00145eb45e9a', // AU Herbarium
 ];
 
+const COL = '7ddf754f-d193-4cc9-b351-99906754a03b'; // Catalogue of Life Taxonomy
+
 var siteConfig = {
     "version": 3,
+    "defaultChecklistKey": COL,
     "pages": [
         {
             "id": "occurrenceSearch"
